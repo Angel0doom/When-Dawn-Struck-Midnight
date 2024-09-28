@@ -4,8 +4,8 @@ mesh: {
     divisions: 8
     radius: 1.1
     octaves: 5
-    persistence: 3.2
-    scl: 9
+    persistence: 26
+    scl: 15
     pow: 2
     mag: 5
     colorScale: 1
