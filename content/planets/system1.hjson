@@ -1,47 +1,31 @@
 localizedName: system1
-alwaysUnlocked: true
-mesh: [
- {
-    //valleys 
-    type: NoiseMesh
-    planet: silvex
-    divisions: 5
-    seed: 36
-    radius: 0.1
-    color1: 35333d
-    color2: 3b405d
-    octaves: 3.7
-    persistence: 1.1
-  }
-  {
-    //hills
-    type: NoiseMesh
-    planet: silvex
-    divisions: 5
-    radius: 0.1
-    seed: 28
-    color1: 676d7a
-    color2: 757985
-    octaves: 3.7
-    persistence: 0.6
-  }
-]
-sectorSize: 0.24
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
-startSector: 0
-orbitSpacing: 1
-radius: 0.1
-orbitRadius: 1000
-minZoom: 0
-maxZoom: 0
-drawOrbit: true
+mesh: {
+    type: SunMesh
+    divisions: 8
+    octaves: 0
+    persistence: 0.0
+    scl: 0
+    pow: 0
+    mag: 0
+    colorScale: 1
+    colors: [
+      a3c2f0
+    		144999
+      4574ba
+      e9eef7
+      729ee0
+    ]
+}
+
 accessible: false
-updateLighting: true
-sectorSeed: 14513
-bloom: false
+alwaysUnlocked: true
 visible: true
+hasAtmosphere: false
+bloom: true
+orbitSpacing: 0.2
+solarSystem: system1
+radius: 1
 parent: sun
-solarSystem: sun
+orbitRadius: 12000
+drawOrbit: false
+icon: commandRally
