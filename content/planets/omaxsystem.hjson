@@ -17,7 +17,12 @@ mesh: {
       729ee0
     ]
 }
-
+generator: {
+  min: 50
+  max: 50
+  radMin: 3
+  radMax: 2.8
+}
 accessible: false
 alwaysUnlocked: true
 visible: true
