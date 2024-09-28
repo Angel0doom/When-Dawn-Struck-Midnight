@@ -5,7 +5,7 @@ mesh: {
     radius: 1.1
     octaves: 1
     persistence: 0
-    scl: 0
+    scl: 1
     pow: 0
     mag: 0
     colorScale: 1
