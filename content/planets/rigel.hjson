@@ -1,16 +1,17 @@
-localizedName: system1
+localizedName: Rigel
 mesh: {
     type: SunMesh
     divisions: 8
-    octaves: 0
-    persistence: 0.0
-    scl: 0
-    pow: 0
-    mag: 0
+    radius: 1.1
+    octaves: 5
+    persistence: 3.2
+    scl: 9
+    pow: 2
+    mag: 5
     colorScale: 1
     colors: [
       a3c2f0
-    		144999
+      144999
       4574ba
       e9eef7
       729ee0
@@ -23,9 +24,8 @@ visible: true
 hasAtmosphere: false
 bloom: true
 orbitSpacing: 0.2
-solarSystem: system1
+solarSystem: Omax System
 radius: 1
 parent: sun
 orbitRadius: 12000
 drawOrbit: false
-icon: commandRally
