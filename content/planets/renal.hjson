@@ -4,10 +4,10 @@ mesh: [
  {
     //valleys 
     type: NoiseMesh
-    planet: silvex
-    divisions: 5
+    planet: renal
+    divisions: 7
     seed: 36
-    radius: 0.1
+    radius: 1
     color1: 35373d
     color2: 3b404d
     octaves: 3.7
@@ -16,9 +16,9 @@ mesh: [
   {
     //hills
     type: NoiseMesh
-    planet: silvex
-    divisions: 5
-    radius: 0.1
+    planet: renal
+    divisions: 7
+    radius: 1
     seed: 28
     color1: 676d7a
     color2: 757985
@@ -35,7 +35,7 @@ startSector: 0
 orbitSpacing: 1
 orbitRadius: 2
 orbitTime: 3
-radius: 0.1
+radius: 1
 minZoom: 0
 maxZoom: 0
 drawOrbit: true
