@@ -20,8 +20,8 @@ mesh: {
 generator: {
   min: 50
   max: 50
-  radMin: 3
-  radMax: 2.8
+  radMin: 2.8
+  radMax: 3
 }
 accessible: false
 alwaysUnlocked: true
