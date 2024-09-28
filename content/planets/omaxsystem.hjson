@@ -1,7 +1,7 @@
 localizedName: Rigel
 mesh: {
     type: SunMesh
-    divisions: 1
+    divisions: 3
     radius: 1.1
     octaves: 0
     persistence: 0
