@@ -23,8 +23,8 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0
-radius: 0.1
-orbitRadius: 0.3
+radius: 1
+orbitRadius: 2
 minZoom: 0
 maxZoom: 0
 drawOrbit: true
