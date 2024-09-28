@@ -1,5 +1,5 @@
-localizedName: Silvex
-alwaysUnlocked: false
+localizedName: Renal
+alwaysUnlocked: true
 mesh: [
  {
     //valleys 
@@ -7,7 +7,7 @@ mesh: [
     planet: silvex
     divisions: 5
     seed: 36
-    radius: 0.25
+    radius: 0.1
     color1: 35373d
     color2: 3b404d
     octaves: 3.7
@@ -18,7 +18,7 @@ mesh: [
     type: NoiseMesh
     planet: silvex
     divisions: 5
-    radius: 0.24
+    radius: 0.1
     seed: 28
     color1: 676d7a
     color2: 757985
@@ -33,9 +33,9 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-orbitRadius: 14.5
-orbitTime: 0.2
-radius: 0.23
+orbitRadius: 2
+orbitTime: 3
+radius: 0.1
 minZoom: 0
 maxZoom: 0
 drawOrbit: true
@@ -44,10 +44,5 @@ updateLighting: true
 sectorSeed: 14513
 bloom: false
 visible: true
-hasAtmosphere: false
-allowWaveSimulation: false
-clearSectorOnLose: true
-allowWaves: false
-prebuildBase: false
-parent: o
-solarSystem: sun
+parent: rigel
+solarSystem: rigel
