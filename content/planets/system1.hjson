@@ -7,7 +7,7 @@ mesh: [
     planet: silvex
     divisions: 5
     seed: 36
-    radius: 0.32
+    radius: 0.1
     color1: 35333d
     color2: 3b405d
     octaves: 3.7
@@ -18,7 +18,7 @@ mesh: [
     type: NoiseMesh
     planet: silvex
     divisions: 5
-    radius: 0.36
+    radius: 0.1
     seed: 28
     color1: 676d7a
     color2: 757985
@@ -33,7 +33,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 0
+radius: 0.1
 orbitRadius: 1000
 minZoom: 0
 maxZoom: 0
