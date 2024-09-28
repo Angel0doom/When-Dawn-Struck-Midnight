@@ -1,0 +1,43 @@
+localizedName: Slinter
+alwaysUnlocked: false
+mesh: [
+ {
+    //valleys 
+    type: sunMesh
+    planet: sun1
+    divisions: 5
+    seed: 36
+    radius: 0.1
+    colorScale: 1
+    color1: ffffff
+    color2: f0de7d
+    color3: f0e399
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+]
+sectorSize: 0.24
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 0
+radius: 0.1
+orbitRadius: 0.3
+minZoom: 0
+maxZoom: 0
+drawOrbit: true
+accessible: false
+updateLighting: true
+sectorSeed: 14513
+bloom: true
+visible: true
+hasAtmosphere: false
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: false
+prebuildBase: false
+parent: system1
+solarSystem: sun
