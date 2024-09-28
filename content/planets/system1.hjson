@@ -42,6 +42,6 @@ accessible: false
 updateLighting: true
 sectorSeed: 14513
 bloom: false
-visible: false
+visible: true
 parent: sun
 solarSystem: sun
