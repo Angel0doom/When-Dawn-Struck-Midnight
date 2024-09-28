@@ -1,13 +1,13 @@
 localizedName: Rigel
 mesh: {
     type: SunMesh
-    divisions: 8
+    divisions: 0
     radius: 1.1
-    octaves: 5
-    persistence: 26
-    scl: 15
-    pow: 2
-    mag: 5
+    octaves: 0
+    persistence: 0
+    scl: 0
+    pow: 0
+    mag: 0
     colorScale: 1
     colors: [
       a3c2f0
