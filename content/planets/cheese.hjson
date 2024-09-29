@@ -1,4 +1,4 @@
-localizedName: Renal
+localizedName: cheese
 mesh: {
     type: SunMesh
     divisions: 7
@@ -17,14 +17,14 @@ mesh: {
       6dc2cf
     ]
 }
-accessible: false
+accessible: true
 alwaysUnlocked: true
 visible: true
 hasAtmosphere: false
 bloom: true
-orbitSpacing: 0.2
+orbitSpacing: 1
 solarSystem: rigel
 radius: 1
 parent: rigel
-orbitRadius: 3
+orbitRadius: 1
 drawOrbit: false
