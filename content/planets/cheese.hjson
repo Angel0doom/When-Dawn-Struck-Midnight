@@ -36,4 +36,4 @@ clearSectorOnLose: true
 allowWaves: false
 prebuildBase: false
 parent: serpulo
-solarSystem: sun
+solarSystem: rigel
