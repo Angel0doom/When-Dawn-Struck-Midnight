@@ -6,7 +6,7 @@ mesh: [
   planet: cheese
   divisions: 7
   seed: 2
-  radius: 0.1
+  radius: 0.05
   color1: ffffff 
   color2: 000000
   octaves: 1
