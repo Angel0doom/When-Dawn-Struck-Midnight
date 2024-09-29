@@ -20,7 +20,7 @@ type: UnitAssemblerPlan
         requirements: [
           chemical-combustion-chamber/4
           tank-refabricator/3
-          sheilded-wall/16
+          shielded-wall/16
         ]
 }
 ]
