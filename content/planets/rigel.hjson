@@ -23,7 +23,7 @@ visible: true
 hasAtmosphere: false
 bloom: true
 orbitSpacing: 0.2
-solarSystem: sun
+solarSystem: rigel
 radius: 1
 parent: sun
 orbitRadius: 12000
