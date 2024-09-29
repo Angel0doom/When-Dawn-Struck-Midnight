@@ -29,6 +29,8 @@ accessible: true
 updateLighting: true
 sectorSeed: 14513
 bloom: false
+atmosphereRadIn: 0.1
+atmosphereRadOut: 0.15
 visible: true
 hasAtmosphere: true
 allowWaveSimulation: false
