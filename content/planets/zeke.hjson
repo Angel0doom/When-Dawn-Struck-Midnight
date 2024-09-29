@@ -30,7 +30,7 @@ updateLighting: true
 sectorSeed: 14513
 bloom: false
 visible: true
-hasAtmosphere: false
+hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: false
