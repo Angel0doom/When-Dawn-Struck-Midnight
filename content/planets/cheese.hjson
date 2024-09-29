@@ -23,8 +23,8 @@ orbitSpacing: 1
 orbitRadius: 14.5
 orbitTime: 0.2
 radius: 0.23
-minZoom: 0
-maxZoom: 0
+minZoom: 1
+maxZoom: 2
 drawOrbit: true
 accessible: true
 updateLighting: true
