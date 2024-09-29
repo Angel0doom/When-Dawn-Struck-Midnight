@@ -25,7 +25,6 @@ type: UnitAssemblerPlan
 }
 ]
 category: units
-  ]
 requirements: [
   beryllium/800
   silicon/1200
