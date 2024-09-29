@@ -1,3 +1,4 @@
+type: liquid
 name: flourite
 description: a reactive and hot gas that is used in different applications.
 gas: true
