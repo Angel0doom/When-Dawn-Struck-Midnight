@@ -6,7 +6,7 @@ mesh: [
   planet: cheese
   divisions: 7
   seed: 2
-  radius: 0.1
+  radius: 0.2
   color1: ffffff 
   color2: 000000
   octaves: 1
@@ -29,8 +29,8 @@ accessible: true
 updateLighting: true
 sectorSeed: 14513
 bloom: false
-atmosphereRadIn: -0.9
-atmosphereRadOut: 0.15
+atmosphereRadIn: -0.8
+atmosphereRadOut: -0.7
 visible: true
 hasAtmosphere: true
 allowWaveSimulation: false
