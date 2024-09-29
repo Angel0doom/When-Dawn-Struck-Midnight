@@ -6,7 +6,7 @@ mesh: [
   planet: cheese
   divisions: 7
   seed: 2
-  radius: 0.1
+  radius: 0.01
   color1: ffffff 
   color2: 000000
   octaves: 1
@@ -20,9 +20,10 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0.5
+minZoom: 0.3
 orbitRadius: 14.5
 orbitTime: 0.2
-radius: 1
+radius: 0.01
 drawOrbit: true
 accessible: true
 updateLighting: true
