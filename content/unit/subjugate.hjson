@@ -1,1 +1,147 @@
-
+name: Subjugate
+template: TankUnitType
+type: tank
+flying: false
+description: Fires large rounds of  .
+health: 46000
+armor: 31
+hitSize: 66
+speed: 0.4
+targetAir: true
+singleTarget: false
+fogRadius: 40
+treadPullOffset: 2
+crushDamage: 50
+rotateSpeed: 0.76
+treadRects: [
+{
+x: -44
+y: 104
+width: 21
+height: 20
+}
+{
+x: -104
+y: 77
+with: 49
+height: 60
+}
+{
+x: -145
+y: 37
+width: 14
+height: 20
+}
+{
+x: -36
+y: 18
+width: 23
+height: 20
+}
+{
+x: -121
+y: -122
+width: 20
+height: 80
+}
+{
+x: -86
+y: -140
+width: 43
+height: 40
+}
+]
+weapons: [
+{
+name: 
+layerOffset: 1
+reload: 30
+rotate: true
+rotateSpeed: 1.8
+x: 0
+y: 0
+mirror: false
+shootSound: shootSmite
+shootWarmupSpeed: 0.04
+shootY: 40
+minWarmup: 0.94
+recoil: 2
+rotateSpeed: 1.4
+heatColor: ffee71
+shoot: {
+type: ShootMulti
+source: ShootAlternate
+dest: [
+{
+  type: ShootAlternate
+  barrels: 3
+  shots: 3
+  spread: 4
+}
+{
+  type: ShootHelix
+  scl: 4
+  mag: 3
+}
+]
+}
+bullet: {
+type: BasicBulletType
+lifetime: 60
+speed: 5
+width: 17
+height: 21
+hitSize: 8
+damage: 187.5
+shootEffect: {
+type: MultiEffect
+effects: [
+shootTitan,
+colorSparkBig,
+{
+type: WaveEffect
+colorFrom: f3e979
+colorTo: f3e979
+lifetime: 12
+sizeTo: 20
+strokeFrom: 3
+strokeTo: 0.3
+}
+]
+}
+smokeEffect: shootSmokeSmite
+pierceCap: 4
+pierce: true
+pierceBuilding: true
+hitColor: f3e979
+frontColor: ffffff
+backColor: f3e979
+trailWidth: 2.8
+trailLength: 9
+hitEffect: hitBulletColor
+despawnEffect: {
+  type: MultiEffect
+effects: [
+  hitBulletColor,
+  {
+  type: WaveEffect
+  sizeTo: 30
+  colorFrom: f3e979
+  lifetime: 12
+}
+]
+}
+trailRotation: true
+trailEffect: disperseTrail
+trailInterval: 3
+trailColor: f3e979
+intervalBullet: {
+  type: LightningBulletType
+    damage: 30
+    collidesAir: false
+    lightningColor: f3e979
+    lightningLength: 5
+    lightningLengthRand: 10
+}
+bulletInterval: 3
+}
