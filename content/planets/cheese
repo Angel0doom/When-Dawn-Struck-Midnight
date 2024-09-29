@@ -1,0 +1,39 @@
+localizedName: cheese
+alwaysUnlocked: true
+mesh: [
+ {
+  type: noiseMesh
+  planet: cheese
+  divisions: 7
+  seed: 2
+  radius: 1
+  color1: ffffff 
+  color2: 000000
+  octaves: 1
+  pesistance: 1
+ }
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+orbitRadius: 14.5
+orbitTime: 0.2
+radius: 0.23
+minZoom: 0
+maxZoom: 0
+drawOrbit: true
+accessible: true
+updateLighting: true
+sectorSeed: 14513
+bloom: false
+visible: true
+hasAtmosphere: false
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: false
+prebuildBase: false
+parent: serpulo
+solarSystem: sun
