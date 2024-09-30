@@ -17,12 +17,10 @@ plans: [
 type: UnitAssemblerPlan
   unit: subjugate
       time: 18000
-        requirements: [
+        requirements: {
           chemical-combustion-chamber/4
-          tank-refabricator/3
+          tank-fabricator/5
           shielded-wall/16
-        ]
-}
 ]
 category: units
 requirements: [
