@@ -1,6 +1,6 @@
 health: 26000
 armor: 14
-size: 33.68
+hitSize: 33.68
 speed: 0.49
 itemCapacity: 140
 range: 520
