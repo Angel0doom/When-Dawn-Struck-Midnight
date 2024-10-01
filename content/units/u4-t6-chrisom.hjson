@@ -39,5 +39,53 @@ weapons: [
       pierce: true
     }
   }
+
+  {
+    name: chrisom-machinegun
+    reload: 2
+    inaccuracy: 3
+    useAttackRange: false
+    mirror: true
+    alternate: false
+    rotate: false
+    range: 165
+    x: 3
+    y: 25
+    bullet: {
+      damage: 20
+      splashDamageRadius: 5
+      splashDamage: 15
+      speed: 7
+      lifetime: 23.6
+    }
+  }
+
+  {
+    name: chrisom-missiles
+    mirror: true
+    alternate: true
+    reload: 140
+    rotate: false
+    baseRotation: 55
+    range: 90
+    useAttackRange: false
+    inaccuracy: 60
+    shootY: 0
+    velocityRnd: 0.4
+    shoot: {
+      shots: 32
+      shotDelay: 0.5
+    }
+    bullet: {
+      homingRange: 90
+      homingPower: 0.12
+      lifetime: 80
+      speed: 1
+      weaveMag: 2
+      weaveScale: 8
+      splashDamage: 55
+      splashDamage: 24
+    }
+  }
 ]
-     
+
