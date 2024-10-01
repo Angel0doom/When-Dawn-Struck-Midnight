@@ -97,6 +97,7 @@ weapons: [
       display: false
       reloadMultiplier: 0.8
       effect: overdriven
+        show: false
       }
     shootStatusDuration: 2
     rotate: true
@@ -108,13 +109,14 @@ weapons: [
         despawnEffect: none
         shootEffect: none
         smokeEffect: none
+
       }
   }
 
   {
     name: effect2
     reload: 1
-    minWarmup: 0.1
+    minWarmup: 0.6
     controllable: true
     rotate: true
     rotateSpeed: 360
@@ -123,11 +125,10 @@ weapons: [
     mirror: false
     linearWarmup: true
     shootWarmupSpeed: 0.001
-    minWarmup: 0.6
     shootStatus: {
         name: gruhgrhugtughj
         reloadMultiplier: 0.5
-        display: false
+        show: false
         effect: overdriven
         }
     shootStatusDuration: 2
@@ -149,12 +150,12 @@ weapons: [
     display: false
     mirror: false
     linearWarmup: true
-    shootWarmupSpeed: 0.001
+    shootWarmupSpeed: 0.0005
     minWarmup: 0.6
     shootStatus: {
         name: bhhbbhjn
         damage: 5
-        display: false
+        show: false
         effect: melting
         }
     shootStatusDuration: 2
