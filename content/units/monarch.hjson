@@ -14,12 +14,17 @@ range: 340
 weapons: [
   {
     name: monarch-main-gun
+    shoot: {
+      shots: 5
+      type: shootAlternate
+      spread: 2
+    }   
     x: 30
     inaccuracy: 2
     y: 4
     top: false
     shootCone: 25
-    reload: 45
+    reload: 35
     alternate: true
     rotate: true
     targetAir: false
