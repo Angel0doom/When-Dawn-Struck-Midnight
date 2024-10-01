@@ -1,3 +1,5 @@
+name: Chrisom
+description: Fires a heavy assortment of weaponry at enemy targets.
 health: 30000
 armor: 17
 size: 68.8
@@ -6,4 +8,38 @@ itemCapacity: 310
 speed: 0.7
 accel: 0.03
 drag: 0.08
+range: 252
 lowAltitude: true
+weapons: [
+  {
+    name: chrisom-autocannons
+    reload: 20
+    mirror: true
+    x: 20
+    y: -15
+    alternate: true
+    range: 252
+    shoot: {
+      type: shootAlternate
+      barrels: [
+        6, 2, 0
+        -6, 2, 0
+        2, 4, 0
+        -2, 4, 0
+      ]
+    }
+    shootY: 0
+    rotate: true
+    rotateSpeed: 0.85
+    rotateLimit: 15
+    bullet: {
+      damage: 45
+      splashDamageRadius: 18
+      splashDamage: 120
+      speed: 20
+      lifetime: 12.6
+      pierce: true
+    }
+  }
+]
+     
