@@ -1,8 +1,6 @@
-name: Subjugate
 template: TankUnitType
 type: tank
 flying: false
-description: Fires large rounds of quaking bullets.
 health: 46000
 armor: 31
 hitSize: 66
