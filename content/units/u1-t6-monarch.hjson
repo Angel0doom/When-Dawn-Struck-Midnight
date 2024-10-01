@@ -19,7 +19,7 @@ weapons: [
       spread: 5
       barrels: 2
       shotDelay: 2
-    }   
+    }
     x: 30
     inaccuracy: 2
     y: 4
@@ -82,223 +82,31 @@ weapons: [
       }
     }
   }
+
   {
-    shoot: {
-      shots: 5
-      type: shootAlternate
-      spread: 5
-      barrels: 2
-      shotDelay: 2
-    }   
+    name: effect1
+    reload: 1
+    shootWarmupSpeed: 0.1
+    controllable: false
     display: false
-    minWarmup: 0.30
-    shootWarmupSpeed: 0.01
-    x: 30
-    inaccuracy: 2
-    y: 4
-    top: false
-    shootCone: 25
-    reload: 50
-    cooldownTime: 120
-    alternate: true
-    rotate: true
-    targetAir: false
-    range: 245
-    rotateSpeed: 1.3
-    recoil: 5
-    shootSound: shootBig
-    rotateLimit: 15
-    bullet: {
-      type: BasicBulletType
-      keepVelocity: true
-      collidesAir: false
-      speed: 16
-      damage: 95
-      pierce: true
-      hitShake: 1
-      pierceCap: 5
-      width: 10
-      height: 18
-      shootEffect: shootBig
-      smokeEffect: shootBigSmoke
-      hitEffect: flakExplosionBig
-      splashDamage: 35
-      buildingDamageMultiplier: 1.1
-      impact: true
-      splashDamageRadius: 5
-      pierceDamageFactor: 1.3
-      knockback: 4
-      lifetime: 15.3
-      fragBullets: 4
-      fragRandomSpread: 15
-      fragVelocityMin: 1
-      fragLifeMin: 0.5
-      fragLifeMax: 1
-      pierceFragCap: 5
-      fragBullet: {
-        type: BasicBulletType
-        keepVelocity: true
-        collidesAir: false
-        speed: 16
-        damage: 35
-        pierce: true
-        hitShake: 0.1
-        pierceCap: 2
-        splashDamage: 15
-        impact: true
-        hitEffect: flakExplosion
-        splashDamageRadius: 2
-        knockback: 2
-        width: 8
-        height: 10
-        lifetime: 3
-      }
-    }
+    mirror: false
+    linearWarmup: true
+    shootWarmupSpeed: 0.002
+    minWarmup: 0.6
+    shootStatus: overclock
+    shootStatusDuration: 2
   }
+
   {
-    shoot: {
-      shots: 5
-      type: shootAlternate
-      spread: 5
-      barrels: 2
-      shotDelay: 2
-    }   
-    minWarmup: 0.60
-    shootWarmupSpeed: 0.01
-    x: 30
-    inaccuracy: 2
-    y: 4
-    top: false
-    shootCone: 25
-    reload: 50
-    cooldownTime: 120
-    alternate: true
-    rotate: true
-    targetAir: false
-    range: 245
-    rotateSpeed: 1.3
-    recoil: 5
-    shootSound: shootBig
+    name: effect2
+    reload: 1
+    shootWarmupSpeed: 0.1
+    controllable: false
     display: false
-    rotateLimit: 15
-    bullet: {
-      type: BasicBulletType
-      keepVelocity: true
-      collidesAir: false
-      speed: 16
-      damage: 95
-      pierce: true
-      hitShake: 1
-      pierceCap: 5
-      width: 10
-      height: 18
-      shootEffect: shootBig
-      smokeEffect: shootBigSmoke
-      hitEffect: flakExplosionBig
-      splashDamage: 35
-      buildingDamageMultiplier: 1.1
-      impact: true
-      splashDamageRadius: 5
-      pierceDamageFactor: 1.3
-      knockback: 4
-      lifetime: 15.3
-      fragBullets: 4
-      fragRandomSpread: 15
-      fragVelocityMin: 1
-      fragLifeMin: 0.5
-      fragLifeMax: 1
-      pierceFragCap: 5
-      fragBullet: {
-        type: BasicBulletType
-        keepVelocity: true
-        collidesAir: false
-        speed: 16
-        damage: 35
-        pierce: true
-        hitShake: 0.1
-        hitEffect: flakExplosion
-        pierceCap: 2
-        splashDamage: 15
-        impact: true
-        splashDamageRadius: 2
-        knockback: 2
-        width: 8
-        height: 10
-        lifetime: 3
-      }
-    }
+    mirror: false
+    linearWarmup: true
+    shootWarmupSpeed: 0.001
+    minWarmup: 0.6
+    shootStatus: overdrive
+    shootStatusDuration: 2
   }
-  {
-    shoot: {
-      shots: 5
-      type: shootAlternate
-      spread: 5
-      barrels: 2
-      shotDelay: 2
-    }   
-    minWarmup: 0.90
-    display: false
-    shootWarmupSpeed: 0.01
-    x: 30
-    inaccuracy: 2
-    y: 4
-    top: false
-    shootCone: 25
-    reload: 50
-    cooldownTime: 120
-    alternate: true
-    rotate: true
-    targetAir: false
-    range: 245
-    rotateSpeed: 1.3
-    recoil: 5
-    shootSound: shootBig
-    rotateLimit: 15
-    bullet: {
-      type: BasicBulletType
-      keepVelocity: true
-      collidesAir: false
-      speed: 16
-      width: 10
-      height: 18
-      shootEffect: shootBig
-      smokeEffect: shootBigSmoke
-      hitEffect: flakExplosionBig
-      damage: 95
-      pierce: true
-      hitShake: 1
-      pierceCap: 5
-      splashDamage: 35
-      buildingDamageMultiplier: 1.1
-      impact: true
-      splashDamageRadius: 5
-      pierceDamageFactor: 1.3
-      knockback: 4
-      lifetime: 15.3
-      fragBullets: 4
-      fragRandomSpread: 15
-      fragVelocityMin: 1
-      fragLifeMin: 0.5
-      fragLifeMax: 1
-      pierceFragCap: 5
-      fragBullet: {
-        type: BasicBulletType
-        keepVelocity: true
-        collidesAir: false
-        speed: 16
-        damage: 35
-        pierce: true
-        hitShake: 0.1
-        pierceCap: 2
-        hitEffect: flakExplosion
-        splashDamage: 15
-        impact: true
-        splashDamageRadius: 2
-        knockback: 2
-        width: 8
-        height: 10
-        lifetime: 3
-      }
-    }
-  }
-]
