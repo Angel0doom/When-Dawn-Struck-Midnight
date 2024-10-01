@@ -42,11 +42,13 @@ weapons: [
       keepVelocity: true
       collidesAir: false
       speed: 16
-      damage: 95
+      damage: 75
       pierce: true
       hitShake: 1
-      pierceCap: 5
-      splashDamage: 35
+      pierceCap: 2
+      pierce: true
+      pierceBuilding: true
+      splashDamage: 55
       width: 10
       height: 18
       shootEffect: shootBig
@@ -69,18 +71,19 @@ weapons: [
         keepVelocity: true
         collidesAir: false
         speed: 16
-        damage: 35
+        damage: 25
         pierce: true
         hitShake: 0.1
         hitEffect: flakExplosion
-        pierceCap: 2
-        splashDamage: 15
+        pierceCap: 5
+        pierceBuilding: true
+        splashDamage: 25
         impact: true
         splashDamageRadius: 2
         knockback: 2
         width: 8
         height: 10
-        lifetime: 3
+        lifetime: 8
       }
     }
   }
@@ -159,6 +162,23 @@ weapons: [
     linearWarmup: true
     shootWarmupSpeed: 0.0005
     minWarmup: 0.6
+    parts: [
+      {
+      type: HaloPart
+      shapes: 1
+      tri: true
+      triLengthTo: 12
+      radius: 3
+      triLength: 0
+      color: ffa566
+      layer: 110
+      progress: {
+        type: Warmup
+        op: delay
+        amount: 0.5
+        }
+        }
+      ]
     shootStatus: {
         name: bhhbbhjn
         damage: 5
