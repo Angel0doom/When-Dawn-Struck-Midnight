@@ -95,7 +95,7 @@ weapons: [
     shootStatus: {
       name: grvfvgb
       display: false
-      reloadMultiplier: 0.8
+      reloadMultiplier: 1.2
       effect: overdriven
         show: false
       }
@@ -127,7 +127,7 @@ weapons: [
     shootWarmupSpeed: 0.001
     shootStatus: {
         name: gruhgrhugtughj
-        reloadMultiplier: 0.5
+        reloadMultiplier: 1.5
         show: false
         effect: overdriven
         }
