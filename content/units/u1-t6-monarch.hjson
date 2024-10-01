@@ -137,6 +137,8 @@ weapons: [
         instantDisappear: true
         hitEffect: none
         despawnEffect: none
+        shootEffect: none
+        smokeEffect: none
       }
   }
   {
