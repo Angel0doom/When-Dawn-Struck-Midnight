@@ -65,7 +65,7 @@ weapons: [
 abilities: [
   {
     type: UnitSpawnAbility
-    unit: bombadier
+    unit: horizon
     spawnTime: 160
     spawnEffect: slow-death
     spawnX: -14
@@ -74,7 +74,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: bombadier
+    unit: horizon
     spawnTime: 160
     spawnEffect: slow-death
     spawnX: -14
@@ -83,7 +83,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: bombadier
+    unit: horizon
     spawnTime: 160
     spawnEffect: slow-death
     spawnX: -17
@@ -92,7 +92,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: marauder
+    unit: risso
     spawnTime: 120
     spawnEffect: slow-death
     spawnX: -13
@@ -101,7 +101,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: marauder
+    unit: risso
     spawnTime: 120
     spawnEffect: slow-death
     spawnX: -13
