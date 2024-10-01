@@ -7,7 +7,7 @@ mechStepParticles: true
 mechStepShake: 2
 mechFrontSway: 3
 mechSideSway: 1
-singleTarget: false
+singleTarget: true
 speed: 0.36
 range: 340
 weapons: [
