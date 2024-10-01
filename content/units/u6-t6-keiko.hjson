@@ -1,1 +1,110 @@
-health: 
+health: 29000
+armor: 21
+speed: 0.6
+size: 42
+type: naval
+singleTarget: false
+
+weapons: [
+  {
+    name: keiko-laser1
+    reload: 160
+    cooldownTime: 90
+    useAttackRange: false
+    range: 500
+    mirror: false
+    shake: 6
+    shoot: {
+      type: shootAlternate
+      barrels: 2
+      spread: 2
+    }
+    y: 24
+    rotateSpeed: 0.1
+    rotate: true
+    rotateLimit: 35
+    bullet: {
+      type: railBulletType
+      length: 500
+      damage: 950
+      pierceDamageFactor: 0.5
+      pierce: true
+      pierceEffect: railHit
+      pointEffect: railTrail
+      hitEffect: massiveExplosion
+      smokeEffect: shootBig2
+    }
+  }
+
+  {
+    name: keiko-laser1
+    reload: 100
+    cooldownTime: 70
+    useAttackRange: false
+    range: 350
+    mirror: false
+    shake: 6
+    y: 14
+    rotateSpeed: 0.2
+    rotate: true
+    rotateLimit: 55
+    bullet: {
+      type: railBulletType
+      length: 350
+      damage: 650
+      pierceDamageFactor: 0.7
+      pierce: true
+      pierceEffect: railHit
+      pointEffect: railTrail
+      hitEffect: massiveExplosion
+      smokeEffect: shootBig2
+    }
+  }
+]
+
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: bombadier
+    spawnTime: 160
+    spawnEffect: slow-death
+    spawnX: -14
+    spawnY: 5
+  }
+
+  {
+    type: UnitSpawnAbility
+    unit: bombadier
+    spawnTime: 160
+    spawnEffect: slow-death
+    spawnX: -14
+    spawnY: -5
+  }
+
+  {
+    type: UnitSpawnAbility
+    unit: bombadier
+    spawnTime: 160
+    spawnEffect: slow-death
+    spawnX: -17
+    spawnY: 0
+  }
+
+  {
+    type: UnitSpawnAbility
+    unit: marauder
+    spawnTime: 120
+    spawnEffect: slow-death
+    spawnX: -13
+    spawnY: 8
+  }
+
+  {
+    type: UnitSpawnAbility
+    unit: marauder
+    spawnTime: 120
+    spawnEffect: slow-death
+    spawnX: -13
+    spawnY: -8
+  }
+]
