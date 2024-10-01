@@ -25,7 +25,7 @@ weapons: [
     y: 4
     top: false
     shootCone: 25
-    reload: 80
+    reload: 50
     cooldownTime: 120
     alternate: true
     rotate: true
@@ -45,6 +45,11 @@ weapons: [
       hitShake: 1
       pierceCap: 5
       splashDamage: 35
+      width: 10
+      height: 18
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosionBig
       buildingDamageMultiplier: 1.1
       impact: true
       splashDamageRadius: 5
@@ -67,6 +72,7 @@ weapons: [
         damage: 35
         pierce: true
         hitShake: 0.1
+        hitEffect: flakExplosion
         pierceCap: 2
         splashDamage: 15
         impact: true
@@ -94,7 +100,7 @@ weapons: [
     y: 4
     top: false
     shootCone: 25
-    reload: 60
+    reload: 50
     cooldownTime: 120
     alternate: true
     rotate: true
@@ -113,6 +119,11 @@ weapons: [
       pierce: true
       hitShake: 1
       pierceCap: 5
+      width: 10
+      height: 18
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosionBig
       splashDamage: 35
       buildingDamageMultiplier: 1.1
       impact: true
@@ -139,6 +150,7 @@ weapons: [
         pierceCap: 2
         splashDamage: 15
         impact: true
+        hitEffect: flakExplosion
         splashDamageRadius: 2
         knockback: 2
         width: 3
@@ -162,7 +174,7 @@ weapons: [
     y: 4
     top: false
     shootCone: 25
-    reload: 40
+    reload: 50
     cooldownTime: 120
     alternate: true
     rotate: true
@@ -182,6 +194,11 @@ weapons: [
       pierce: true
       hitShake: 1
       pierceCap: 5
+      width: 10
+      height: 18
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosionBig
       splashDamage: 35
       buildingDamageMultiplier: 1.1
       impact: true
@@ -205,6 +222,7 @@ weapons: [
         damage: 35
         pierce: true
         hitShake: 0.1
+        hitEffect: flakExplosion
         pierceCap: 2
         splashDamage: 15
         impact: true
@@ -232,7 +250,7 @@ weapons: [
     y: 4
     top: false
     shootCone: 25
-    reload: 80
+    reload: 50
     cooldownTime: 120
     alternate: true
     rotate: true
@@ -247,6 +265,11 @@ weapons: [
       keepVelocity: true
       collidesAir: false
       speed: 16
+      width: 10
+      height: 18
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosionBig
       damage: 95
       pierce: true
       hitShake: 1
@@ -275,6 +298,7 @@ weapons: [
         pierce: true
         hitShake: 0.1
         pierceCap: 2
+        hitEffect: flakExplosion
         splashDamage: 15
         impact: true
         splashDamageRadius: 2
