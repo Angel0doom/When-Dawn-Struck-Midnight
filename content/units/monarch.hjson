@@ -18,6 +18,8 @@ weapons: [
       shots: 5
       type: shootAlternate
       spread: 2
+      barrels: 2
+      shotDelay: 2
     }   
     x: 30
     inaccuracy: 2
