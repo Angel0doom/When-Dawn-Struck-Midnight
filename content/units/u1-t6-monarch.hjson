@@ -55,8 +55,6 @@ weapons: [
       splashDamageRadius: 5
       pierceDamageFactor: 1.3
       knockback: 4
-      width: 6
-      height: 10
       lifetime: 15.3
       fragBullets: 4
       fragRandomSpread: 15
@@ -78,8 +76,8 @@ weapons: [
         impact: true
         splashDamageRadius: 2
         knockback: 2
-        width: 3
-        height: 5
+        width: 8
+        height: 10
         lifetime: 3
       }
     }
@@ -130,8 +128,6 @@ weapons: [
       splashDamageRadius: 5
       pierceDamageFactor: 1.3
       knockback: 4
-      width: 6
-      height: 10
       lifetime: 15.3
       fragBullets: 4
       fragRandomSpread: 15
@@ -153,8 +149,8 @@ weapons: [
         hitEffect: flakExplosion
         splashDamageRadius: 2
         knockback: 2
-        width: 3
-        height: 5
+        width: 8
+        height: 10
         lifetime: 3
       }
     }
@@ -205,8 +201,6 @@ weapons: [
       splashDamageRadius: 5
       pierceDamageFactor: 1.3
       knockback: 4
-      width: 6
-      height: 10
       lifetime: 15.3
       fragBullets: 4
       fragRandomSpread: 15
@@ -228,8 +222,8 @@ weapons: [
         impact: true
         splashDamageRadius: 2
         knockback: 2
-        width: 3
-        height: 5
+        width: 8
+        height: 10
         lifetime: 3
       }
     }
@@ -280,8 +274,6 @@ weapons: [
       splashDamageRadius: 5
       pierceDamageFactor: 1.3
       knockback: 4
-      width: 6
-      height: 10
       lifetime: 15.3
       fragBullets: 4
       fragRandomSpread: 15
@@ -303,8 +295,8 @@ weapons: [
         impact: true
         splashDamageRadius: 2
         knockback: 2
-        width: 3
-        height: 5
+        width: 8
+        height: 10
         lifetime: 3
       }
     }
