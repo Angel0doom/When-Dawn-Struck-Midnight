@@ -95,6 +95,9 @@ weapons: [
     minWarmup: 0.6
     shootStatus: overclock
     shootStatusDuration: 2
+      bullet: {
+        instantDisappear: true
+      }
   }
 
   {
@@ -109,5 +112,8 @@ weapons: [
     minWarmup: 0.6
     shootStatus: overdrive
     shootStatusDuration: 2
+      bullet: {
+        instantDisappear: true
+      }
   }
 ]
