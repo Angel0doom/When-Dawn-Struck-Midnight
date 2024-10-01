@@ -12,7 +12,7 @@ speed: 0.36
 range: 340
 weapons: [
   {
-    name: monarch-weapon
+    name: 01-t6-monarch-weapon
     shoot: {
       shots: 5
       type: shootAlternate
@@ -36,6 +36,7 @@ weapons: [
     recoil: 5
     shootSound: shootBig
     rotateLimit: 15
+    shootY: 16
     bullet: {
       type: BasicBulletType
       keepVelocity: true
