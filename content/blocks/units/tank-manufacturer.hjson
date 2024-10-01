@@ -15,7 +15,7 @@ liquids: [
 plans: [ 
 {
 type: UnitAssemblerPlan
-  unit: subjugate
+  unit: u8-t6-subjugate
       time: 18000
         requirements: [
           chemical-combustion-chamber/4
