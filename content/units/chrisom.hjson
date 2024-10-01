@@ -1,0 +1,11 @@
+name: Chrisom
+description: Fires a heavy assortment of weaponry at enemy targets.
+health: 30000
+armor: 17
+size: 68.8
+flying: true
+itemCapacity: 310
+speed: 0.7
+accel: 0.03
+drag: 0.08
+lowAltitude: true
