@@ -18,6 +18,7 @@ weapons: [
       shots: 4
     ]
     x: 30
+    inaccuracy: 2
     y: 4
     top: false
     shootCone: 25
