@@ -1,6 +1,6 @@
 health: 30000
 armor: 17
-size: 68.8
+hitSize: 68.8
 flying: true
 itemCapacity: 310
 speed: 0.7
