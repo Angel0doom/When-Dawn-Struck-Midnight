@@ -92,13 +92,22 @@ weapons: [
     linearWarmup: true
     shootWarmupSpeed: 0.002
     minWarmup: 0.6
-    shootStatus: overclock
+    shootStatus: {
+      name: grvfvgb
+      display: false
+      reloadMultiplier: 0.8
+      effect: overdriven
+      }
     shootStatusDuration: 2
     rotate: true
     rotateSpeed: 360
       bullet: {
         rangeOverride: 336
         instantDisappear: true
+        hitEffect: none
+        despawnEffect: none
+        shootEffect: none
+        smokeEffect: none
       }
   }
 
@@ -115,11 +124,46 @@ weapons: [
     linearWarmup: true
     shootWarmupSpeed: 0.001
     minWarmup: 0.6
-    shootStatus: overdrive
+    shootStatus: {
+        name: gruhgrhugtughj
+        reloadMultiplier: 0.5
+        display: false
+        effect: overdriven
+        }
     shootStatusDuration: 2
       bullet: {
         rangeOverride: 336
         instantDisappear: true
+        hitEffect: none
+        despawnEffect: none
+      }
+  }
+  {
+    name: effect3
+    reload: 1
+    minWarmup: 1
+    controllable: true
+    rotate: true
+    rotateSpeed: 360
+    x: 0
+    display: false
+    mirror: false
+    linearWarmup: true
+    shootWarmupSpeed: 0.001
+    minWarmup: 0.6
+    shootStatus: {
+        name: bhhbbhjn
+        damage: 5
+        display: false
+        effect: melting
+        }
+    shootStatusDuration: 2
+      bullet: {
+        rangeOverride: 336
+        instantDisappear: true
+        hitEffect: none
+        despawnEffect: none
+        shootEffect: none
       }
   }
 ]
