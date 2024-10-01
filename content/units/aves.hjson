@@ -26,7 +26,7 @@ weapons: [
     rotate: true
     minWarmup: 15
     warmupSpeed: 1
-    warmupMaintainTime: 0
+    warmupMaintainTime: 15
     linearWarmup: true
     rotateSpeed: 0.6
     rotateLimit: 28
@@ -49,7 +49,7 @@ weapons: [
     mirror: true
     minWarmup: 7.5
     warmupSpeed: 1
-    warmupMaintainTime: 0
+    warmupMaintainTime: 7.5
     linearWarmup: true
     alternate: true
     rotate: true
@@ -97,7 +97,7 @@ weapons: [
     rotate: true
     minWarmup: 22.5
     warmupSpeed: 1
-    warmupMaintainTime: 0
+    warmupMaintainTime: 22.5
     linearWarmup: true
     rotateSpeed: 0.6
     rotateLimit: 28
