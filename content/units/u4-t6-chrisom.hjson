@@ -21,12 +21,12 @@ weapons: [
     range: 252
     shoot: {
       type: shootAlternate
-      barrels: [
+      barrels: {
         6, 2, 0
         -6, 2, 0
         2, 4, 0
         -2, 4, 0
-      ]
+      }
     }
     shootY: 0
     rotate: true
