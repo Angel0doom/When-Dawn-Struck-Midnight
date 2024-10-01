@@ -14,9 +14,6 @@ range: 340
 weapons: [
   {
     name: monarch-main-gun
-    shoot: [
-      shots: 4
-    ]
     x: 30
     inaccuracy: 2
     y: 4
