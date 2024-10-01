@@ -96,6 +96,7 @@ weapons: [
     shootStatus: overclock
     shootStatusDuration: 2
       bullet: {
+        rangeOverride: 336
         instantDisappear: true
       }
   }
@@ -103,7 +104,7 @@ weapons: [
   {
     name: effect2
     reload: 1
-    shootWarmupSpeed: 0.1
+    minWarmup: 0.1
     controllable: false
     display: false
     mirror: false
@@ -113,6 +114,7 @@ weapons: [
     shootStatus: overdrive
     shootStatusDuration: 2
       bullet: {
+        rangeOverride: 336
         instantDisappear: true
       }
   }
