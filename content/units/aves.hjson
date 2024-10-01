@@ -1,0 +1,115 @@
+name: Aves
+description: Fires large rapid piercing lasers that damage enemies and repair allied structures. Shocks enemies in its energy field. Can step over most terrain.
+health: 26000
+armor: 14
+size: 33.68
+speed: 0.49
+itemCapacity: 140
+range: 336
+type: legs
+singleTarget: false 
+legCount: 6
+legLength: 18
+legBaseOffset: 11
+legMoveSpace: 1.5
+legForwardScl: 0.58
+hovering: true
+shadowElevation: 0.2
+weapons: [
+  {
+    name: aves-laser1
+    reload: 30
+    x: 15
+    y: 1
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 0.6
+    rotateLimit: 28
+    bullet: {
+      type: laserBulletType
+      length: 326
+      width: 3
+      damage: 20
+      pierce: true
+      collidedsTeam: true
+      healPercent: 1
+    }
+  }
+
+  {
+    name: aves-laser2
+    reload: 36
+    x: 13
+    y: 3
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 0.6
+    rotateLimit: 28
+    bullet: {
+      type: laserBulletType
+      length: 330
+      width: 4
+      damage: 26
+      pierce: true
+      collidedsTeam: true
+      healPercent: 2
+    }
+  }
+
+  {
+    name: aves-laser3
+    reload: 42
+    x: 11
+    y: 5
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 0.6
+    rotateLimit: 28
+    bullet: {
+      type: laserBulletType
+      length: 336
+      width: 5
+      damage: 32
+      pierce: true
+      collidedsTeam: true
+      healPercent: 3
+    }
+  }
+
+  {
+    name: aves-laser4
+    reload: 48
+    x: 11
+    y: 5
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 0.6
+    rotateLimit: 28
+    bullet: {
+      type: laserBulletType
+      length: 342
+      width: 6
+      damage: 38
+      pierce: true
+      collidedsTeam: true
+      healPercent: 4
+    }
+}
+]
+
+abilities: [
+{
+type: EnergyFieldAbility
+statusDuration: 300
+maxTargets: 40
+damage: 25
+range: 136
+reload: 2
+healPercent: 0.5
+sectors: 6
+y: -2
+}
