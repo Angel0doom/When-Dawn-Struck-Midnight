@@ -27,7 +27,7 @@ weapons: [
     rotateSpeed: 1.3
     recoil: 5
     shootSound: shootBig
-    rotateLimit: 35
+    rotateLimit: 15
     bullet: {
       type: BasicBulletType
       keepVelocity: true
