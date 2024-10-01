@@ -110,3 +110,4 @@ weapons: [
     shootStatus: overdrive
     shootStatusDuration: 2
   }
+]
