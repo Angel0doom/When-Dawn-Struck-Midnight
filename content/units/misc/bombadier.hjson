@@ -1,4 +1,4 @@
-defaultCommand: moveCommand
+defaultCommand: move
 playerControllable: false
 hidden: true
 controllable: false
