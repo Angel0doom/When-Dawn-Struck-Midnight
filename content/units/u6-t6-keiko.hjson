@@ -67,7 +67,7 @@ weapons: [
 abilities: [
   {
     type: UnitSpawnAbility
-    unit: horizon
+    unit: bombadier
     spawnTime: 160
     spawnX: -14
     spawnY: 5
@@ -75,7 +75,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: horizon
+    unit: bombadier
     spawnTime: 160
     spawnX: -14
     spawnY: -5
@@ -83,7 +83,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: horizon
+    unit: bombadier
     spawnTime: 160
     spawnX: -17
     spawnY: 0
