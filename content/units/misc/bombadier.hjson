@@ -1,0 +1,31 @@
+defaultCommand: moveCommand
+playerControllable: false
+hidden: true
+controllable: false
+flying: true
+targetAir: flase
+circleTarget: true
+faceTarget: false
+speed: 2
+rotateSpeed: 2.4
+range: 140
+health: 100
+weapons: [
+  {
+    name: bomber
+    reload: 10
+    rotate: false
+    inaccuracy: 15
+    shootSound: none
+    bullet: {
+      type: bombBulletType
+      width: 10
+      height: 14
+      splashDamage: 45
+      splashDamageRadius: 10
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+    }
+  }
+]
