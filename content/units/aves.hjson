@@ -30,7 +30,7 @@ weapons: [
       type: laserBulletType
       length: 520
       width: 1
-      damage: 20
+      damage: 35
       pierce: true
       collidedsTeam: true
       healPercent: 1
@@ -54,7 +54,7 @@ weapons: [
       type: laserBulletType
       length: 520
       width: 2
-      damage: 26
+      damage: 45
       pierce: true
       collidedsTeam: true
       healPercent: 2
@@ -78,7 +78,7 @@ weapons: [
       type: laserBulletType
       length: 520
       width: 4
-      damage: 32
+      damage: 55
       pierce: true
       collidedsTeam: true
       healPercent: 3
@@ -102,7 +102,7 @@ weapons: [
       type: laserBulletType
       length: 520
       width: 6
-      damage: 
+      damage: 65
       pierce: true
       collidedsTeam: true
       healPercent: 4
