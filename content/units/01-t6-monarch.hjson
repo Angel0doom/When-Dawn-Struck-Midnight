@@ -108,6 +108,7 @@ weapons: [
     shootStatusDuration: 2
     rotate: true
     rotateSpeed: 360
+    shootSound: none
       bullet: {
         rangeOverride: 336
         instantDisappear: true
@@ -132,6 +133,7 @@ weapons: [
     mirror: false
     linearWarmup: true
     shootWarmupSpeed: 0.001
+    shootSound: none
     shootStatus: {
         name: gruhgrhugtughj
         reloadMultiplier: 1.5
@@ -160,6 +162,7 @@ weapons: [
     display: false
     mirror: false
     linearWarmup: true
+    shootSound: none
     shootWarmupSpeed: 0.0005
     minWarmup: 0.6
     parts: [
@@ -172,6 +175,7 @@ weapons: [
       triLength: 0
       color: ffa566
       layer: 110
+      haloRadius: 16
       progress: {
         type: warmup
         op: delay
