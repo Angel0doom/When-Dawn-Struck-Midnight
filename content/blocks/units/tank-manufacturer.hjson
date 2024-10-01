@@ -22,6 +22,7 @@ type: UnitAssemblerPlan
           tank-fabricator/5
           shielded-wall/16
 }
+}
 ]
 category: units
 requirements: [
