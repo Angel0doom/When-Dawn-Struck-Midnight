@@ -69,7 +69,6 @@ abilities: [
     type: UnitSpawnAbility
     unit: horizon
     spawnTime: 160
-    spawnEffect: overdrive
     spawnX: -14
     spawnY: 5
   }
@@ -78,7 +77,6 @@ abilities: [
     type: UnitSpawnAbility
     unit: horizon
     spawnTime: 160
-    spawnEffect: overdrive
     spawnX: -14
     spawnY: -5
   }
@@ -87,7 +85,6 @@ abilities: [
     type: UnitSpawnAbility
     unit: horizon
     spawnTime: 160
-    spawnEffect: overdrive
     spawnX: -17
     spawnY: 0
   }
@@ -96,7 +93,6 @@ abilities: [
     type: UnitSpawnAbility
     unit: risso
     spawnTime: 120
-    spawnEffect: overdrive
     spawnX: -13
     spawnY: 8
   }
@@ -105,7 +101,6 @@ abilities: [
     type: UnitSpawnAbility
     unit: risso
     spawnTime: 120
-    spawnEffect: overdrive
     spawnX: -13
     spawnY: -8
   }
