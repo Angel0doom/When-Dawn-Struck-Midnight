@@ -17,10 +17,10 @@ weapons: [
     shoot: [
       type: shootAlternate
       shots: 4
-      barrels: [
+      barrels: {
         -2, 3, 0
         2, -6, 0
-      ]
+      }
     ] 
     x: 30
     y: 4
