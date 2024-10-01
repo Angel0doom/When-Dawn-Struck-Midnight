@@ -20,10 +20,10 @@ weapons: [
     shoot: {
       type: shootBarrel
       barrels: [
-        6, 2, 0
-        -6, 2, 0
-        2, 4, 0
-        -2, 4, 0
+        6 2 0
+        -6 2 0
+        2 4 0
+        -2 4 0
       ]
     }
     shootY: 0
