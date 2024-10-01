@@ -17,7 +17,7 @@ weapons: [
     shoot: {
       shots: 5
       type: shootAlternate
-      spread: 2
+      spread: 5
       barrels: 2
       shotDelay: 2
     }   
