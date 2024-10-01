@@ -3,7 +3,7 @@ description: u
 health: 29000
 armor: 21
 speed: 0.6
-size: 42
+hitSize: 42
 type: naval
 singleTarget: false
 
