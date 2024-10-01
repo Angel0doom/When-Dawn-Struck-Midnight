@@ -86,8 +86,7 @@ weapons: [
   {
     name: effect1
     reload: 1
-    shootWarmupSpeed: 0.1
-    controllable: false
+    controllable: true
     display: false
     mirror: false
     linearWarmup: true
@@ -95,6 +94,8 @@ weapons: [
     minWarmup: 0.6
     shootStatus: overclock
     shootStatusDuration: 2
+    rotate: true
+    rotateSpeed: 360
       bullet: {
         rangeOverride: 336
         instantDisappear: true
@@ -105,7 +106,10 @@ weapons: [
     name: effect2
     reload: 1
     minWarmup: 0.1
-    controllable: false
+    controllable: true
+    rotate: true
+    rotateSpeed: 360
+    x: 0
     display: false
     mirror: false
     linearWarmup: true
