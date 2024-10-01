@@ -5,8 +5,8 @@ size: 38
 rotateSpeed: 1.8
 mechStepParticles: true
 mechStepShake: 2
-mechFrontSway: 2
-mechSideSway: 4
+mechFrontSway: 3
+mechSideSway: 1
 singleTarget: false
 speed: 0.36
 range: 340
