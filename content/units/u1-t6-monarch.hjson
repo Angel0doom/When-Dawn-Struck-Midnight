@@ -12,7 +12,7 @@ speed: 0.36
 range: 340
 weapons: [
   {
-    name: monarch-main-gun
+    name: monarch-weapon
     shoot: {
       shots: 5
       type: shootAlternate
@@ -20,10 +20,11 @@ weapons: [
       barrels: 2
       shotDelay: 2
     }
-    x: 30
+    x: 42
     inaccuracy: 2
-    y: 4
+    y: 1
     top: false
+    layerOffset: -0.01
     shootCone: 25
     reload: 50
     cooldownTime: 120
