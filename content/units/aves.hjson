@@ -24,6 +24,10 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
+    minWarmup: 15
+    warmupSpeed: 1
+    warmupMaintainTime: 0
+    linearWarmup: true
     rotateSpeed: 0.6
     rotateLimit: 28
     bullet: {
@@ -43,9 +47,10 @@ weapons: [
     x: 15
     y: 3
     mirror: true
-    shoot: {
-      shotDelay: 7.5
-    }
+    minWarmup: 7.5
+    warmupSpeed: 1
+    warmupMaintainTime: 0
+    linearWarmup: true
     alternate: true
     rotate: true
     rotateSpeed: 0.6
@@ -67,9 +72,6 @@ weapons: [
     x: 10
     y: 5
     mirror: true
-    shoot: {
-      shootDelay: 15
-    }
     alternate: true
     rotate: true
     rotateSpeed: 0.6
@@ -93,9 +95,10 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
-    shoot: {
-      shootDelay: 22.5
-    }
+    minWarmup: 22.5
+    warmupSpeed: 1
+    warmupMaintainTime: 0
+    linearWarmup: true
     rotateSpeed: 0.6
     rotateLimit: 28
     bullet: {
