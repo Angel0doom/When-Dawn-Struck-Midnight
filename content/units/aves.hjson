@@ -43,9 +43,9 @@ weapons: [
     x: 15
     y: 3
     mirror: true
-    shoot: [
+    shoot: {
       shotDelay: 7.5
-    ]
+    }
     alternate: true
     rotate: true
     rotateSpeed: 0.6
@@ -67,9 +67,9 @@ weapons: [
     x: 10
     y: 5
     mirror: true
-    shoot: [
+    shoot: {
       shootDelay: 15
-    ]
+    }
     alternate: true
     rotate: true
     rotateSpeed: 0.6
@@ -93,9 +93,9 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
-    shoot: [
+    shoot: {
       shootDelay: 22.5
-    ]
+    }
     rotateSpeed: 0.6
     rotateLimit: 28
     bullet: {
