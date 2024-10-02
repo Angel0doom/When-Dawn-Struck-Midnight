@@ -178,6 +178,7 @@ weapons: [
   {
     name: aplysida-missile
     reload: 3000
+    rotate: false
     shoot: {
       type: shootMulti
       barrels: {
