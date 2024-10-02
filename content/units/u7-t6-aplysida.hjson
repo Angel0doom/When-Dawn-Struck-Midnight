@@ -27,8 +27,8 @@ weapons: [
     rotate: false
     reload: 155
     baseRotation: 90
-    x: 0
-    y: 18
+    x: 18
+    y: 0
     bullet: {
       type: BasicBulletType
       splashDamage: 20
@@ -47,10 +47,10 @@ weapons: [
     controllable: false
     autoTarget: true
     mirror: false
-    x: 10
+    x: -20
     targetInterval: 20
     targetSwitchInterval: 35
-    y: -20
+    y: 10
     shootY: 0
     rotate: true
     reload: 170
@@ -115,8 +115,8 @@ weapons: [
     targetInterval: 20
     targetSwitchInterval: 35
     mirror: false
-    x: 10
-    y: 20
+    x: 20
+    y: 10
     shootY: 0
     rotate: true
     reload: 170
@@ -175,4 +175,13 @@ weapons: [
     }
   }
 
+  {
+    name: aplysida-missile
+    reload: 3000
+    shoot: {
+      type: shootMulti
+      barrels: {
+        6, 15, 45
+        -6, 15, -45
+      } 
 ]
