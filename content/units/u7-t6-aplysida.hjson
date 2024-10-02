@@ -21,6 +21,9 @@ weapons: [
       shots: 10
       shotDelay: 8
     }
+    shootCone: 360
+    range: 340
+    rotate: false
     reload: 155
     baseRotation: 90
     x: 0
