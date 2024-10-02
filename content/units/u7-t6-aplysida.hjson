@@ -44,7 +44,7 @@ weapons: [
 
   {
     name: aplysida-cluster1
-    controllable: true
+    controllable: false
     autoTarget: true
     mirror: false
     x: 10
@@ -83,8 +83,8 @@ weapons: [
         keepVelocity: false
         splashDamageRadius: 15
         splashDamage: 45
-        lifetime: 50
-        weaveScale: 4
+        lifetime: 40
+        weaveScale: 4 
         weaveMag: 4
         fragVelocityMin: 0.3
         fragBullets: 6
@@ -100,7 +100,7 @@ weapons: [
           keepVelocity: false
           splashDamageRadius: 7
           splashDamage: 20
-          lifetime: 40
+          lifetime: 30
           weaveScale: 2
           weaveMag: 2
         }
@@ -110,7 +110,7 @@ weapons: [
 
     {
     name: aplysida-cluster2
-    controllable: true
+    controllable: false
     autoTarget: true
     targetInterval: 20
     targetSwitchInterval: 35
@@ -133,7 +133,7 @@ weapons: [
       collidesGround: true
       collidesAir: true
       splashDamage: 65
-      lifetime: 80
+      lifetime: 40
       weaveScale: 8
       weaveMag: 1
       fragVelocityMin: 0.3
@@ -150,7 +150,7 @@ weapons: [
         keepVelocity: false
         splashDamageRadius: 15
         splashDamage: 45
-        lifetime: 50
+        lifetime: 30
         weaveScale: 4
         weaveMag: 4
         fragVelocityMin: 0.3
