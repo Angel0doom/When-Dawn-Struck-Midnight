@@ -91,7 +91,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: risso
+    unit: marauder
     spawnTime: 120
     spawnX: -13
     spawnY: 8
@@ -99,7 +99,7 @@ abilities: [
 
   {
     type: UnitSpawnAbility
-    unit: risso
+    unit: marauder
     spawnTime: 120
     spawnX: -13
     spawnY: -8
