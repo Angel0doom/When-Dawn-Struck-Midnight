@@ -19,8 +19,12 @@ weapons: [
       barrels: 10
       spread: 5
       shots: 10
+      shotDelay: 8
     }
     reload: 155
+    baseRotation: 90
+    x: 0
+    y: 18
     bullet: {
       type: BasicBulletType
       damage: 10
