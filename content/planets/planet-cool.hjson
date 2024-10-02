@@ -3,7 +3,7 @@ alwaysUnlocked: true
 mesh: [
  {
   type: noiseMesh
-  planet: cool-system
+  planet: planet-cool 
   divisions: 7
   seed: 2
   radius: 0.2
