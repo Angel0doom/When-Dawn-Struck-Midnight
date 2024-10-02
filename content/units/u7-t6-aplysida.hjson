@@ -180,7 +180,7 @@ weapons: [
     reload: 3000
     rotate: false
     shoot: {
-      type: shootMulti
+      type: shootBarrel
       barrels: {
         6, 15, 45
         -6, 15, -45
