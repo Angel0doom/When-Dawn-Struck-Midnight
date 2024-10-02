@@ -1,0 +1,146 @@
+name: Aplysida
+description: Fires many seeking torpedos and heavy long range missiles. Autonomously Fires cluster missiles. Shielded.
+type: naval
+health: 31000
+armor: 22
+clipSize: 67.2
+speed: 0.4
+itemCapacity: 280
+flying: false
+buildSpeed: 4
+range: 340
+singleTarget: true
+  
+weapons: [
+  {
+    name: aplysida-torpedos
+    shoot: {
+      type: shootAlternate
+      barrels: 10
+      spread: 5
+      shots: 10
+    }
+    reload: 155
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+      speed: 6
+    }
+  }
+
+  {
+    name: aplysida-cluster1
+    controllable: false
+    autoTarget: true
+    mirror: false
+    x: 10
+    y: -20
+    shootY: 0
+    rotate: true
+    reload: 170
+    bullet: {
+      type: flakBulletType
+      sprite: missile-large
+      explodeRange: 40
+      width: 12
+      height: 12
+      homingRange: 80
+      keepVelocity: false
+      splashDamageRadius: 30
+      splashDamage: 65
+      lifetime: 80
+      weaveScale: 8
+      weaveMag: 1
+      fragVelocityMin: 0.3
+      fragBullets: 12
+      fragBullet: {
+        type: flakBulletType
+        sprite: missile-large
+        explodeRange: 20
+        width: 8
+        height: 8
+        homingRange: 50
+        keepVelocity: false
+        splashDamageRadius: 15
+        splashDamage: 45
+        lifetime: 50
+        weaveScale: 8
+        weaveMag: 1
+        fragVelocityMin: 0.3
+        fragBullets: 6
+        fragBullet: {
+          type: flakBulletType
+          sprite: missile-large
+          explodeRange: 10
+          width: 4
+          height: 4
+          homingRange: 10
+          keepVelocity: false
+          splashDamageRadius: 7
+          splashDamage: 20
+          lifetime: 15
+          weaveScale: 8
+          weaveMag: 1
+        }
+      }
+    }
+  }
+
+    {
+    name: aplysida-cluster2
+    controllable: false
+    autoTarget: true
+    mirror: false
+    x: 10
+    y: 20
+    shootY: 0
+    rotate: true
+    reload: 170
+    bullet: {
+      type: flakBulletType
+      sprite: missile-large
+      explodeRange: 40
+      width: 12
+      height: 12
+      homingRange: 80
+      keepVelocity: false
+      splashDamageRadius: 30
+      splashDamage: 65
+      lifetime: 80
+      weaveScale: 8
+      weaveMag: 1
+      fragVelocityMin: 0.3
+      fragBullets: 12
+      fragBullet: {
+        type: flakBulletType
+        sprite: missile-large
+        explodeRange: 20
+        width: 8
+        height: 8
+        homingRange: 50
+        keepVelocity: false
+        splashDamageRadius: 15
+        splashDamage: 45
+        lifetime: 50
+        weaveScale: 8
+        weaveMag: 1
+        fragVelocityMin: 0.3
+        fragBullets: 6
+        fragBullet: {
+          type: flakBulletType
+          sprite: missile-large
+          explodeRange: 10
+          width: 4
+          height: 4
+          homingRange: 10
+          keepVelocity: false
+          splashDamageRadius: 7
+          splashDamage: 20
+          lifetime: 15
+          weaveScale: 8
+          weaveMag: 1
+        }
+      }
+    }
+  }
+
