@@ -41,6 +41,8 @@ weapons: [
     autoTarget: true
     mirror: false
     x: 10
+    targetInterval: 20
+    targetSwitchInterval: 35
     y: -20
     shootY: 0
     rotate: true
@@ -97,6 +99,8 @@ weapons: [
     name: aplysida-cluster2
     controllable: false
     autoTarget: true
+    targetInterval: 20
+    targetSwitchInterval: 35
     mirror: false
     x: 10
     y: 20
