@@ -1,0 +1,32 @@
+playerControllable: false
+hidden: true
+controllable: false
+type: naval
+targetAir: true
+circleTarget: false
+faceTarget: false
+speed: 2
+rotateSpeed: 2.4
+range: 140
+health: 250
+weapons: [
+  {
+    name: bomber
+    reload: 30
+    rotate: false
+    inaccuracy: 7
+    shootSound: none
+    shoot: {
+      shots: 14
+      shotDelay: 0.7
+    }
+    bullet: {
+      type: BasicBulletType 
+      width: 3
+      speed: 3
+      lifetime: 47
+      height: 4
+      damage: 10
+    }
+  }
+]
