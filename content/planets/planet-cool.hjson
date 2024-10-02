@@ -38,4 +38,4 @@ clearSectorOnLose: true
 allowWaves: false
 prebuildBase: false
 parent: sun
-solarSystem: cool system
+solarSystem: planet-cool
