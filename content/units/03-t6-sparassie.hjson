@@ -52,13 +52,5 @@ weapons: [
         homingDelay: 10
       }
     }
-    parts: [
-      {
-        type: drawBlackHole
-        size: 2
-        edge: 8
-        warmup: true
-      }
-    ]
   }
 ]
