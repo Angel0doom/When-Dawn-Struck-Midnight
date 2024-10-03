@@ -35,4 +35,6 @@ weapons: [
       firstShotDelay: 100
     }
     bullet: {
-      
+
+    }
+  }
