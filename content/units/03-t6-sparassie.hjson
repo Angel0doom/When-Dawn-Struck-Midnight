@@ -41,8 +41,8 @@ weapons: [
       hittable: false
       splashDamage: 560
       splashDamageRadius: 95
-      intervalBullets: 2
-      bulletInterval: 1
+      intervalBullets: 1
+      bulletInterval: 5
       intervalBullet: {
         splashDamage: 15
         splashDamageRadius: 35
