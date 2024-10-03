@@ -13,15 +13,16 @@ singleTarget: true
   
 weapons: [
   {
-    name: aplysida-torpedos
+    name: aplysida-torpedos1
     shoot: {
       type: shootAlternate
-      barrels: 10
+      barrels: 15
       spread: 5
-      shots: 10
-      shotDelay: 8
+      shots: 15
+      shotDelay: 6
     }
     shootCone: 360
+    mirror: false
     targetAir: false
     range: 340
     rotate: false
@@ -43,14 +44,45 @@ weapons: [
   }
 
   {
+    name: aplysida-torpedos
+    shoot: {
+      type: shootAlternate
+      barrels: 15
+      spread: 5
+      shots: 15
+      shotDelay: 6
+    }
+    shootCone: 360
+    targetAir: false
+    range: 340
+    mirror: false
+    rotate: false
+    reload: 155
+    baseRotation: -90
+    x: -18
+    y: 0
+    bullet: {
+      type: BasicBulletType
+      splashDamage: 20
+      lifetime: 56
+      splashDamageRadius: 40
+      collidedeFloor: true
+      collidesAir: false
+      speed: 7
+      homingRange: 360
+      homingPower: 0.1
+    }
+  }
+
+  {
     name: aplysida-cluster1
     controllable: false
     autoTarget: true
     mirror: false
-    x: -20
+    x: 10
     targetInterval: 20
     targetSwitchInterval: 35
-    y: 10
+    y: -20
     shootY: 0
     rotate: true
     reload: 170
@@ -115,8 +147,8 @@ weapons: [
     targetInterval: 20
     targetSwitchInterval: 35
     mirror: false
-    x: 20
-    y: 10
+    x: 10
+    y: -20
     shootY: 0
     rotate: true
     reload: 170
