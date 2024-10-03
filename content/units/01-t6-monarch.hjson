@@ -95,13 +95,14 @@ weapons: [
     rotationLimit: 15
     display: false
     mirror: false
+    shootCone: 25
     linearWarmup: true
     shootWarmupSpeed: 0.002
     minWarmup: 0.6
     shootStatus: {
       name: grvfvgb
       display: false
-      reloadMultiplier: 1.2
+      reloadMultiplier: 1.5
       effect: overdriven
         show: false
       }
@@ -129,6 +130,7 @@ weapons: [
     rotate: true
     rotateSpeed: 360
     x: 0
+    shootCone: 25
     display: false
     mirror: false
     linearWarmup: true
@@ -136,7 +138,7 @@ weapons: [
     shootSound: none
     shootStatus: {
         name: gruhgrhugtughj
-        reloadMultiplier: 1.5
+        reloadMultiplier: 2
         show: false
         effect: overdriven
         }
@@ -160,6 +162,7 @@ weapons: [
     x: 0
     rotationLimit: 15
     display: false
+    shootCone: 25
     mirror: false
     linearWarmup: true
     shootSound: none
@@ -185,7 +188,7 @@ weapons: [
       ]
     shootStatus: {
         name: bhhbbhjn
-        damage: 5
+        damage: 3
         show: false
         effect: melting
         }
