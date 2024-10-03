@@ -47,10 +47,12 @@ weapons: [
         splashDamage: 15
         splashDamageRadius: 35
         scaleLife: true
-        speed: 9
+        speed: 3
+        lifetime: 25
+        pierce: true
         homingRange: 130
-        homingPower: 0.2
-        homingDelay: 10
+        homingPower: 0.34
+        homingDelay: 5
       }
     }
   }
