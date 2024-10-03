@@ -24,7 +24,7 @@ weapons: [
     y: 24
     rotateSpeed: 0.1
     rotate: true
-    rotateLimit: 35
+    rotationLimit: 35
     bullet: {
       type: railBulletType
       length: 500
@@ -39,7 +39,7 @@ weapons: [
   }
 
   {
-    name: keiko-laser1
+    name: keiko-laser2
     reload: 100
     cooldownTime: 70
     useAttackRange: false
@@ -49,7 +49,7 @@ weapons: [
     y: 14
     rotateSpeed: 0.2
     rotate: true
-    rotateLimit: 55
+    rotationLimit: 55
     bullet: {
       type: railBulletType
       length: 350
@@ -69,39 +69,39 @@ abilities: [
     type: UnitSpawnAbility
     unit: bombadier
     spawnTime: 160
-    spawnX: -14
-    spawnY: 5
+    spawnX: 5
+    spawnY: -14
   }
 
   {
     type: UnitSpawnAbility
     unit: bombadier
     spawnTime: 160
-    spawnX: -14
-    spawnY: -5
+    spawnX: -5
+    spawnY: -14
   }
 
   {
     type: UnitSpawnAbility
     unit: bombadier
     spawnTime: 160
-    spawnX: -17
-    spawnY: 0
+    spawnX: 0
+    spawnY: -17
   }
 
   {
     type: UnitSpawnAbility
     unit: marauder
     spawnTime: 120
-    spawnX: -13
-    spawnY: 8
+    spawnX: 8
+    spawnY: -13
   }
 
   {
     type: UnitSpawnAbility
     unit: marauder
     spawnTime: 120
-    spawnX: -13
-    spawnY: -8
+    spawnX: -8
+    spawnY: -13
   }
 ]
