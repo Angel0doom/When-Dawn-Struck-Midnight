@@ -206,20 +206,4 @@ weapons: [
       }
     }
   }
-
-  {
-    name: aplysida-missile
-    reload: 3000
-    rotate: false
-    shoot: {
-      type: shootBarrel
-      barrels: {
-        6, 15, 45
-        -6, 15, -45
-      } 
-    }
-    bullet: {
-      damage: 1
-    }
-  }
 ]
