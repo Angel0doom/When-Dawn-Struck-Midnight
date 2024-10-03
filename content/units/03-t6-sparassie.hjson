@@ -8,12 +8,31 @@ itemCapacity: 120
 speed: 0.4
 rotateSpeed: 1.5
 legCount: 8
-legMoveSpace: 0.6
-legPairOffset: 3.5
-legLength: 125
+legMoveSpace: 0.8
+legPairOffset: 3
+legLength: 145
 legExtension: -15
-legBaseOffset: 9
-stepShake: 1.75
+legBaseOffset: 8
+stepShake: 2.1
 legLengthScl: 1.07
-rippleScale: 3.2
+rippleScale: 3.6
 legSpeed: 0.17
+legSplashDamage: 105
+legSplashRange: 75
+range: 220
+weapons: [
+  {
+    name: sparassie-main-cannon
+    reload: 510
+    shootStatus: slow
+    rotate: false
+    shootCone: 5
+    mirror: false
+    shootStatusDuration: 80
+    parentizeEffects: true
+    shoot: {
+      shotDelay: 100
+      firstShotDelay: 100
+    }
+    bullet: {
+      
