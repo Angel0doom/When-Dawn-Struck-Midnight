@@ -35,6 +35,30 @@ weapons: [
       firstShotDelay: 100
     }
     bullet: {
-
+      scaleLife: true
+      speed: 4
+      hittable: false
+      splashDamage: 560
+      splashDamageRadius: 95
+      intervalBullets: 2
+      bulletInterval: 1
+      IntervalBullet: {
+        splashDamage: 15
+        splashDamageRadius: 35
+        scaleLife: true
+        speed: 9
+        homingRange: 130
+        homingPower: 0.2
+        homingDelay: 10
+      }
     }
+    parts: [
+      {
+        type: drawBlackHole
+        size: 2
+        edge: 8
+        warmup: true
+      }
+    ]
+}
   }
