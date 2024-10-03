@@ -97,8 +97,8 @@ weapons: [
     mirror: false
     shootCone: 25
     linearWarmup: true
-    shootWarmupSpeed: 0.004
-    minWarmup: 1.2
+    shootWarmupSpeed: 0.005
+    minWarmup: 0.6
     shootStatus: {
       name: grvfvgb
       display: false
@@ -124,7 +124,7 @@ weapons: [
   {
     name: effect2
     reload: 1
-    minWarmup: 1.2
+    minWarmup: 0.6
     controllable: true
     rotationLimit: 15
     rotate: true
@@ -134,7 +134,7 @@ weapons: [
     display: false
     mirror: false
     linearWarmup: true
-    shootWarmupSpeed: 0.002
+    shootWarmupSpeed: 0.0025
     shootSound: none
     shootStatus: {
         name: gruhgrhugtughj
@@ -155,7 +155,7 @@ weapons: [
   {
     name: effect3
     reload: 1
-    minWarmup: 1
+    minWarmup: 0.6
     controllable: true
     rotate: true
     rotateSpeed: 360
@@ -166,7 +166,7 @@ weapons: [
     mirror: false
     linearWarmup: true
     shootSound: none
-    shootWarmupSpeed: 0.001
+    shootWarmupSpeed: 0.00125
     minWarmup: 1.2
     parts: [
       {
@@ -206,7 +206,7 @@ weapons: [
   {
     name: effect4
     reload: 1
-    minWarmup: 1
+    minWarmup: 60
     controllable: true
     rotate: true
     rotateSpeed: 360
@@ -217,8 +217,8 @@ weapons: [
     mirror: false
     linearWarmup: true
     shootSound: none
-    shootWarmupSpeed: 0.0005
-    minWarmup: 1.2
+    shootWarmupSpeed: 0.000625
+    minWarmup: 0.6
     parts: [
       {
       type: HaloPart
