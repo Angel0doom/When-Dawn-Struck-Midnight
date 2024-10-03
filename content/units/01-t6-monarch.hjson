@@ -204,7 +204,7 @@ weapons: [
   }
 
   {
-    name: effect3
+    name: effect4
     reload: 1
     minWarmup: 1
     controllable: true
@@ -238,7 +238,7 @@ weapons: [
         }
       ]
     shootStatus: {
-        name: bhhbbhjn
+        name: bhhbbhjnp
         damage: 10
         reloadMultiplier: 2
         show: false
