@@ -37,6 +37,7 @@ weapons: [
     bullet: {
       scaleLife: true
       speed: 4
+      lifetime: 55
       hittable: false
       splashDamage: 560
       splashDamageRadius: 95
