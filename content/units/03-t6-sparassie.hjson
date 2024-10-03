@@ -14,7 +14,7 @@ legLength: 145
 legExtension: -15
 legBaseOffset: 8
 stepShake: 2.1
-legLengthScl: 1.07
+legLengthScl: 0.97
 rippleScale: 3.6
 legSpeed: 0.17
 legSplashDamage: 105
