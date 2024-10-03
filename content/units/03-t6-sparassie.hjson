@@ -42,7 +42,7 @@ weapons: [
       splashDamageRadius: 95
       intervalBullets: 2
       bulletInterval: 1
-      IntervalBullet: {
+      intervalBullet: {
         splashDamage: 15
         splashDamageRadius: 35
         scaleLife: true
