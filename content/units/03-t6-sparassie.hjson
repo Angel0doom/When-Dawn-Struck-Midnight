@@ -1,0 +1,19 @@
+name: Sparassie
+description: Fires huge fragmenting electric heavy artillery shells. Slowly kills enemy targets in its area. Can step over most terrain.
+health: 31000
+armor: 19
+clipSize: 38
+type: legs
+itemCapacity: 120
+speed: 0.4
+rotateSpeed: 1.5
+legCount: 8
+legMoveSpace: 0.8
+legPairOffset: 3
+legLength: 80
+legExtension: -20
+legBaseOffset: 8
+stepShake: 1.5
+legLengthScl: 1.03
+rippleScale: 3.2
+legSpeed: 0.15
