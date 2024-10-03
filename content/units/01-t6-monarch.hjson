@@ -167,7 +167,6 @@ weapons: [
     linearWarmup: true
     shootSound: none
     shootWarmupSpeed: 0.00125
-    minWarmup: 1.2
     parts: [
       {
       type: HaloPart
