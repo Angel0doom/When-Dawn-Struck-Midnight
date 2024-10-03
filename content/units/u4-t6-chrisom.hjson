@@ -15,6 +15,7 @@ weapons: [
     mirror: true
     x: 20
     y: -15
+    shootCone: 5
     alternate: true
     range: 252
     shoot: {
@@ -29,7 +30,7 @@ weapons: [
     shootY: 0
     rotate: true
     rotateSpeed: 0.85
-    rotateLimit: 15
+    rotationLimit: 15
     bullet: {
       damage: 45
       splashDamageRadius: 18
@@ -43,7 +44,8 @@ weapons: [
   {
     name: chrisom-machinegun
     reload: 2
-    inaccuracy: 3
+    inaccuracy: 5
+    shootCone: 35
     useAttackRange: false
     mirror: true
     alternate: false
@@ -68,6 +70,7 @@ weapons: [
     rotate: false
     baseRotation: 55
     range: 90
+    shootCone: 360
     useAttackRange: false
     inaccuracy: 60
     shootY: 0
