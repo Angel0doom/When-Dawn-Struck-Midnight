@@ -97,12 +97,12 @@ weapons: [
     mirror: false
     shootCone: 25
     linearWarmup: true
-    shootWarmupSpeed: 0.002
-    minWarmup: 0.6
+    shootWarmupSpeed: 0.004
+    minWarmup: 1.2
     shootStatus: {
       name: grvfvgb
       display: false
-      reloadMultiplier: 1.5
+      reloadMultiplier: 1.25
       effect: overdriven
         show: false
       }
@@ -124,7 +124,7 @@ weapons: [
   {
     name: effect2
     reload: 1
-    minWarmup: 0.6
+    minWarmup: 1.2
     controllable: true
     rotationLimit: 15
     rotate: true
@@ -134,11 +134,11 @@ weapons: [
     display: false
     mirror: false
     linearWarmup: true
-    shootWarmupSpeed: 0.001
+    shootWarmupSpeed: 0.002
     shootSound: none
     shootStatus: {
         name: gruhgrhugtughj
-        reloadMultiplier: 2
+        reloadMultiplier: 1.5
         show: false
         effect: overdriven
         }
@@ -166,8 +166,8 @@ weapons: [
     mirror: false
     linearWarmup: true
     shootSound: none
-    shootWarmupSpeed: 0.0005
-    minWarmup: 0.6
+    shootWarmupSpeed: 0.001
+    minWarmup: 1.2
     parts: [
       {
       type: HaloPart
@@ -188,7 +188,59 @@ weapons: [
       ]
     shootStatus: {
         name: bhhbbhjn
-        damage: 3
+        damage: 5
+        reloadMultiplier: 1.75
+        show: false
+        effect: melting
+        }
+    shootStatusDuration: 2
+      bullet: {
+        rangeOverride: 336
+        instantDisappear: true
+        hitEffect: none
+        despawnEffect: none
+        shootEffect: none
+      }
+  }
+
+  {
+    name: effect3
+    reload: 1
+    minWarmup: 1
+    controllable: true
+    rotate: true
+    rotateSpeed: 360
+    x: 0
+    rotationLimit: 15
+    display: false
+    shootCone: 25
+    mirror: false
+    linearWarmup: true
+    shootSound: none
+    shootWarmupSpeed: 0.0005
+    minWarmup: 1.2
+    parts: [
+      {
+      type: HaloPart
+      shapes: 1
+      tri: true
+      triLengthTo: 16
+      radius: 3
+      triLength: 0
+      color: ffa566
+      layer: 110
+      haloRadius: 18
+      progress: {
+        type: warmup
+        op: delay
+        amount: 0.5
+        }
+        }
+      ]
+    shootStatus: {
+        name: bhhbbhjn
+        damage: 10
+        reloadMultiplier: 2
         show: false
         effect: melting
         }
