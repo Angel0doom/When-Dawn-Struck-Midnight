@@ -4,7 +4,7 @@ mesh: [
  {
   type: noiseMesh
   planet: cheese
-  divisions: 9
+  divisions: 6
   seed: 90
   radius: 10
   color1: ff0000
