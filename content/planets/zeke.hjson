@@ -1,16 +1,16 @@
-localizedName: cheese
+localizedName: Planet Cool
 alwaysUnlocked: true
 mesh: [
  {
   type: noiseMesh
   planet: cheese
-  divisions: 7
-  seed: 2
-  radius: 0.2
-  color1: ffffff 
-  color2: 000000
-  octaves: 1
-  pesistance: 1
+  divisions: 9
+  seed: 90
+  radius: 10
+  color1: ff0000
+  color2: 0000f0
+  octaves: 90000
+  pesistance: 900000
  }
 ]
 sectorSize: 1
@@ -23,14 +23,14 @@ orbitSpacing: 0.5
 minZoom: 0.1
 orbitRadius: 18
 orbitTime: 0.2
-radius: 1
+radius: 9
 drawOrbit: true
 accessible: true
 updateLighting: true
 sectorSeed: 14513
-bloom: false
-atmosphereRadIn: -0.8
-atmosphereRadOut: -0.7
+bloom: true
+atmosphereRadIn: 0
+atmosphereRadOut: 1000
 visible: true
 hasAtmosphere: true
 allowWaveSimulation: false
