@@ -6,11 +6,11 @@ mesh: [
   planet: cheese
   divisions: 6
   seed: 90
-  radius: 10
+  radius: 5
   color1: ff0000
   color2: 0000f0
-  octaves: 90000
-  pesistance: 900000
+  octaves: 2
+  pesistance: 1
  }
 ]
 sectorSize: 1
@@ -23,7 +23,7 @@ orbitSpacing: 0.5
 minZoom: 0.1
 orbitRadius: 18
 orbitTime: 0.2
-radius: 9
+radius: 3
 drawOrbit: true
 accessible: true
 updateLighting: true
