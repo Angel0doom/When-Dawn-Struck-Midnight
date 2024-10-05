@@ -14,7 +14,7 @@ legMoveSpace: 0.6
 rippleScale: 2
 stepShake: 0.5
 legExtension: -5
-legBaseOffset: 5
+legBaseOffset: 0
 hovering: true
 shadowElevation: 0.2
 drag: 0.1
