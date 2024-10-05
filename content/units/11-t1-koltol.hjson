@@ -11,15 +11,15 @@ legCount: 8
 legLength: 9
 legForwardScl: 0.45
 legMoveSpace: 0.6
-rippleScale: 2
-stepShake: 0.5
+rippleScale: 0.1
+stepShake: 0.2
 legExtension: -5
 legBaseOffset: 0
 hovering: true
 shadowElevation: 0.2
 drag: 0.1
 speed: 0.6
-hitSize: 23
+hitSize: 8.5
 
 
 
