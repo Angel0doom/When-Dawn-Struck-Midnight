@@ -1,6 +1,6 @@
 health: 560
 armor: 29
-
+type: legs
 lockLegBase: true
 legContinuousMove: true
 legGroupSize: 3
