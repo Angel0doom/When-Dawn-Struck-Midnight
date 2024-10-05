@@ -7,10 +7,10 @@ legGroupSize: 3
 legStraightness: 0.4
 baseLegStraightness: 0.5
 legMaxLength: 1.3
-legCount: 7
-legLength: 15
+legCount: 8
+legLength: 9
 legForwardScl: 0.45
-legMoveSpace: 1.4
+legMoveSpace: 0.6
 rippleScale: 2
 stepShake: 0.5
 legExtension: -5
