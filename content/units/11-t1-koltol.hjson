@@ -3,12 +3,12 @@ armor: 29
 type: legs
 lockLegBase: true
 legContinuousMove: true
-legGroupSize: 3
+legGroupSize: 2
 legStraightness: 0.4
 baseLegStraightness: 0.5
-legMaxLength: 1.3
+legMaxLength: 1.2
 legCount: 8
-legLength: 9
+legLength: 17
 legForwardScl: 0.45
 legMoveSpace: 0.6
 rippleScale: 0.1
@@ -20,7 +20,4 @@ shadowElevation: 0.2
 drag: 0.1
 speed: 0.6
 hitSize: 8.5
-
-
-
 
