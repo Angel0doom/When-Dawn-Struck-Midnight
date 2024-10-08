@@ -69,34 +69,49 @@ weapons: [
     shootY: 90
     shootCone: 10
     bullet: {
-      splashDamage: 70
-      splashDamageRadius: 170
+      type: artilleryBulletType
+      splashDamage: 170
+      splashDamageRadius: 70
       damage: 310
+      trailSize: 6
       speed: 9
       lifetime: 32
       scaleLife: true
+      impact: true
+      knowckback: 2
       fragBullets: 1
       fragVelocityMax: 0
       fragVelocityMin: 0
       fragBullets: { 
+        type: basicBulletType
+        hitSize: 0
+        hittable: false 
+        absorbable: false
+        reflectable: false
         splashDamageRadius: 61.6
         splashDamage: 120
         collides: false
         keepVelocity: false
+        impact: true
+        knowckback: 3.5
         speed: 0
         lifetime: 40
-        scaleLife: true
         fragBullets: 1
         fragVelocityMax: 0
         fragVelocityMin: 0
         fragBullets: {
-          splashDamageRadius: 61.6
+          tpye: basicBulletType
+          splashDamageRadius: 52.3
+          hittable: false 
+          absorbable: false
+          reflectable: false
           splashDamage: 90
           collides: false
           keepVelocity: false
+          impact: true
+          knowckback: 5
           speed: 0
           lifetime: 40
-          scaleLife: true
         }
       }
     }
