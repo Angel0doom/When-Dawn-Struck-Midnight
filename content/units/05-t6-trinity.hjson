@@ -1,0 +1,109 @@
+health: 36000
+armor: 9
+hitSize: 75.6
+buildSpeed: 5.5
+lowAltitude: true
+flying: yes
+range: 294
+faceTarget: false
+speed: 0.9
+singleTarget: false
+weapons: [
+  {
+    name: trinity-autocannon1
+    reload: 90
+    mirror: true
+    alternate: false
+    shoot: {
+      shots: 9
+      shotDelay: 0.1
+      type: shootAlternate
+      barrels: 3
+      spread: 4
+    }
+    shake: 3
+    x: 20
+    baseRotation: 90
+    rotateSpeed: 0.1
+    rotateLimit: 35
+    bullet: {
+      type: BasicBulletType
+      speed: 7
+      rangeOverride: 294
+      lifetime: 42
+      damage: 70
+      statusDuration: 10
+      status: electrified
+    }
+  }
+
+  {
+    name: trinity-autocannon2
+    reload: 90
+    mirror: true
+    alternate: false
+    shoot: {
+      shots: 9
+      shotDelay: 0.1
+      type: shootAlternate
+      barrels: 3
+      spread: 4
+    }
+    shake: 3
+    x: 10
+    y: 10
+    baseRotation: 45
+    rotateSpeed: 0.1
+    rotateLimit: 35
+    bullet: {
+      type: BasicBulletType
+      speed: 7
+      rangeOverride: 294
+      lifetime: 42
+      damage: 70
+      statusDuration: 10
+      status: electrified
+    }
+  }
+
+  {
+    name: trinity-autocannon3
+    reload: 90
+    mirror: true
+    alternate: false
+    shoot: {
+      shots: 9
+      shotDelay: 0.1
+      type: shootAlternate
+      barrels: 3
+      spread: 4
+    }
+    shake: 3
+    x: 10
+    y: -10
+    baseRotation: -45
+    rotateSpeed: 0.1
+    rotateLimit: 35
+    bullet: {
+      type: BasicBulletType
+      speed: 7
+      rangeOverride: 294
+      lifetime: 42
+      damage: 70
+      statusDuration: 10
+      status: electrified
+    }
+  }
+]
+
+abilities: [
+  {
+    type: forceFieldAbility
+    radius: 164
+    sides: 8
+    rotation: 45
+    max: 200
+    cooldown: 60
+    regen: 200
+  }
+]
