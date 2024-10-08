@@ -53,7 +53,7 @@ weapons: [
         lifetime: 120
         pierce: true
         homingRange: 130
-        homingPower: 0.34
+        homingPower: 0.13
         homingDelay: 5
       }
     }
@@ -84,7 +84,7 @@ weapons: [
       lifetime: 120
       pierce: true
       homingRange: 130
-      homingPower: 0.34
+      homingPower: 0.13
       homingDelay: 5 
     }
   }
