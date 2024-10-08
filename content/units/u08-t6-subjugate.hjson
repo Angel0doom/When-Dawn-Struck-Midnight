@@ -1,0 +1,104 @@
+template: TankUnitType
+type: tank
+flying: false
+health: 46000
+armor: 31
+hitSize: 66
+speed: 0.4
+targetAir: true
+singleTarget: false
+fogRadius: 40
+treadPullOffset: 2
+crushDamage: 35
+rotateSpeed: 0.76
+range: 288
+treadRects: [
+  {
+    x: -44
+    y: 104
+    width: 21
+    height: 20
+  }
+
+  {
+    x: -104
+    y: 77
+    with: 49
+    height: 60
+  }
+
+  {
+    x: -145
+    y: 37
+    width: 14
+    height: 20
+  }
+
+  {
+    x: -36
+    y: 18
+    width: 23
+    height: 20
+  }
+
+  {
+    x: -121
+    y: -122
+    width: 20
+    height: 80
+  }
+
+  {
+    x: -86
+    y: -140
+    width: 43
+    height: 40
+  }
+]
+weapons: [
+  {
+    name: subjugate-cannon
+    reload: 310
+    rotateSpeed: 0.43
+    rotate: true
+    shoot: {
+      shots: 3
+      shotDelay: 30
+    }
+    mirror: false
+    shootY: 90
+    shootCone: 10
+    bullet: {
+      splashDamage: 70
+      splashDamageRadius: 170
+      damage: 310
+      speed: 9
+      lifetime: 32
+      scaleLife: true
+      fragBullets: 1
+      fragVelocityMax: 0
+      fragVelocityMin: 0
+      fragBullets: { 
+        splashDamageRadius: 61.6
+        splashDamage: 120
+        collides: false
+        keepVelocity: false
+        speed: 0
+        lifetime: 40
+        scaleLife: true
+        fragBullets: 1
+        fragVelocityMax: 0
+        fragVelocityMin: 0
+        fragBullets: {
+          splashDamageRadius: 61.6
+          splashDamage: 90
+          collides: false
+          keepVelocity: false
+          speed: 0
+          lifetime: 40
+          scaleLife: true
+        }
+      }
+    }
+  }
+]
