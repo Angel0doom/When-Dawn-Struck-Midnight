@@ -52,8 +52,8 @@ weapons: [
         speed: 3
         lifetime: 120
         pierce: true
-        homingRange: 130
-        homingPower: 0.13
+        homingRange: 50
+        homingPower: 0.18
         homingDelay: 5
       }
     }
@@ -76,16 +76,49 @@ weapons: [
     bullet: {
       createChance: 0.75
       rangeOverride: 220
-
       splashDamage: 15
       splashDamageRadius: 35
       scaleLife: true
       speed: 2
       lifetime: 120
       pierce: true
-      homingRange: 130
-      homingPower: 0.13
+      homingRange: 220
+      homingPower: 0.03
       homingDelay: 5 
+    }
+  }
+
+  {
+    name: sparassie-shotgun
+    shoot: {
+      type: ShootMulti
+      source: {
+        shots: 3
+        shootDelay: 8
+      }
+      dest: {
+        type: ShootSpread
+        spread: 5
+        shots: 15
+      }
+    }
+    reload: 36
+    mirror: true
+    alternate: true
+    rotateLimit: 36
+    shootCone: 360
+    baseRotation: 195
+    bullet: {
+      createChance: 0.75
+      rangeOverride: 130
+      splashDamage: 5
+      splashDamageRadius: 35
+      scaleLife: true
+      speed: 4
+      lifetime: 42
+      pierce: false
+      homingRange: 130
+      homingPower: 0.09
     }
   }
 ]
