@@ -67,6 +67,7 @@ weapons: [
       shotDelay: 1
     }
     inaccuracy: 75
+    mirror: false
     rotate: false
     shootCone: 5
     shootStatus: slow
