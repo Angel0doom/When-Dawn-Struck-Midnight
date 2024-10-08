@@ -99,11 +99,41 @@ weapons: [
 abilities: [
   {
     type: forceFieldAbility
-    radius: 164
+    radius: 160
     sides: 8
-    rotation: 45
-    max: 200
-    cooldown: 60
-    regen: 200
+    max: 4000
+    cooldown: 330
+    regen: 10
+  }
+ 
+  {
+    type: forceFieldAbility
+    radius: 120
+    sides: 8
+    rotation: 22.5
+    max: 3000
+    cooldown: 320
+    regen: 15
+    display: false
+  } 
+
+  {
+    type: forceFieldAbility
+    radius: 90
+    sides: 8
+    max: 2000
+    cooldown: 310
+    regen: 20
+    display: false
+  } 
+
+  {
+    type: forceFieldAbility
+    radius: 50
+    sides: 8
+    rotation: 22.5
+    max: 1000
+    cooldown: 300
+    regen: 25
   }
 ]
