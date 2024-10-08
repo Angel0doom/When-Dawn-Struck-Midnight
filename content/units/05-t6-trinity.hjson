@@ -3,7 +3,7 @@ armor: 9
 hitSize: 75.6
 buildSpeed: 5.5
 lowAltitude: true
-flying: yes
+flying: true
 range: 294
 faceTarget: false
 speed: 0.9
