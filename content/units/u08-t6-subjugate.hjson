@@ -69,7 +69,7 @@ weapons: [
     shootY: 90
     shootCone: 10
     bullet: {
-      type: artilleryBulletType
+      type: basicBulletType
       splashDamage: 170
       splashDamageRadius: 70
       damage: 310
