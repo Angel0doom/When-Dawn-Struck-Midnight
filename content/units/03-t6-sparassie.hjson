@@ -37,8 +37,8 @@ weapons: [
     bullet: {
       rangeOverride: 220
       scaleLife: true
-      speed: 4
-      lifetime: 150
+      speed: 2
+      lifetime: 110
       hittable: false
       splashDamage: 560
       splashDamageRadius: 95
@@ -80,7 +80,7 @@ weapons: [
       splashDamage: 15
       splashDamageRadius: 35
       scaleLife: true
-      speed: 3
+      speed: 2
       lifetime: 120
       pierce: true
       homingRange: 130
