@@ -41,9 +41,10 @@ weapons: [
       hittable: false
       splashDamage: 560
       splashDamageRadius: 95
-      intervalBullets: 1
+      intervalBullets: 5
       bulletInterval: 5
       intervalBullet: {
+        createChance: 0.75
         splashDamage: 15
         splashDamageRadius: 35
         scaleLife: true
@@ -54,6 +55,33 @@ weapons: [
         homingPower: 0.34
         homingDelay: 5
       }
+    }
+  }
+
+  {
+    name: sparassie-cannon-buildup
+    reload: 510
+    shoot: {
+      shots: 100
+      shotDelay: 1
+    }
+    inaccuracy: 75
+    rotate: false
+    shootCone: 5
+    shootStatus: slow
+    parentizeEffects: true
+    statusDuration: 120
+    bullet: {
+      createChance: 0.75
+      splashDamage: 15
+      splashDamageRadius: 35
+      scaleLife: true
+      speed: 3
+      lifetime: 25
+      pierce: true
+      homingRange: 130
+      homingPower: 0.34
+      homingDelay: 5 
     }
   }
 ]
