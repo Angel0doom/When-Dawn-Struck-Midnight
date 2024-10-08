@@ -10,7 +10,7 @@ legMaxLength: 1.2
 legCount: 8
 legLength: 17
 legForwardScl: 0.45
-legMoveSpace: 0.2
+legMoveSpace: 0.7
 rippleScale: 0.1
 stepShake: 0.2
 legExtension: -5
@@ -20,4 +20,25 @@ shadowElevation: 0.2
 drag: 0.1
 speed: 0.6
 hitSize: 8.5
-
+weapons: [
+  {
+    name: koltol-fire-thingy 
+    reload: 3
+    rotate: false
+    y: 5
+    bullet: {
+      hitSize: 13
+      lifetime: 18
+      pierce: true
+      collidesAir: false
+      statusDuration: 60
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      status: burning
+      keepVelocity: false
+      hittable: false
+      damage: 17
+    }
+  }
+]
