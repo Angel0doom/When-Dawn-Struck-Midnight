@@ -6,7 +6,7 @@ speed: 0.6
 hitSize: 42
 type: naval
 singleTarget: false
-
+itemCapacity: 230
 weapons: [
   {
     name: keiko-laser1
