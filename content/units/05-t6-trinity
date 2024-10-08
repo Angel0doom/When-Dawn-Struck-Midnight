@@ -1,2 +1,6 @@
-name: Trinity
-description: 
+health: 36000
+armor: 9
+size: 75.6
+flying: yes
+range: 294
+speed: 0.9
