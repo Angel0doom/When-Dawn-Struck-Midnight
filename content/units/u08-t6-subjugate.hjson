@@ -82,7 +82,7 @@ weapons: [
       fragBullets: 1
       fragVelocityMax: 0
       fragVelocityMin: 0
-      fragBullets: { 
+      fragBullet: { 
         type: basicBulletType
         hitSize: 0
         hittable: false 
@@ -99,8 +99,8 @@ weapons: [
         fragBullets: 1
         fragVelocityMax: 0
         fragVelocityMin: 0
-        fragBullets: {
-          tpye: basicBulletType
+        fragBullet: {
+          type: basicBulletType
           splashDamageRadius: 52.3
           hittable: false 
           absorbable: false
