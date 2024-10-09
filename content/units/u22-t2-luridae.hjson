@@ -27,7 +27,7 @@ weapons: [
     rotate: false
     y: 5
     bullet: {
-      type: continuousFlameBullet
+      type: continuousFlameBulletType
       damage: 30
       length: 12
       width: 2
