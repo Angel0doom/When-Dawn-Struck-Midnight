@@ -1,1 +1,37 @@
-
+health: 1600
+armor: 49
+type: legs
+lockLegBase: true
+legContinuousMove: true
+legGroupSize: 2
+legStraightness: 0.3
+baseLegStraightness: 0.2
+legMaxLength: 1.1
+legCount: 8
+legLength: 16
+legForwardScl: 0.40
+legMoveSpace: 0.8
+rippleScale: 0.3
+stepShake: 0.35
+legExtension: -2
+legBaseOffset: 5
+hovering: true
+shadowElevation: 0.2
+drag: 0.2
+speed: 0.55
+hitSize: 18
+weapons: [
+  {
+    name: luridae-torch
+    reload: 3
+    rotate: false
+    y: 5
+    bullet: {
+      damage = 60f;
+      length = r;
+      knockback = 1f;
+      pierceCap = 2;
+      buildingDamageMultiplie
+    
+  }
+]
