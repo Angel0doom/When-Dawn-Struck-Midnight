@@ -111,7 +111,7 @@ weapons: [
         splashDamageRadius: 10
         scaleLife: true
         speed: 4
-        lifetime: 130
+        lifetime: 48
         pierce: false
         homingRange: 130
         homingPower: 0.17
