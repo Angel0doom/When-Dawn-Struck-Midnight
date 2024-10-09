@@ -23,7 +23,6 @@ hitSize: 18
 weapons: [
   {
     name: luridae-torch
-    reload: 3
     rotate: false
     y: 5
     bullet: {
