@@ -66,8 +66,7 @@ weapons: [
       shots: 100
       shotDelay: 1
     }
-    inaccuracy: 75
-    velocityRnd: 15
+    inaccuracy: 100
     mirror: false
     rotate: false
     shootCone: 5
@@ -78,8 +77,8 @@ weapons: [
       createChance: 0.75
       rangeOverride: 220
       type: lightningBulletType
-      lightningLength: 3
-      lightningLengthRand: 3
+      lightningLength: 9
+      lightningLengthRand: 26
     }
   }
 
@@ -101,8 +100,8 @@ weapons: [
       fragSpread: 15
       instantDisappear: true
       fragRandomSpread: 0
-      fragVelocityMin: 0.9
-      fragVelocityMax: 1.1
+      fragVelocityMin: 0.7
+      fragVelocityMax: 1.3
       fragBullets: 5
       fragBullet: {
         createChance: 0.75
@@ -113,7 +112,7 @@ weapons: [
         lifetime: 130
         pierce: false
         homingRange: 130
-        homingPower: 0.13
+        homingPower: 0.17
         homingDelay: 0
       }
     }
