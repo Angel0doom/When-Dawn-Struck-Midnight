@@ -77,7 +77,7 @@ weapons: [
       rangeOverride: 220
       type: lightningBulletType
       lightningLength: 9
-      lightningLengthRand: 26
+      lightningLengthRand: 16
       damage: 95
     }
   }
