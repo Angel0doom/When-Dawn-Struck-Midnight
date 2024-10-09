@@ -78,8 +78,8 @@ weapons: [
       createChance: 0.75
       rangeOverride: 220
       type: lightningBulletType
-      lightningLength: 9
-      lightningLengthRand: 16
+      lightningLength: 6
+      lightningLengthRand: 9
       damage: 95
     }
   }
