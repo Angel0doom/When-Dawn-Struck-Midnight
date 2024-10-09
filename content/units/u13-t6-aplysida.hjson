@@ -3,7 +3,7 @@ description: Fires many seeking torpedos and heavy long range missiles. Autonomo
 type: naval
 health: 31000
 armor: 22
-clipSize: 67.2
+hitSize: 67.2
 speed: 0.4
 itemCapacity: 280
 flying: false
