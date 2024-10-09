@@ -67,6 +67,7 @@ weapons: [
       shotDelay: 1
     }
     inaccuracy: 75
+    velocityRnd: 15
     mirror: false
     rotate: false
     shootCone: 5
@@ -79,29 +80,20 @@ weapons: [
       splashDamage: 15
       splashDamageRadius: 35
       scaleLife: true
-      speed: 4
-      lifetime: 120
+      speed: 2
+      lifetime: 45
       pierce: true
       homingRange: 220
-      homingPower: 0.03
-      homingDelay: 5 
+      homingPower: 0.07
     }
   }
 
   {
     name: sparassie-shotgun
     shoot: {
-      type: ShootMulti
-      source: {
-        type: shootPattern 
-        shots: 3
-        shootDelay: 8
-      }
-      dest: [
-        type: ShootSpread
-        spread: 15
-        shots: 5
-      ]
+      type: ShootPattern
+      shots: 3
+      shotDelay: 8
     }
     reload: 36
     mirror: true
@@ -110,17 +102,24 @@ weapons: [
     shootCone: 360
     baseRotation: 195
     bullet: {
-      createChance: 0.75
       rangeOverride: 130
-      splashDamage: 5
-      splashDamageRadius: 35
-      scaleLife: true
-      speed: 4
-      lifetime: 300
-      pierce: false
-      homingRange: 130
-      homingPower: 0.09
-      homingDelay: 30
+      fragSpread: 15
+      instantDisappear: true
+      fragRandomSpread: 0
+      fragVelocityMin: 0.9
+      fragVelocityMax: 1.1
+      fragBullets: 5
+        createChance: 0.75
+        splashDamage: 5
+        splashDamageRadius: 35
+        scaleLife: true
+        speed: 4
+        lifetime: 130
+        pierce: false
+        homingRange: 130
+        homingPower: 0.09
+        homingDelay: 30
+      }
     }
   }
 ]
