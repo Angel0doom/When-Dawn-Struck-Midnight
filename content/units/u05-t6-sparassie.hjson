@@ -42,12 +42,14 @@ weapons: [
       hittable: false
       splashDamage: 560
       splashDamageRadius: 95
+      pierceBuilding: true
       intervalBullets: 1
       bulletInterval: 1
       intervalBullet: {
         createChance: 0.85
         splashDamage: 45
         splashDamageRadius: 15
+        pierceBuilding: true
         speed: 3
         lifetime: 60
         pierce: true
