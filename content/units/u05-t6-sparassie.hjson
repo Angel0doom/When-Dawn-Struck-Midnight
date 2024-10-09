@@ -119,7 +119,7 @@ weapons: [
         pierce: false
         homingRange: 130
         homingPower: 0.09
-        homingDelay: 30
+        homingDelay: 0
       }
     }
   }
