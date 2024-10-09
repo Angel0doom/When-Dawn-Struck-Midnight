@@ -77,14 +77,9 @@ weapons: [
     bullet: {
       createChance: 0.75
       rangeOverride: 220
-      splashDamage: 15
-      splashDamageRadius: 35
-      scaleLife: true
-      speed: 2
-      lifetime: 45
-      pierce: true
-      homingRange: 220
-      homingPower: 0.07
+      type: lightningBulletType
+      lightningLength: 3
+      lightningLengthRand: 3
     }
   }
 
@@ -118,7 +113,7 @@ weapons: [
         lifetime: 130
         pierce: false
         homingRange: 130
-        homingPower: 0.09
+        homingPower: 0.13
         homingDelay: 0
       }
     }
