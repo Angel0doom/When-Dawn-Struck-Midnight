@@ -42,18 +42,17 @@ weapons: [
       hittable: false
       splashDamage: 560
       splashDamageRadius: 95
-      intervalBullets: 5
-      bulletInterval: 5
+      intervalBullets: 1
+      bulletInterval: 1
       intervalBullet: {
-        createChance: 0.75
-        splashDamage: 15
-        splashDamageRadius: 35
-        scaleLife: true
+        createChance: 0.85
+        splashDamage: 45
+        splashDamageRadius: 15
         speed: 3
-        lifetime: 120
+        lifetime: 60
         pierce: true
         homingRange: 50
-        homingPower: 0.18
+        homingPower: 0.32
         homingDelay: 5
       }
     }
@@ -79,6 +78,7 @@ weapons: [
       type: lightningBulletType
       lightningLength: 9
       lightningLengthRand: 26
+      damage: 95
     }
   }
 
@@ -97,7 +97,7 @@ weapons: [
     baseRotation: 195
     bullet: {
       rangeOverride: 130
-      fragSpread: 15
+      fragSpread: 20
       instantDisappear: true
       fragRandomSpread: 0
       fragVelocityMin: 0.7
@@ -105,8 +105,8 @@ weapons: [
       fragBullets: 5
       fragBullet: {
         createChance: 0.75
-        splashDamage: 5
-        splashDamageRadius: 35
+        splashDamage: 65
+        splashDamageRadius: 10
         scaleLife: true
         speed: 4
         lifetime: 130
