@@ -119,4 +119,23 @@ weapons: [
       }
     }
   }
+
+  {
+    name: sparassie-effect-field
+    reload: 60
+    display: true
+    alwaysShooting: true
+    mirror: false
+    bullet: {
+      type: sapBulletType 
+      damage: 0
+      splashDamage: 10
+      splashDamageRadius: 88
+      instantDisappear: true
+      effect: sapped
+      sapStrength: 10
+      length: 0
+      width: 0
+    }
+  }
 ]
