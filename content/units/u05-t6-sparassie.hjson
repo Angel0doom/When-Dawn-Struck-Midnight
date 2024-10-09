@@ -79,7 +79,7 @@ weapons: [
       splashDamage: 15
       splashDamageRadius: 35
       scaleLife: true
-      speed: 2
+      speed: 4
       lifetime: 120
       pierce: true
       homingRange: 220
@@ -98,8 +98,8 @@ weapons: [
       }
       dest: [
         type: ShootSpread
-        spread: 5
-        shots: 15
+        spread: 15
+        shots: 5
       ]
     }
     reload: 36
