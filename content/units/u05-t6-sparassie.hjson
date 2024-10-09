@@ -109,6 +109,7 @@ weapons: [
       fragVelocityMin: 0.9
       fragVelocityMax: 1.1
       fragBullets: 5
+      fragBullet: {
         createChance: 0.75
         splashDamage: 5
         splashDamageRadius: 35
