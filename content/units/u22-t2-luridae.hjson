@@ -24,6 +24,7 @@ weapons: [
   {
     name: luridae-torch
     rotate: false
+    continuous: true
     y: 5
     bullet: {
       type: continuousFlameBulletType
