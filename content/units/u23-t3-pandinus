@@ -1,1 +1,30 @@
-
+health: 4600
+armor: 38
+type: legs
+lockLegBase: true
+legContinuousMove: true
+legGroupSize: 2
+legStraightness: 0.32
+baseLegStraightness: 0.24
+legMaxLength: 1.15
+legCount: 8
+legLength: 20
+legForwardScl: 0.40
+legMoveSpace: 0.8
+rippleScale: 0.3
+stepShake: 0.35
+legExtension: -2
+legBaseOffset: 5
+hovering: true
+shadowElevation: 0.2
+drag: 0.3
+speed: 0.4
+hitSize: 26.5
+weapons: [
+  {
+    name: luridae-melee
+    reload: 8
+    x: 10
+    y: 8
+    mirror: true
+    
