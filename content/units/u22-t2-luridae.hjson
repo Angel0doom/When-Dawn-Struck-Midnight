@@ -28,6 +28,7 @@ weapons: [
     mirror: false
     alwaysContinuous: true
     y: 5
+    x: 0
     bullet: {
       type: continuousFlameBulletType
       damage: 30
