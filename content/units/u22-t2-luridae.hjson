@@ -26,6 +26,7 @@ weapons: [
     rotate: false
     continuous: true
     mirror: false
+    alwaysContinuous: true
     y: 5
     bullet: {
       type: continuousFlameBulletType
