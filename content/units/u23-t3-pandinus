@@ -27,4 +27,12 @@ weapons: [
     x: 10
     y: 8
     mirror: true
-    
+    range: 3
+    shoot
+    bullet: {
+      instantDisappear: true
+      splashDamage: 65
+      splashDamageRadius: 3
+    }
+  }
+]
