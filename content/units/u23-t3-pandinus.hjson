@@ -38,5 +38,31 @@ weapons: [
   }
 
   {
-    
+    name: effect1
+    reload: 80
+    controllable: true
+    rotate: false
+    rotateSpeed: 360
+    x: 10
+    y: 8
+    display: false
+    shootCone: 25
+    mirror: true
+    shootStatus: {
+        name: abcdefghijklmnopqrstuvwxyz
+        damage: -5
+        show: false
+        effect: melting
+        }
+    shootStatusDuration: 60
+      bullet: {
+        rangeOverride: 4
+        instantDisappear: true
+        splashDamage: 250
+        splashDamageRadius: 9
+        hitEffect: none
+        despawnEffect: none
+        shootEffect: none
+      }
+  }
 ]
