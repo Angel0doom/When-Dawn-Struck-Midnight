@@ -35,6 +35,7 @@ weapons: [
       shootEffect: shootSmallFlame
       hitEffect: hitFlameSmall
       despawnEffect: none
+      pierceBuilding: true
       status: burning
       keepVelocity: false
       hittable: false
