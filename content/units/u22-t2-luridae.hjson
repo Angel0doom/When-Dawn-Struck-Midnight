@@ -37,6 +37,8 @@ weapons: [
       drawFlare: false
       knockback: 2
       pierceCap: 2
+      statusDuration: 120
+      status: melting
     }
   }
 ]
