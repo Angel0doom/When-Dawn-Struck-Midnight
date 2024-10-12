@@ -1,5 +1,5 @@
 health: 4600
-armor: 38
+armor: 41
 type: legs
 lockLegBase: true
 legContinuousMove: true
