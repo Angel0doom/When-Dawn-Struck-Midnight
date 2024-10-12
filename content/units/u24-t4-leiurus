@@ -1,1 +1,68 @@
+health: 8700
+armor: 68
+type: legs
+lockLegBase: true
+legContinuousMove: true
+legGroupSize: 2
+legStraightness: 0.32
+baseLegStraightness: 0.24
+legMaxLength: 1.15
+legCount: 8
+legLength: 20
+legForwardScl: 0.40
+legMoveSpace: 0.8
+rippleScale: 0.3
+stepShake: 0.35
+legExtension: -2
+legBaseOffset: 5
+hovering: true
+shadowElevation: 0.2
+drag: 0.3
+speed: 0.4
+hitSize: 26.5
+range: 5
+weapons: [
+  {
+    name: luridae-melee
+    reload: 8
+    x: 10
+    y: 8
+    mirror: true
+    range: 3
+    bullet: {
+      instantDisappear: true
+      splashDamage: 65
+      splashDamageRadius: 3
+      damage: 125
+    }
+  }
 
+  {
+    name: effect1
+    reload: 80
+    controllable: true
+    rotate: false
+    rotateSpeed: 360
+    x: 10
+    y: 8
+    display: false
+    shootCone: 25
+    mirror: true
+    shootStatus: {
+        name: abcdefghijklmnopqrstuvwxyz
+        damage: -5
+        show: false
+        effect: melting
+        }
+    shootStatusDuration: 60
+      bullet: {
+        rangeOverride: 4
+        instantDisappear: true
+        splashDamage: 250
+        splashDamageRadius: 9
+        hitEffect: none
+        despawnEffect: none
+        shootEffect: none
+      }
+  }
+]
