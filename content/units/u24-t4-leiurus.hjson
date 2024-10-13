@@ -53,7 +53,7 @@ weapons: [
     rotate: false
     baseRotation: 135
     shootCone: 360
-    y: 5
+    y: -5
     x: 5
     bullet: {
       hitSize: 32
