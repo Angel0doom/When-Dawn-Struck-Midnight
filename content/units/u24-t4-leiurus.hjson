@@ -29,7 +29,7 @@ weapons: [
     baseRotation: 45
     shootCone: 360
     y: 5
-    x: 5
+    x: -5
     bullet: {
       hitSize: 26
       lifetime: 27
@@ -54,7 +54,7 @@ weapons: [
     baseRotation: 135
     shootCone: 360
     y: -5
-    x: 5
+    x: -5
     bullet: {
       hitSize: 32
       lifetime: 27
