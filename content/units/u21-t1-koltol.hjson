@@ -27,6 +27,7 @@ weapons: [
     rotate: false
     y: 5
     bullet: {
+      type: BulletType
       hitSize: 13
       lifetime: 18
       pierce: true
