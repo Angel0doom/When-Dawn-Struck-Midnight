@@ -20,13 +20,14 @@ shadowElevation: 0.2
 drag: 0.4
 speed: 0.6
 hitSize: 32
-range: 20
+range: 40
 weapons: [
   {
     name: leirus-flame1
     reload: 3
     rotate: false
     baseRotation: 45
+    shootCone: 360
     y: 5
     x: 5
     bullet: {
@@ -51,6 +52,7 @@ weapons: [
     reload: 3
     rotate: false
     baseRotation: 135
+    shootCone: 360
     y: 5
     x: 5
     bullet: {
