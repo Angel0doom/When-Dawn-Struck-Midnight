@@ -33,6 +33,7 @@ weapons: [
     y: 5
     x: -5
     bullet: {
+      type: BulletType
       hitSize: 26
       lifetime: 27
       pierce: true
@@ -58,6 +59,7 @@ weapons: [
     y: -5
     x: -5
     bullet: {
+      type: BulletType
       hitSize: 32
       lifetime: 27
       pierce: true
