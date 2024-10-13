@@ -21,3 +21,52 @@ drag: 0.4
 speed: 0.6
 hitSize: 32
 range: 20
+weapons: [
+  {
+    name: leirus-flame1
+    reload: 3
+    rotate: false
+    baseRotation: 45
+    y: 5
+    x: 5
+    bullet: {
+      hitSize: 26
+      lifetime: 27
+      pierce: true
+      collidesAir: false
+      statusDuration: 95
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      pierceBuilding: true
+      status: melting
+      keepVelocity: false
+      hittable: false
+      damage: 21
+    }
+  }
+
+  {
+    name: leirus-flame2
+    reload: 3
+    rotate: false
+    baseRotation: 135
+    y: 5
+    x: 5
+    bullet: {
+      hitSize: 32
+      lifetime: 27
+      pierce: true
+      collidesAir: false
+      statusDuration: 95
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      pierceBuilding: true
+      status: melting
+      keepVelocity: false
+      hittable: false
+      damage: 25
+    }
+  }
+]
