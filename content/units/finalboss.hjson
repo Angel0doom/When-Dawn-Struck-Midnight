@@ -6,11 +6,12 @@ rotate: false
 weapons: [
   {
     name: encased-shine
-    reload: 1
+    reload: 0.1
     alwaysShooting: true
     inaccuracy: 360
     bullet: {
       type: laserBulletType
+      createChance: 0.5
       length: 8000
       width: 1
       lifetime: 1
