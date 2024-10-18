@@ -3,18 +3,32 @@ description: alternative shotgun
 type: itemTurret
 category: turret
 size: 3
-reload: 10
+reload: 3
 range: 80
 shoot: {
   type: ShootBarrel
-  shots: 3
+  shots: 2
   barrels: [
+    0, 0, 5
+    0, 0, 355
     0, 0, 10
-    0, 0, 30
-    0, 0, 50
     0, 0, 350
+    0, 0, 15
+    0, 0, 345
+    0, 0, 20
+    0, 0, 340
+    0, 0, 25
+    0, 0, 335
+    0, 0, 30
     0, 0, 330
-    0, 0, 310
+    0, 0, 25
+    0, 0, 335
+    0, 0, 20
+    0, 0, 340
+    0, 0, 15
+    0, 0, 345
+    0, 0, 10
+    0, 0, 350
   ]
 }
 ammoTypes: {
