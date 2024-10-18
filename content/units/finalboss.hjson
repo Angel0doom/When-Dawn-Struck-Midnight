@@ -1,0 +1,21 @@
+name: Encased
+health: 28000000
+speed: 0.1
+hitSize: 85
+rotate: false
+weapons: [
+  {
+    name: encased-shine
+    reload: 1
+    alwaysShooting: true
+    inaccuracy: 360
+    bullet: {
+      type: laserBulletType
+      length: 100000000
+      width: 1
+      lifetime: 120
+      damage: 10
+    }
+  }
+]
+      
