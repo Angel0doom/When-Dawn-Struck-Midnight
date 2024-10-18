@@ -35,10 +35,11 @@ weapons: [
     type: BasicBulletType
       width: 1
       height: 1
+      speed: 0
       collides: false
-      shrinkX: -49
-      shrinkY: -49
-      spin: 1
+      shrinkX: -159
+      shrinkY: -159
+      spin: 350
       lifetime: 120
     }
   }
