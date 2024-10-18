@@ -1,4 +1,5 @@
 name: infuse
+type: itemTurret
 reload: 10
 range: 80
 shoot: {
@@ -13,7 +14,10 @@ shoot: {
     0, 0, 310
   ]
 }
-bullet: {
-  damage: 10
-  speed: 5
-  lifetime: 30
+ammoTypes: {
+  beryllium: {
+    damage: 10
+    speed: 5
+    lifetime: 30
+  }
+}
