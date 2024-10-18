@@ -78,15 +78,15 @@ shoot: {
 ammoTypes: {
   beryllium: {
     damage: 14
-    speed: 5
-    lifetime: 25
+    speed: 2
+    lifetime: 63
     explodeRange: 10
-    explodeDelay: 3
+    explodeDelay: 10
     homingRange: 10
     homingDelay: 0
-    homingPower: 0.4
+    homingPower: 0.16
     splashDamage: 28
-    splashDamageRadius: 16
+    splashDamageRadius: 10
     pierce: true
     pierceCap: 1
     pierceDamageFactor: 1.5
