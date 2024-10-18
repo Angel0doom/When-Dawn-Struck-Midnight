@@ -1,0 +1,19 @@
+name: infuse
+reload: 10
+range: 80
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  barrels: [
+    0, 0, 10
+    0, 0, 30
+    0, 0, 50
+    0, 0, 350
+    0, 0, 330
+    0, 0, 310
+  ]
+}
+bullet: {
+  damage: 10
+  speed: 5
+  lifetime: 30
