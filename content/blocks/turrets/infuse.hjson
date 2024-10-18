@@ -3,8 +3,8 @@ description: alternative shotgun
 type: itemTurret
 category: turret
 size: 3
-reload: 3
-range: 80
+reload: 10
+range: 125
 shoot: {
   type: ShootBarrel
   shots: 4
@@ -77,9 +77,19 @@ shoot: {
 }
 ammoTypes: {
   beryllium: {
-    damage: 10
+    damage: 14
     speed: 5
-    lifetime: 120
+    lifetime: 25
+    explodeRange: 10
+    explodeDelay: 3
+    homingRange: 10
+    homingDelay: 0
+    homingPower: 0.4
+    splashDamage: 28
+    splashDamageRadius: 16
+    pierce: true
+    pierceCap: 1
+    pierceDamageFactor: 1.5
   }
 }
 
