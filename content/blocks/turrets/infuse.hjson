@@ -1,5 +1,7 @@
-name: infuse
+name:Infuse
+description: alternative shotgun
 type: itemTurret
+category: turret
 size: 3
 reload: 10
 range: 80
@@ -22,3 +24,7 @@ ammoTypes: {
     lifetime: 30
   }
 }
+
+requirements: [
+  beryllium/1
+]
