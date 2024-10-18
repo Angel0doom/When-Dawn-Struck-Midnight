@@ -11,9 +11,9 @@ weapons: [
     inaccuracy: 360
     bullet: {
       type: laserBulletType
-      length: 100000000
+      length: 8000
       width: 1
-      lifetime: 120
+      lifetime: 1
       damage: 10
     }
   }
