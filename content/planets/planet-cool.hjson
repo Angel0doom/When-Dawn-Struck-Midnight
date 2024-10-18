@@ -4,9 +4,9 @@ mesh: [
  {
   type: noiseMesh
   planet: planet-cool 
-  divisions: 7
+  divisions: 0.5
   seed: 2
-  radius: 0.2
+  radius: 1
   color1: ff0000
   color2: 00e3fe
   octaves: 1
@@ -20,22 +20,22 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0.5
-minZoom: 0.1
-orbitRadius: 10000
+minZoom: 1.2
+orbitRadius: 400
 orbitTime: 0.2
 radius: 1
-drawOrbit: true
+drawOrbit: false
 accessible: true
 updateLighting: true
 sectorSeed: 14513
 bloom: false
-atmosphereRadIn: -0.8
-atmosphereRadOut: -0.7
+atmosphereRadIn: 0
+atmosphereRadOut: 0
 visible: true
-hasAtmosphere: true
+hasAtmosphere: false
 allowWaveSimulation: false
 clearSectorOnLose: true
-allowWaves: false
+allowWaves: true
 prebuildBase: false
 parent: sun
-solarSystem: planet-cool
+solarSystem: sun
