@@ -80,6 +80,9 @@ ammoTypes: {
     damage: 10
     speed: 5
     lifetime: 120
+    weaveMag: 0.5
+    weaveScale: 8
+    weaveRandom: false
   }
 }
 
