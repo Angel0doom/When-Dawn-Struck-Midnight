@@ -79,7 +79,7 @@ ammoTypes: {
   beryllium: {
     damage: 10
     speed: 5
-    lifetime: 30
+    lifetime: 120
   }
 }
 
