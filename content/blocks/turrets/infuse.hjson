@@ -1,5 +1,6 @@
 name: infuse
 type: itemTurret
+size: 3
 reload: 10
 range: 80
 shoot: {
