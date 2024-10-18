@@ -1,0 +1,46 @@
+name: Encased
+health: 28000000
+speed: 0.1
+hitSize: 85
+rotate: false
+weapons: [
+  {
+    name: encased-shine
+    reload: 5
+    alwaysShooting: true
+    y: 0
+    x: 0
+    shootY: 0
+    mirror: false
+    inaccuracy: 360
+    bullet: {
+      type: laserBulletType
+      createChance: 0.1
+      length: 8000
+      width: 1
+      lifetime: 10
+      damage: 10
+    }
+  }
+
+  {
+    name: encased-vortex
+    reload: 560
+    mirror: false
+    shootY: 0
+    y: 0
+    x: 0
+    alwaysShooting: true
+    bullet: {
+    type: BasicBulletType
+      width: 1
+      height: 1
+      collides: false
+      shrinkX: -49
+      shrinkY: -49
+      spin: 1
+      lifetime: 120
+    }
+  }
+]
+      
