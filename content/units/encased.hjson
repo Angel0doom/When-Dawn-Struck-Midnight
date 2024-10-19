@@ -25,7 +25,7 @@ weapons: [
 
   {
     name: encased-vortex
-    reload: 560
+    reload: 300
     mirror: false
     shootY: 0
     y: 0
@@ -37,9 +37,9 @@ weapons: [
       height: 1
       speed: 0
       collides: false
-      shrinkX: -159
-      shrinkY: -159
-      spin: 350
+      shrinkX: -800
+      shrinkY: -800
+      spin: 10
       lifetime: 120
     }
   }
