@@ -29,7 +29,7 @@ weapons: [
       shots: 1000
       shootDelay: 1
     }
-    recoil: 0.01
+    recoil: 10
     trailLength: 19
     trailWidth: 6
     width: 6
@@ -42,7 +42,7 @@ weapons: [
     y: 160
     bullet: {
       type: basicbulletType
-      recoil: 1
+      recoil: 0.01
       damage: 90
       incendAmount: 900
       incendSpread: 90
