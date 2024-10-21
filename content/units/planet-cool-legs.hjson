@@ -23,10 +23,10 @@ weapons: [
 
   {
     name: long-gun
-    reload: 1
+    reload: 1050
     shoot: {
       shots: 1000
-      shootDelay: 0.08
+      shootDelay: 1
     }
     recoil: 7
     mirror: false
@@ -37,7 +37,7 @@ weapons: [
     bullet: {
       type: basicbulletType
       knockback: 1
-      damage: 0.1
+      damage: 90
       incendChance: 900
       speed: 3
       lifetime: 600
