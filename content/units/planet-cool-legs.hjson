@@ -1,11 +1,10 @@
 type: legs
 name: long
 legCount: 1
-speed: 25.6224148149
-rotateSpeed: 0.1
+speed: 17.6224148149
+rotateSpeed: 0.0001
 health: 9
 armor: 483979
-strafePenalty: 127845601982468013476908347690814379516984568917234
 circleTarget: true
 canDrown: false
 lockLegBase: false
@@ -19,3 +18,189 @@ stepShake: 0.1
 legBaseOffset: -20
 hovering: true
 hitSize: 24.000000900001
+
+weapons: [
+
+  {
+    name: long-gun
+    reload: 100000
+    shoot: {
+      shots: 1000000
+      shootDelay: 0.1
+    }
+    recoil: 7970777867
+    mirror: false
+    rotate: false
+    shootCone: 180
+    x: 80
+    y: 160
+    bullet: {
+      type: basicbulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {
+      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+      intervalBullets: 1
+      bulletInterval: 60
+      intervalBullet: {      type: bulletType
+      knockback: 1
+      damage: 0.1
+      incendChance: 900000
+      speed: 1
+      lifetime: 6000
+}}}}}}}}}}}}}}}}}}}}}]
+
+
+
+
+
+
+
+
+
