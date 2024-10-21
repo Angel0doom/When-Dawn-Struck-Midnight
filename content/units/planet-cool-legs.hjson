@@ -1,6 +1,6 @@
 type: legs
 name: long
-legCount: 49
+legCount: 1
 speed: 25.6224148149
 rotateSpeed: 0.1
 health: 9
@@ -19,56 +19,3 @@ stepShake: 0.1
 legBaseOffset: -20
 hovering: true
 hitSize: 24.000000900001
-
-abilities: [
-  {
-    type: moveLightningAbility
-    y: 80
-    alternate: false
-    minSpeed: 0.1
-    maxSpeed: 10000000
-    shootSound: none
-    shootEffect: none
-    bulletAngle: 0
-    bulletSpread: 48
-    length: 16
-    chance: 1
-    damage: 20
-    bullet: {
-      lifetime: 20
-      speed: 1
-      pierce: true
-      frags: 3
-      randFragAngle: 45
-      frag: {
-        lifetime: 20
-        speed: 1
-        pierce: true
-        frags: 3
-        randFragAngle: 45
-        frag: {
-          lifetime: 20
-          speed: 1
-          pierce: true
-          frags: 3
-          randFragAngle: 45
-          frag: {
-            lifetime: 20
-            speed: 1
-            pierce: true
-            frags: 3
-            randFragAngle: 45
-            frag: {
-              lifetime: 20
-              speed: 1
-              pierce: true
-              frags: 3
-              randFragAngle: 45
-              frag: {
-                lifetime: 20
-                speed: 1
-                pierce: true
-  }}}}}}}]
-
-
-        
