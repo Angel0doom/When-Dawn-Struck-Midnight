@@ -1,0 +1,78 @@
+type: legs
+name: long
+legs: 49
+speed: 25.6224148149
+rotateSpeed: 0.1
+health: 9
+armor: 483979
+strafePenalty: 127845601982468013476908347690814379516984568917234
+circleTarget: true
+canDrown: false
+lockLegBase: false
+legContinuousMove: true
+legGroupSize: 7
+legStraightness: 1
+baseLegStraightness: 1
+legMaxLength: 5
+legLength: 80
+legForwardScl: 0.40
+legMoveSpace: 0.01
+rippleScale: 100000
+stepShake: 7.53
+legExtension: -10
+legBaseOffset: -20
+hovering: true
+hitSize: 24.000000900001
+
+abilities: [
+  {
+    type: moveLightningAbility
+    y: 80
+    alternate: false
+    minSpeed: 0.1
+    maxSpeed: 10000000
+    shootSound: none
+    shootEffect: none
+    bulletAngle: 0
+    bulletSpread: 48
+    length: 16
+    chance: 1
+    damage: 20
+    bullet: {
+      lifetime: 20
+      speed: 1
+      pierce: true
+      frags: 3
+      randFragAngle: 45
+      frag: {
+        lifetime: 20
+        speed: 1
+        pierce: true
+        frags: 3
+        randFragAngle: 45
+        frag: {
+          lifetime: 20
+          speed: 1
+          pierce: true
+          frags: 3
+          randFragAngle: 45
+          frag: {
+            lifetime: 20
+            speed: 1
+            pierce: true
+            frags: 3
+            randFragAngle: 45
+            frag: {
+              lifetime: 20
+              speed: 1
+              pierce: true
+              frags: 3
+              randFragAngle: 45
+              frag: {
+                lifetime: 20
+                speed: 1
+                pierce: true
+  }}}}}}}]
+
+
+        
