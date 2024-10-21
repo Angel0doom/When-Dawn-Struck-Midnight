@@ -9,7 +9,7 @@ strafePenalty: 127845601982468013476908347690814379516984568917234
 circleTarget: true
 canDrown: false
 lockLegBase: false
-legContinuousMove: true
+legContinuousMove: false
 legMaxLength: 5
 legLength: 80
 legForwardScl: 1
