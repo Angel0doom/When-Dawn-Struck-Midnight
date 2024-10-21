@@ -18,6 +18,7 @@ stepShake: 0.1
 legBaseOffset: -20
 hovering: true
 hitSize: 24.000000900001
+range: 1
 
 weapons: [
 
