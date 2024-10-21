@@ -13,7 +13,7 @@ legMaxLength: 5
 legLength: 80
 legForwardScl: 1
 legMoveSpace: 1
-rippleScale: 100000
+rippleScale: 10
 stepShake: 0.1
 legBaseOffset: -20
 hovering: true
@@ -29,16 +29,25 @@ weapons: [
       shootDelay: 1
     }
     recoil: 7
+    trailLength: 19
+    trailWidth: 6
+    width: 6
+    length: 1
     mirror: false
-    baseRotation: 180
+    baseRotation: 1
     shootCone: 180
+    inaccuracy: 25
     x: 80
     y: 160
     bullet: {
       type: basicbulletType
-      knockback: 1
+      recoil: 1
       damage: 90
-      incendChance: 900
+      incendAmount: 900
+      incendSpread: 90
+      homingPower: 0.32
+      homingRange: 1000000
+      homingDelay: 90
       speed: 3
       lifetime: 600
 }}]
