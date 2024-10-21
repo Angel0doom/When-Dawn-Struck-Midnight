@@ -23,12 +23,12 @@ weapons: [
 
   {
     name: long-gun
-    reload: 100000
+    reload: 100
     shoot: {
-      shots: 1000000
-      shootDelay: 0.1
+      shots: 1000
+      shootDelay: 0.08
     }
-    recoil: 7970777867
+    recoil: 7
     mirror: false
     rotate: false
     shootCone: 180
