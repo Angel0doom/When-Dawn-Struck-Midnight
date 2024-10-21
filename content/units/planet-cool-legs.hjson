@@ -1,7 +1,7 @@
 type: legs
 name: long
 legCount: 1
-speed: 17.6224148149
+speed: 13.6224148149
 rotateSpeed: 0.0001
 health: 9
 armor: 483979
@@ -23,14 +23,14 @@ weapons: [
 
   {
     name: long-gun
-    reload: 100
+    reload: 1
     shoot: {
       shots: 1000
       shootDelay: 0.08
     }
     recoil: 7
     mirror: false
-    rotate: false
+    baseRotation: 180
     shootCone: 180
     x: 80
     y: 160
@@ -39,15 +39,6 @@ weapons: [
       knockback: 1
       damage: 0.1
       incendChance: 900
-      speed: 1
-      lifetime: 6000
+      speed: 3
+      lifetime: 600
 }}]
-
-
-
-
-
-
-
-
-
