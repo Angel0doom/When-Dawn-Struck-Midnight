@@ -17,6 +17,7 @@ weapons: [
       shotDelay: 2
     }
     shootCone: 360
+    inaccuracy: 5
     mirror: true
     alternate: false
     baseRotation: 15
@@ -37,8 +38,10 @@ weapons: [
     shoot: {
       shots: 10
       shotDelay: 2
+
     }
     shootCone: 360
+    inaccuracy: 5
     mirror: true
     alternate: false
     baseRotation: 45
@@ -59,9 +62,11 @@ weapons: [
     shoot: {
       shots: 10
       shotDelay: 2
+      firstShotDelay: 20
     }
     shootCone: 360
     mirror: true
+    inaccuracy: 5
     alternate: false
     baseRotation: 45
     shootSound: shootBig
@@ -82,9 +87,11 @@ weapons: [
     shoot: {
       shots: 10
       shotDelay: 2
+      firstShotDelay: 40
     }
     shootCone: 360
     mirror: true
+    inaccuracy: 5
     alternate: false
     baseRotation: 75
     shootSound: shootBig
@@ -105,10 +112,12 @@ weapons: [
     shoot: {
       shots: 10
       shotDelay: 2
+      firstShotDelay: 60
     }
     shootCone: 360
     mirror: true
     alternate: false
+    inaccuracy: 5
     baseRotation: 105
     shootSound: shootBig
     x: 0
@@ -128,8 +137,10 @@ weapons: [
     shoot: {
       shots: 10
       shotDelay: 2
+      firstShotDelay: 80
     }
     shootCone: 360
+    inaccuracy: 5
     mirror: true
     alternate: false
     baseRotation: 135
@@ -151,10 +162,12 @@ weapons: [
     shoot: {
       shots: 10
       shotDelay: 2
+      firstShotDelay: 100
     }
     shootCone: 360
     mirror: true
     alternate: false
+    inaccuracy: 5
     baseRotation: 165
     shootSound: shootBig
     x: 0
