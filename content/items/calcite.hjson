@@ -1,0 +1,9 @@
+name: Calcite
+type: item
+buildable: true
+explosiveness: 0
+radioactivity: 0
+flamibility: 0
+charge: 0
+hardness: 4
+color: deca35ff
