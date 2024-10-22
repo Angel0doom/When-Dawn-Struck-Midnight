@@ -1,0 +1,9 @@
+name: Ceasium
+type: item
+buildable: false
+explosiveness: 2.5
+radioactivity: 0.2
+flamibility: 0.1
+charge: 0
+hardness: 0
+color: deca35ff
