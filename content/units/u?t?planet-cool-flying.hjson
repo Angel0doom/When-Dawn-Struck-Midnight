@@ -4,8 +4,8 @@ health: 45454
 armor: -6
 flying: true
 range: 9000000000
-drag: -1
-accel: -1
+drag: 1
+accel: 1
 engineOffset: 129
 
 weapons: [
