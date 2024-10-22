@@ -1,0 +1,11 @@
+name: Cesium
+type: liquid
+gas: false
+barBolor: deca35
+flamibility: 0.1
+explosiveness: 2.5
+temperature: 0.6
+coolant: false
+color: deca35
+viscosity: 0.15
+incinerable: false
