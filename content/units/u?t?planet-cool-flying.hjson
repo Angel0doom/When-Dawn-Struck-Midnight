@@ -71,13 +71,13 @@ weapons: [
 
   {
     name: fly-shoot4
-    reload: 7
+    reload: 28
     mirror: false
     shootCone: 360
     rotate: true
     shoot: {
-      shots: 6
-      shotDelay: 7
+      shots: 7
+      shotDelay: 2
     }
     inaccuracy: 360
     shootSound: shootBig
@@ -86,8 +86,8 @@ weapons: [
     y: -5
     bullet: {
       type: laserBulletType
-      length: 80
-      width: 90
+      length: 1
+      width: 600
       color: 000000
       sideAngle: 1
     }
