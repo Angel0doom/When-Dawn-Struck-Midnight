@@ -1,10 +1,10 @@
 name: It starts withOne thing, I don't know whyDoesn't even matter how hard you tryKeep that in mind, I designed this rhymeTo explain in due timeAll I knowTime is a valuable thingWatch it fly by as the pendulum swingsWatch it count down to the end of the dayThe clock ticks life awayIt's so unrealDidn't look out belowWatch the time go right out the windowTryin' to hold on, di-didn't even knowI wasted it all just to watch you goI kept everything insideAnd even though I tried, it all fell apartWhat it meant to me will eventuallyBe a memory of a time whenI tried so hard and got so farBut in the end, it doesn't even matterI had to fall to lose it allBut in the end, it doesn't even matterOne thing, I don't know whyIt doesn't even matter how hard you tryKeep that in mind, I designed this rhymeTo remind myself how I tried so hardIn spite of the way you were mockin' meActing like I was part of your propertyRemembering all the times you fought with meI'm surprised that it got so farThings aren't the way they were beforeYou wouldn't even recognize me anymoreNot that you knew me back thenBut it all comes back to me in the endYou kept everything insideAnd even though I tried, it all fell apartWhat it meant to me will eventuallyBe a memory of a time whenI tried so hard and got so farBut in the end, it doesn't even matterI had to fall to lose it allBut in the end, it doesn't even matterI've put my trust in you, pushed as far as I can goFor all this, there's only one thing you should knowI've put my trust in you, pushed as far as I can goFor all this, there's only one thing you should knowI tried so hard and got so farBut in the end, it doesn't even matterI had to fall to lose it allBut in the end, it doesn't even matter
-speed: -0.1
+speed: -5
 health: 45454
 armor: -6
 flying: true
 range: 9000000000
-drag: 1
+drag: 0.1
 accel: 1
 engineOffset: 129
 
@@ -12,6 +12,7 @@ weapons: [
   {
     name: fly-shoot1
     reload: 1 
+    shootCone: 360
     mirror: true
     alternate: true
     rotate: false
@@ -31,6 +32,7 @@ weapons: [
   {
     name: fly-shoot2
     reload: 19
+    shootCone: 360
     mirror: false
     rotate: true
     shootSound: shootBig
@@ -49,18 +51,20 @@ weapons: [
     name: fly-shoot3
     reload: 64
     mirror: false
+    shootCone: 360
     rotate: false
     shoot: {
       shots: 6
+      shootDelay: 7
     }
-    inaccuracy: 15
+    inaccuracy: 60
     shootSound: shootBig
-    baseRotation: -15
+    baseRotation: -30
     x: 0
     y: 35
     bullet: {
       type: laserBulletType
-      length: 123
+      length: 235
       width: 12
       color: 000000
       sideAngle: -5
