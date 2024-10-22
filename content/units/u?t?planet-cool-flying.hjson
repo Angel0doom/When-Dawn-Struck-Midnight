@@ -13,8 +13,7 @@ weapons: [
     name: fly-shoot1
     reload: 1 
     shootCone: 360
-    mirror: true
-    alternate: true
+    mirror: false
     rotate: false
     shootSound: shootBig
     baseRotation: 72  
@@ -40,8 +39,8 @@ weapons: [
     y: -19
     bullet: {
       type: laserBulletType
-      length: 80
-      width: 3
+      length: 161
+      width: 5
       color: 000000
       sideAngle: 10
     }
@@ -55,9 +54,8 @@ weapons: [
     rotate: false
     shoot: {
       shots: 6
-      shootDelay: 7
     }
-    inaccuracy: 60
+    inaccuracy: 40
     shootSound: shootBig
     baseRotation: -30
     x: 0
@@ -65,9 +63,56 @@ weapons: [
     bullet: {
       type: laserBulletType
       length: 235
-      width: 12
+      width: 8
       color: 000000
       sideAngle: -5
+    }
+  }
+
+  {
+    name: fly-shoot4
+    reload: 7
+    mirror: false
+    shootCone: 360
+    rotate: true
+    shoot: {
+      shots: 6
+      shotDelay: 7
+    }
+    inaccuracy: 360
+    shootSound: shootBig
+    baseRotation: 180
+    x: -5
+    y: -5
+    bullet: {
+      type: laserBulletType
+      length: 80
+      width: 90
+      color: 000000
+      sideAngle: 1
+    }
+  }
+
+  {
+    name: fly-shoot5
+    reload: 90
+    mirror: true
+    shootCone: 360
+    rotate: false
+    shoot: {
+      shots: 90
+      shootDelay: 90
+    }
+    inaccuracy: 5
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 100
+      width: 1
+      color: 000000
+      sideAngle: 0
     }
   }
 ]
