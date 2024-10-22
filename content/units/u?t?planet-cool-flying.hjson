@@ -11,108 +11,176 @@ engineOffset: 129
 weapons: [
   {
     name: fly-shoot1
-    reload: 1 
-    shootCone: 360
-    mirror: false
-    rotate: false
-    shootSound: shootBig
-    baseRotation: 72  
-    x: 46
-    y: -12
-    bullet: {
-      type: laserBulletType
-      length: 267
-      width: 40
-      color: 000000
-      sideAngle: 1
-    }
-  }
-
-  {
-    name: fly-shoot2
-    reload: 19
-    shootCone: 360
-    mirror: false
-    rotate: true
-    shootSound: shootBig
-    x: -2
-    y: -19
-    bullet: {
-      type: laserBulletType
-      length: 161
-      width: 5
-      color: 000000
-      sideAngle: 10
-    }
-  }
-
-  {
-    name: fly-shoot3
-    reload: 64
-    mirror: false
-    shootCone: 360
-    rotate: false
+    reload: 60
     shoot: {
-      shots: 6
-    }
-    inaccuracy: 40
-    shootSound: shootBig
-    baseRotation: -30
-    x: 0
-    y: 35
-    bullet: {
-      type: laserBulletType
-      length: 235
-      width: 8
-      color: 000000
-      sideAngle: -5
-    }
-  }
-
-  {
-    name: fly-shoot4
-    reload: 28
-    mirror: false
-    shootCone: 360
-    rotate: true
-    shoot: {
-      shots: 7
+      shots: 10
       shotDelay: 2
     }
-    inaccuracy: 360
-    shootSound: shootBig
-    baseRotation: 180
-    x: -5
-    y: -5
-    bullet: {
-      type: laserBulletType
-      length: 1
-      width: 600
-      color: 000000
-      sideAngle: 1
-    }
-  }
-
-  {
-    name: fly-shoot5
-    reload: 90
-    mirror: true
     shootCone: 360
-    rotate: false
-    shoot: {
-      shots: 90
-      shootDelay: 90
-    }
-    inaccuracy: 5
+    mirror: true
+    alternate: false
+    baseRotation: 15
     shootSound: shootBig
     x: 0
     y: 0
     bullet: {
       type: laserBulletType
-      length: 100
-      width: 1
+      length: 150
+      width: 4
       color: 000000
-      sideAngle: 0
+    }
+  }
+
+  {
+    name: fly-shoot1
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
+    mirror: true
+    alternate: false
+    baseRotation: 45
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 150
+      width: 4
+      color: 000000
+    }
+  }
+
+  {
+    name: fly-shoot2
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
+    mirror: true
+    alternate: false
+    baseRotation: 45
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 150
+      width: 4
+      color: 000000
+    }
+  }
+
+
+  {
+    name: fly-shoot3
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
+    mirror: true
+    alternate: false
+    baseRotation: 75
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 150
+      width: 4
+      color: 000000
+    }
+  }
+
+
+  {
+    name: fly-shoot4
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
+    mirror: true
+    alternate: false
+    baseRotation: 105
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 150
+      width: 4
+      color: 000000
+    }
+  }
+
+
+  {
+    name: fly-shoot5
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
+    mirror: true
+    alternate: false
+    baseRotation: 135
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 150
+      width: 4
+      color: 000000
+    }
+  }
+
+
+  {
+    name: fly-shoot6
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
+    mirror: true
+    alternate: false
+    baseRotation: 165
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      length: 150
+      width: 4
+      color: 000000
+    }
+  }
+
+  {
+    name: fly-shoot7
+    rotate: true
+    continuous: true
+    mirror: false
+    alwaysContinuous: true
+    y: 0
+    x: 0
+    bullet: {
+      type: continuousLaserBulletType
+      damage: 30
+      length: 120
+      width: 2
+      knockback: 2
     }
   }
 ]
