@@ -36,7 +36,7 @@ weapons: [
     rotationLimit: 15
     shootY: -16
     bullet: {
-      spawnUnit: u?t?-turret1
+      spawnUnit: turret1
     }
   }
 ]
