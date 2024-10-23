@@ -26,29 +26,7 @@ weapons: [
     y: 0
     bullet: {
       type: laserBulletType
-      length: 100
-      width: 4
-      color: 000000
-    }
-  }
-
-  {
-    name: fly-shoot1
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    inaccuracy: 7.5
-    mirror: true
-    alternate: false
-    baseRotation: 45
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
+      damage: 50
       length: 100
       width: 4
       color: 000000
@@ -63,8 +41,8 @@ weapons: [
       shotDelay: 2
     }
     shootCone: 360
-    mirror: true
     inaccuracy: 7.5
+    mirror: true
     alternate: false
     baseRotation: 45
     shootSound: shootBig
@@ -72,12 +50,12 @@ weapons: [
     y: 0
     bullet: {
       type: laserBulletType
+      damage: 50
       length: 100
       width: 4
       color: 000000
     }
   }
-
 
   {
     name: fly-shoot3
@@ -90,12 +68,13 @@ weapons: [
     mirror: true
     inaccuracy: 7.5
     alternate: false
-    baseRotation: 75
+    baseRotation: 45
     shootSound: shootBig
     x: 0
     y: 0
     bullet: {
       type: laserBulletType
+      damage: 50
       length: 100
       width: 4
       color: 000000
@@ -112,14 +91,15 @@ weapons: [
     }
     shootCone: 360
     mirror: true
-    alternate: false
     inaccuracy: 7.5
-    baseRotation: 105
+    alternate: false
+    baseRotation: 75
     shootSound: shootBig
     x: 0
     y: 0
     bullet: {
       type: laserBulletType
+      damage: 50
       length: 100
       width: 4
       color: 000000
@@ -135,15 +115,16 @@ weapons: [
       shotDelay: 2
     }
     shootCone: 360
-    inaccuracy: 7.5
     mirror: true
     alternate: false
-    baseRotation: 135
+    inaccuracy: 7.5
+    baseRotation: 105
     shootSound: shootBig
     x: 0
     y: 0
     bullet: {
       type: laserBulletType
+      damage: 50
       length: 100
       width: 4
       color: 000000
@@ -159,6 +140,31 @@ weapons: [
       shotDelay: 2
     }
     shootCone: 360
+    inaccuracy: 7.5
+    mirror: true
+    alternate: false
+    baseRotation: 135
+    shootSound: shootBig
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType
+      damage: 50
+      length: 100
+      width: 4
+      color: 000000
+    }
+  }
+
+
+  {
+    name:fly-shoot7
+    reload: 60
+    shoot: {
+      shots: 10
+      shotDelay: 2
+    }
+    shootCone: 360
     mirror: true
     alternate: false
     inaccuracy: 7.5
@@ -168,6 +174,7 @@ weapons: [
     y: 0
     bullet: {
       type: laserBulletType
+      damage: 50
       length: 100
       width: 4
       color: 000000
@@ -175,7 +182,7 @@ weapons: [
   }
 
   {
-    name: fly-shoot7
+    name: fly-shoot8
     rotate: true
     continuous: true
     mirror: false
