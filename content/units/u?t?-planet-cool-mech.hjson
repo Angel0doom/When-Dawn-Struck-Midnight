@@ -20,7 +20,7 @@ weapons: [
     top: false
     layerOffset: -0.01
     shootCone: 1
-    reload: 10
+    reload: 100
     cooldownTime: 20
     alternate: true
     rotate: true
@@ -30,6 +30,7 @@ weapons: [
     recoil: -9
     shootSound: shootBig
     shootY: -16
+    shootCone: 360
     bullet: {
       spawnUnit: turret1
     }
