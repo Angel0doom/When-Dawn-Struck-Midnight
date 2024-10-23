@@ -1,0 +1,28 @@
+speed: 0
+hidden: true
+playerControllable: false
+health: 500
+armor: 0
+rotateSpeed: 0
+range: 100
+weapons: [
+
+  {
+    name: none
+    reload: 45
+    shoot: {
+      shots: 15
+      shotDelay: 1
+    }
+    inaccuracy: 8
+    bullet: {
+      speed: 1
+      lifetime: 200
+      drag: -0.5
+      damage: 10
+      homingRange: 800
+      homingDelay: 100
+      homingPower: 0.2
+    }
+       
+
