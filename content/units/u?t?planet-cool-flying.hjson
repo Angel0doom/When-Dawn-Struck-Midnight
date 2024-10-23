@@ -38,6 +38,7 @@ weapons: [
         lightningLength: 10
         width: 10
         color: 000000
+      }
     }
   }
 
