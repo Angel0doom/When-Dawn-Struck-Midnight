@@ -24,5 +24,6 @@ weapons: [
       homingDelay: 100
       homingPower: 0.2
     }
-       
+  }
+]
 
