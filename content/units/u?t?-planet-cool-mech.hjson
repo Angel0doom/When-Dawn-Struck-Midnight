@@ -14,10 +14,6 @@ range: 150
 weapons: [
   {
     name: p-shoot
-    shoot: {
-      shots: 2
-      shotDelay: 2
-    }
     x: 32
     inaccuracy: 10
     y: 1
@@ -33,7 +29,6 @@ weapons: [
     rotateSpeed: 9000
     recoil: -9
     shootSound: shootBig
-    rotationLimit: 15
     shootY: -16
     bullet: {
       spawnUnit: turret1
