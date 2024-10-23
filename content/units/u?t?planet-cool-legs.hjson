@@ -19,7 +19,23 @@ legBaseOffset: -20
 hovering: true
 hitSize: 24.000000900001
 range: 1
-
+immunities: [
+  melting
+  slow
+  unmoving
+  blasted
+  electrified
+  burning
+  freezing
+  wet
+  spore-slowed
+  sapped
+  tarred
+  overdrive
+  overclock
+  shocked
+  slow-death
+]
 weapons: [
 
   {
