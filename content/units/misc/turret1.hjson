@@ -9,16 +9,16 @@ weapons: [
 
   {
     name: none
-    reload: 45
+    reload: 40
     rotate: true
     mirror: false
     rotateSpeed: 1
     shootCone: 360
     shoot: {
-      shots: 15
+      shots: 20
       shotDelay: 1
     }
-    inaccuracy: 8
+    inaccuracy: 9
     bullet: {
       speed: 0.2
       lifetime: 200
@@ -26,12 +26,13 @@ weapons: [
       pierce: true
       pierceBuilding: true
       damage: 10
-      homingRange: 80000
-      homingDelay: 100
-      homingPower: 0.2
-      absorbable: false
-      reflectable: false
-      hittable: false
+      explodeRange: 10
+      explodeDelay: 0
+      lightning: 900
+      lightningLength: 3
+      lightningLengthRand: 3
+      lightningDamage: 0.1
+      lightningCone: 0
     }
   }
 ]
