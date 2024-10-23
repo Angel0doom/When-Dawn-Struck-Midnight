@@ -11,10 +11,10 @@ engineOffset: 129
 weapons: [
   {
     name: fly-shoot1
-    reload: 60
+    reload: 30
     shoot: {
-      shots: 10
-      shotDelay: 2
+      shots: 120
+      shotDelay: 30
     }
     shootCone: 360
     inaccuracy: 7.5
@@ -25,159 +25,21 @@ weapons: [
     x: 0
     y: 0
     bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
+      type: lightningBulletType
+      lifetime: 120
+      intervalBullets: 1
+      bulletInterval: 30
+      damage: 100
+      lightningLength: 100
+      width: 40
       color: 000000
-    }
-  }
-
-  {
-    name: fly-shoot2
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    inaccuracy: 7.5
-    mirror: true
-    alternate: false
-    baseRotation: 45
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
-      color: 000000
-    }
-  }
-
-  {
-    name: fly-shoot3
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    mirror: true
-    inaccuracy: 7.5
-    alternate: false
-    baseRotation: 45
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
-      color: 000000
-    }
-  }
-
-
-  {
-    name: fly-shoot4
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    mirror: true
-    inaccuracy: 7.5
-    alternate: false
-    baseRotation: 75
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
-      color: 000000
-    }
-  }
-
-
-  {
-    name: fly-shoot5
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    mirror: true
-    alternate: false
-    inaccuracy: 7.5
-    baseRotation: 105
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
-      color: 000000
-    }
-  }
-
-
-  {
-    name: fly-shoot6
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    inaccuracy: 7.5
-    mirror: true
-    alternate: false
-    baseRotation: 135
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
-      color: 000000
-    }
-  }
-
-
-  {
-    name:fly-shoot7
-    reload: 60
-    shoot: {
-      shots: 10
-      shotDelay: 2
-    }
-    shootCone: 360
-    mirror: true
-    alternate: false
-    inaccuracy: 7.5
-    baseRotation: 165
-    shootSound: shootBig
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType
-      damage: 50
-      length: 100
-      width: 4
-      color: 000000
+      intervalBullet: {
+        type: lightningBulletType
+        lifetime: 120
+        damage: 10
+        lightningLength: 10
+        width: 40
+        color: 000000
     }
   }
 
