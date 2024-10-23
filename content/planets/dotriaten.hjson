@@ -1,14 +1,14 @@
-localizedName: Planet Cool
+localizedName: Dotriaten
 alwaysUnlocked: true
 mesh: [
  {
   type: noiseMesh
-  planet: cheese
+  planet: dotriaten
   divisions: 6
   seed: 90
-  radius: 5
-  color1: ff0000
-  color2: 0000f0
+  radius: 1.3
+  color1: 857b6f
+  color2: 59534d
   octaves: 2
   pesistance: 1
  }
@@ -21,21 +21,21 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0.5
 minZoom: 0.1
-orbitRadius: 18
+orbitRadius: 6.2
 orbitTime: 0.2
-radius: 3
+radius: 1.3
 drawOrbit: true
 accessible: true
 updateLighting: true
 sectorSeed: 14513
 bloom: true
 atmosphereRadIn: 0
-atmosphereRadOut: 1000
+atmosphereRadOut: 0.3
 visible: true
 hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: false
 prebuildBase: false
-parent: rigel
-solarSystem: rigel
+parent: sun
+solarSystem: sun
