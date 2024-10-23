@@ -1,0 +1,114 @@
+type: flying
+health: 90
+speed: 2
+buildSpeed: 0.75
+mineSpeed: 0.9
+hitSize: 14
+engineSize: 0
+engineColor: f1eb7e
+engines: [
+{
+x: 2.25
+y: -4.5
+radius: 3
+rotation: -45
+  }
+  {
+x: -2.25
+y: -4.5
+radius: 3
+rotation: 45
+}
+]
+drag: 0.09
+accel: 0.11
+flying: true
+lowAltitude: false
+weapons: [
+{
+mirror: true
+y: 2
+x: 4
+recoil: 0
+reload: 40
+alternate: false
+parts: [
+{
+type: ShapePart
+circle: true
+hollow: true
+layer: 105
+color: f1eb7e
+radius: 2.5
+stroke: 1
+}
+  {
+type: ShapePart
+sides: 3
+hollow: true
+rotateSpeed: 2
+layer: 105
+radiusTo: 0
+progress: reload
+radius: 2
+  }
+]
+shootY: 0
+bullet: {
+type: BulletType
+damage: 18
+lightning: 2
+lightningLength: 4
+lightningDamage: 4
+lightningColor: f1eb7e
+trailInterval: 4
+speed: 4
+lifetime: 20
+buildingDamageMultiplier: 0
+trailEffect: {
+  type: MultiEffect
+  effects: [
+{
+type: ParticleEffect
+region: particle
+colorFrom: f1eb7e
+colorTo: f1eb7e00
+sizeFrom: 4
+sizeTo: 0
+length: 14
+lifetime: 15
+particles: 4
+}
+{
+type: RadialEffect
+rotWithParent: true
+rotationSpacing: 270
+rotationOffset: -45
+amount: 2
+effect: {
+  type: WrapEffect
+  effect: shootSmallColor
+  color: f1eb7e
+  rotWithParent: true
+  useRotation: true
+    }
+}
+]
+}
+shootEffect: shootSmokeSquareSparse
+smokeEffect: none
+hitEffect: {
+  type: ParticleEffect
+  lenFrom: 4
+  lenTo: 0
+  interp: pow5Out
+  sizeInterp: pow5In
+  length: 20
+  strokeFrom: 0
+  colorTo: f1eb7e
+  line: true
+    }
+despawnEffect: none
+despawnHit: true
+}
+]
