@@ -12,7 +12,7 @@ speed: 0.36
 range: 340
 weapons: [
   {
-    name: 01-t6-monarch-weapon
+    name: u01-t6-monarch-weapon
     shoot: {
       shots: 5
       type: shootAlternate
