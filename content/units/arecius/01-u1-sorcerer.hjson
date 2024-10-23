@@ -111,4 +111,5 @@ hitEffect: {
 despawnEffect: none
 despawnHit: true
 }
+}
 ]
