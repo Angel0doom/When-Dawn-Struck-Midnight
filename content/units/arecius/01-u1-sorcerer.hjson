@@ -49,6 +49,7 @@ hollow: true
 rotateSpeed: 2
 layer: 105
 radiusTo: 0
+color: f1eb7e
 progress: reload
 radius: 2
   }
@@ -61,39 +62,33 @@ lightning: 2
 lightningLength: 4
 lightningDamage: 4
 lightningColor: f1eb7e
-trailInterval: 4
+trailInterval: 1
 speed: 4
 lifetime: 20
 buildingDamageMultiplier: 0
+parts: [
+  {
+type: ShapePart
+sides: 3
+hollow: true
+rotateSpeed: 2
+layer: 105
+radiusTo: 0
+color: f1eb7e
+progress: life
+radius: 2
+  }
+]
 trailEffect: {
-  type: MultiEffect
-  effects: [
-{
 type: ParticleEffect
 region: particle
 colorFrom: f1eb7e
 colorTo: f1eb7e00
 sizeFrom: 4
-sizeTo: 0
+sizeTo: 4
 length: 14
 lifetime: 15
 particles: 4
-}
-{
-type: RadialEffect
-rotWithParent: true
-rotationSpacing: 270
-rotationOffset: -45
-amount: 2
-effect: {
-  type: WrapEffect
-  effect: shootSmallColor
-  color: f1eb7e
-  rotWithParent: true
-  useRotation: true
-    }
-}
-]
 }
 shootEffect: shootSmokeSquareSparse
 smokeEffect: none
