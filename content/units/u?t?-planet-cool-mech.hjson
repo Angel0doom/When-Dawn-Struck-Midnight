@@ -1,0 +1,42 @@
+name: p
+type: mech
+health: 70
+armor: 50
+hitSize: 9.999999999
+rotateSpeed: -6
+mechStepParticles: true
+mechStepShake: 9
+mechFrontSway: 90
+mechSideSway: 100
+singleTarget: false
+speed: 7.1
+range: 150
+weapons: [
+  {
+    name: p-shoot
+    shoot: {
+      shots: 2
+      shotDelay: 2
+    }
+    x: 32
+    inaccuracy: 10
+    y: 1
+    top: false
+    layerOffset: -0.01
+    shootCone: 1
+    reload: 100
+    cooldownTime: 20
+    alternate: true
+    rotate: true
+    targetAir: false
+    range: 150
+    rotateSpeed: 9000
+    recoil: -9
+    shootSound: shootBig
+    rotationLimit: 15
+    shootY: -16
+    bullet: {
+      spawnUnit: u?t?-turret1
+    }
+  }
+]
