@@ -3,7 +3,7 @@ playerControllable: false
 hidden: true
 controllable: false
 flying: true
-targetAir: flase
+targetAir: false
 circleTarget: true
 faceTarget: false
 speed: 2
