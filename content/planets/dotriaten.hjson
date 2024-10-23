@@ -21,7 +21,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 0.5
 minZoom: 0.1
-orbitRadius: 6.2
+orbitRadius: 60
 orbitTime: 0.2
 radius: 1.3
 drawOrbit: true
