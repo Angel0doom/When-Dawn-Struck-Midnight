@@ -17,11 +17,9 @@ weapons: [
       shotDelay: 30
     }
     shootCone: 360
-    inaccuracy: 7.5
-    mirror: true
+    inaccuracy: 360
+    mirror: false
     alternate: false
-    baseRotation: 15
-    shootSound: shootBig
     x: 0
     y: 0
     bullet: {
@@ -38,7 +36,7 @@ weapons: [
         lifetime: 120
         damage: 10
         lightningLength: 10
-        width: 40
+        width: 10
         color: 000000
     }
   }
