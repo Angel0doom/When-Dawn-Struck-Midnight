@@ -20,7 +20,7 @@ weapons: [
     top: false
     layerOffset: -0.01
     shootCone: 1
-    reload: 100
+    reload: 10
     cooldownTime: 20
     alternate: true
     rotate: true
