@@ -34,7 +34,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 radius: 0.32
-orbitRadius: 15
+orbitRadius: 10
 minZoom: 0
 maxZoom: 0
 drawOrbit: true
