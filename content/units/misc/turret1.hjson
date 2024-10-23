@@ -24,7 +24,7 @@ weapons: [
       lifetime: 200
       drag: -0.05
       pierce: true
-      pierceBuildings: true
+      pierceBuilding: true
       damage: 10
       homingRange: 80000
       homingDelay: 100
