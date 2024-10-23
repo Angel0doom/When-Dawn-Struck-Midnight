@@ -11,6 +11,7 @@ weapons: [
     name: none
     reload: 45
     rotate: true
+    mirror: false
     rotateSpeed: 1
     shootCone: 360
     shoot: {
@@ -21,10 +22,10 @@ weapons: [
     bullet: {
       speed: 0.2
       lifetime: 200
-      drag: -0.2
+      drag: -0.05
       pierce: true
       damage: 10
-      homingRange: 800
+      homingRange: 80000
       homingDelay: 100
       homingPower: 0.2
       absorbable: false
