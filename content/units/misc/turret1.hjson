@@ -27,6 +27,9 @@ weapons: [
       homingRange: 800
       homingDelay: 100
       homingPower: 0.2
+      absorbable: false
+      reflectable: false
+      hittable: false
     }
   }
 ]
