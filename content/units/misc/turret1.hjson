@@ -4,7 +4,7 @@ playerControllable: false
 health: 500
 armor: 0
 rotateSpeed: 0
-range: 100
+range: 200
 weapons: [
 
   {
@@ -19,9 +19,9 @@ weapons: [
     }
     inaccuracy: 8
     bullet: {
-      speed: 1
+      speed: 0.2
       lifetime: 200
-      drag: -0.5
+      drag: -0.2
       damage: 10
       homingRange: 800
       homingDelay: 100
