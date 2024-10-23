@@ -32,6 +32,9 @@ weapons: [
       lightningDamage: 0.1
       lightningCone: 0
       reflectable: false
+      homingPower: 0.5
+      homingRange: 800000
+      homingDelay: 100
     }
   }
 ]
