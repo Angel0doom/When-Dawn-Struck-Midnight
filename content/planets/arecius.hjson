@@ -17,7 +17,7 @@ bloom: false
 visible: true
 iconColor: f1eb7e
 hasAtmosphere: true
-solarSystem: rigel
+solarSystem: 1-rigel
 mesh: [
 {
 type: NoiseMesh
