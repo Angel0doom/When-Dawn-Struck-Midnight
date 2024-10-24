@@ -40,6 +40,8 @@ weapons: [
       lifetime: 110
       pierce: true
       hittable: false
+      reflecable: false
+      absorbable: false
       splashDamage: 560
       splashDamageRadius: 95
       pierceBuilding: true
