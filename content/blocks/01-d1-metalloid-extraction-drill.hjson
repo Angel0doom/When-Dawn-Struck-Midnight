@@ -1,0 +1,11 @@
+type: Drill
+size: 2
+tier: 1
+drillTime: 360
+rotateSpeed: 1
+requirements: [
+  01-i1-metalloid/50
+    ]
+research: {
+  parent: 00-c1-core-focus
+    }
