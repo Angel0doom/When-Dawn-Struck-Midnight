@@ -1,0 +1,16 @@
+type: CoreBlock
+isFirstTier: true
+unitType: 01-u1-sorcerer
+size: 3
+squareSprite: false
+research: {
+  root: true
+  name: Arecius
+  requiresUnlock: false
+    }
+alwaysUnlocked: true
+health: 3500
+armor: 4
+itemCapacity: 3000
+unitCapModifier: 12
+category: effect
