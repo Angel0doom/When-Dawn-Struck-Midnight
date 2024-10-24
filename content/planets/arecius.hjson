@@ -134,3 +134,10 @@ itemWhiteList: [
   01-i1-metalloid,
   01-i2-yellow-mana-shard
   ]
+hasAtmosphere: true
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: false
+prebuildBase: true
+defaultCore: 00-c1-core-focus
+defaultEnv: 45
