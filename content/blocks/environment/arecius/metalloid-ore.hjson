@@ -1,2 +1,5 @@
 type: OreBlock
 itemDrop: 01-i1-metalloid
+attributes: {
+  yellowmana: 0.5
+  }
