@@ -1,25 +1,7 @@
 name: Arecius
 localizedName: Arecius
 alwaysUnlocked: true
-generator: {
-min: 1
-max: 1
-octaves: 4
-persistence: 0.5
-scale: 30
-tresh: 1
-foct: 3
-fmag: 0.5
-fscl: 50
-fper: 0.6
-  radMin: 600
-  radMax: 600
-stoneChance: 0
-iceChance: 0
-carbonChance: 1
-berylChance: 0
-ferricChance: 0
-  }
+generator: AsteroidGenerator
 sectorSize: 2.5
 parent: rigel
 orbitRadius: 14
@@ -43,10 +25,10 @@ planet: arecius
 divisions: 5
 color1: 354136
 color2: 687974
-radius: 1.2
+radius: 1.1
 octaves: 4
 persistence: 0.5
-mag: 0.1
+mag: 0.2
   }
   {
 type: NoiseMesh
@@ -140,4 +122,4 @@ clearSectorOnLose: true
 allowWaves: false
 prebuildBase: true
 defaultCore: 00-c1-core-focus
-defaultEnv: 73
+defaultEnv: 145
