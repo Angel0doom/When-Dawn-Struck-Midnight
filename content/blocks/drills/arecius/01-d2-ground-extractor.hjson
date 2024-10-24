@@ -25,9 +25,9 @@ research: {
   parent: 01-d1-metalloid-extractor
   }
 requirements: [
-  metalloid/120
+  01-i1-metalloid/120
   ]
 researchCost: [
-  metalloid/120
+  01-i1-metalloid/120
     ]
 tier: 2
