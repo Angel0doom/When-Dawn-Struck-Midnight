@@ -61,30 +61,6 @@ weapons: [
   }
 
   {
-    name: sparassie-cannon-buildup
-    reload: 510
-    shoot: {
-      shots: 100
-      shotDelay: 1
-    }
-    inaccuracy: 100
-    mirror: false
-    rotate: false
-    shootCone: 5
-    shootStatus: slow
-    parentizeEffects: true
-    statusDuration: 120
-    bullet: {
-      createChance: 0.75
-      rangeOverride: 220
-      type: lightningBulletType
-      lightningLength: 6
-      lightningLengthRand: 9
-      damage: 95
-    }
-  }
-
-  {
     name: sparassie-shotgun
     shoot: {
       type: ShootPattern
@@ -111,10 +87,11 @@ weapons: [
         splashDamageRadius: 10
         scaleLife: true
         speed: 4
+        drag: -0.05
         lifetime: 48
         pierce: false
         homingRange: 130
-        homingPower: 0.17
+        homingPower: 0.21
         homingDelay: 0
       }
     }
