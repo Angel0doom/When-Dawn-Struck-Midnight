@@ -21,3 +21,12 @@ blockedItem: 01-i1-metalloid
 consumes: {
   liquid: 01-i1-yellow-mana-liquid/0.1
     }
+research: {
+  parent: 01-d1-metalloid-extractor
+  }
+requirements: [
+  metalloid/120
+  ]
+researchCost: [
+  metalloid/120
+    ]
