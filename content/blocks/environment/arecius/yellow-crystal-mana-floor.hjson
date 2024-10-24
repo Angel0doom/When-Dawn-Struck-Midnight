@@ -2,3 +2,4 @@ type: Floor
 attributes: {
   yellowmana: 1
     }
+itemDrop: 01-i2-yellow-mana-crystal-shard
