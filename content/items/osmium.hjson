@@ -1,0 +1,9 @@
+name: Osmium
+type: item
+buildable: true
+explosiveness: 0
+radioactivity: 1.1
+flamibility: 0
+charge: 0.3
+hardness: 4
+color: 9448a8
