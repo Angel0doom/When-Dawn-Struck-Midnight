@@ -4,3 +4,9 @@ category: distribution
 requirements: [
     01-i1-metalloid/3 
         ]
+research: {
+    parent: 00-c1-core-focus
+    }
+researchCost: [
+    01-i1-metalloid/3
+    ]
