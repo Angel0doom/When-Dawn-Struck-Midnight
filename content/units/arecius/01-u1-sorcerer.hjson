@@ -6,6 +6,7 @@ mineSpeed: 0.9
 hitSize: 14
 engineSize: 0
 engineColor: f1eb7e
+envDisabled: 0
 engines: [
 {
 x: 2.25
