@@ -47,7 +47,7 @@ planet: arecius
 divisions: 5
 color1: 6faeac
 color2: 8fdbc5
-radius: 1.1
+radius: 1
 octaves: 4
 persistence: 1.1
   }
