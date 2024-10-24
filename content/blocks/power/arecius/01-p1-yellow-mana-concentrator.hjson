@@ -1,0 +1,10 @@
+type: AttributeCrafter
+attribute: yellowmana
+minEfficiency: 0.5
+baseEfficiency: 0
+hasLiquids: true
+outputLiquid: 01-i1-yellow-mana-liquid/0.05
+liquidCapacity: 1
+requirements: [
+  01-i1-metalloid/30
+    ]
