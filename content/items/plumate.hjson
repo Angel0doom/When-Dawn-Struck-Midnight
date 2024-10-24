@@ -1,0 +1,9 @@
+name: Plumate
+type: item
+buildable: true
+explosiveness: 0
+radioactivity: 0.1
+flamibility: 0
+charge: 0
+hardness: 3
+color: bac2cf
