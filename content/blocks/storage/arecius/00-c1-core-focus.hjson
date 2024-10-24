@@ -6,6 +6,7 @@ squareSprite: false
 research: {
   root: true
   name: Arecius
+  planet: arecius
   requiresUnlock: false
     }
 alwaysUnlocked: true
