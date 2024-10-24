@@ -1,9 +1,8 @@
 type: BurstDrill
 shake: 0.5
 speedCurve: pow5In
-arrowSpacing: 2
-arrow: 2
-arrowOffset: 2
+arrowSpacing: 3
+arrows: 2
 baseArrowColor: 59665c
 arrowColor: c3d0de
 glowColor: b6d9ff
