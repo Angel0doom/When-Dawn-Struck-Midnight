@@ -140,4 +140,4 @@ clearSectorOnLose: true
 allowWaves: false
 prebuildBase: true
 defaultCore: 00-c1-core-focus
-defaultEnv: 45
+defaultEnv: 73
