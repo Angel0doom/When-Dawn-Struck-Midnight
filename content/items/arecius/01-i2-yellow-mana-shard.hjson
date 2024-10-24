@@ -1,2 +1,4 @@
 color: f1eb7e
 explosivity: 0.05
+hiddenOnPlanets: [serpulo, erekir]
+hardness: 2
