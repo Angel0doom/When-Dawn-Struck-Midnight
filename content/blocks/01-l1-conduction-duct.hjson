@@ -1,0 +1,6 @@
+type: Duct
+speed: 5
+category: distribution
+requirements: [
+    01-i1-metalloid/3 
+        ]
