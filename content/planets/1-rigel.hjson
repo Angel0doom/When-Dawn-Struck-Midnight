@@ -27,4 +27,4 @@ solarSystem: 1-rigel
 radius: 1
 drawOrbit: false
 parent: sun
-orbitRadius: 1200000
+orbitRadius: 12000
