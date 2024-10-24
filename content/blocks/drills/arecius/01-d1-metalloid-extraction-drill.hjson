@@ -9,3 +9,7 @@ requirements: [
 research: {
   parent: 00-c1-core-focus
     }
+category: production
+researchCost: [
+  metalloid/50
+    ]
