@@ -1,0 +1,9 @@
+name: Burst Alloy
+type: item
+buildable: true
+explosiveness: 2.6
+radioactivity: 0
+flamibility: 0.6
+charge: 0
+hardness: 4
+color: b73333
