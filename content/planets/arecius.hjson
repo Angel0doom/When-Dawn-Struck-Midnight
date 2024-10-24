@@ -3,7 +3,7 @@ localizedName: Arecius
 alwaysUnlocked: true
 generator: AsteroidGenerator
 sectorSize: 2.5
-parent: rigel
+parent: 1-rigel
 orbitRadius: 14
 radius: 1.2
 drawOrbit: true
