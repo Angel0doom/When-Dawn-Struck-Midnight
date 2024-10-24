@@ -11,5 +11,5 @@ research: {
     }
 category: production
 researchCost: [
-  metalloid/50
+  01-i1-metalloid/50
     ]
