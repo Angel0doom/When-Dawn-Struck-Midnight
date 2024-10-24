@@ -1,0 +1,10 @@
+name: Steam
+type: liquid
+gas: true
+barBolor: c5d7d4
+flamibility: 0
+explosiveness: 0
+temperature: 0.8
+coolant: false
+color: c5d7d4
+incinerable: false
