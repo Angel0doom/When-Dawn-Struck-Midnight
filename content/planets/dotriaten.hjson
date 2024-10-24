@@ -40,5 +40,5 @@ prebuildBase: false
 parent: sun
 solarSystem: sun
 itemWhitelist: [
-  lead, plumate, blast-compound, phase-fabric, pyratite, graphite, spore-pod, tungsten, calcite, cesium
+  lead, plumate, blast-compound, phase-fabric, pyratite, graphite, spore-pod, tungsten, calcite, cesium, sand
 ]
