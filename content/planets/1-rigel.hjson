@@ -26,3 +26,5 @@ orbitSpacing: 0.2
 solarSystem: rigel
 radius: 1
 drawOrbit: false
+parent: sun
+orbitRadius: 1200000
