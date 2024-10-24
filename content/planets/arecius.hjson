@@ -124,3 +124,6 @@ prebuildBase: true
 defaultCore: 00-c1-core-focus
 defaultEnv: 145
 atmosphereColor: 8fdbc5
+minZoom: 1.5
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
