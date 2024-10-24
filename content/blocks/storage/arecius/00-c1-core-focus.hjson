@@ -15,3 +15,7 @@ armor: 4
 itemCapacity: 3000
 unitCapModifier: 12
 category: effect
+requirements: [
+  01-i1-metalloid/800
+  01-i2-yellow-mana-crystal-shard/600
+  ]  
