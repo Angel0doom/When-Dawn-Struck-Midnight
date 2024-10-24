@@ -25,7 +25,7 @@ planet: arecius
 divisions: 5
 color1: 354136
 color2: 687974
-radius: 1.1
+radius: 0.9
 octaves: 4
 persistence: 0.5
 mag: 0.2
@@ -36,7 +36,7 @@ planet: arecius
 divisions: 5
 color1: cc8c6d
 color2: f1eb7e
-radius: 1.2
+radius: 1
 octaves: 4
 persistence: 0.5
 mag: 0.3
@@ -47,7 +47,7 @@ planet: arecius
 divisions: 5
 color1: 6faeac
 color2: 8fdbc5
-radius: 1.2
+radius: 1
 octaves: 4
 persistence: 1.1
   }
@@ -57,7 +57,7 @@ planet: arecius
 divisions: 5
 color1: 935a5a
 color2: cc73a3
-radius: 1.2
+radius: 1
 octaves: 4
 persistence: 0.5
 mag: 0.6
@@ -68,7 +68,7 @@ planet: arecius
 divisions: 5
 color1: 6f72ae
 color2: c3d0de
-radius: 1.2
+radius: 1
 octaves: 4
 persistence: 0.5
 mag: 1.2
@@ -79,7 +79,7 @@ planet: arecius
 divisions: 5
 color1: 65aa6b
 color2: 8fdbc5
-radius: 1.2
+radius: 1
 octaves: 4
 persistence: 0.5
 mag: 0.9
@@ -123,3 +123,4 @@ allowWaves: false
 prebuildBase: true
 defaultCore: 00-c1-core-focus
 defaultEnv: 145
+atmosphereColor: 8fdbc5
