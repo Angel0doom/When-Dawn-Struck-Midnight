@@ -68,7 +68,7 @@ planet: arecius
 divisions: 5
 color1: 6f72ae
 color2: c3d0de
-radius: 1
+radius: 0.9
 octaves: 4
 persistence: 0.5
 mag: 1.2
