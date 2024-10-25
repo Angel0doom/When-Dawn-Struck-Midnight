@@ -8,7 +8,10 @@ drag: -0.0001
 accel: 1
 engineOffset: 0
 engineSize: 100
-engineColor: fc0303
+engineColors: [
+  fc0303
+  05cdff
+]
 weapons: [
   {
     name: lasser
@@ -21,10 +24,14 @@ weapons: [
     y: 0
     bullet: {
       type: laserBulletType
-      lifetime: 9000
+      lifetime: 120
       damage: 90000
       width: 80
-      color: 05ff2b
+      colors: [
+        05ff2b
+        05ff2b
+        05ff2b
+      ]
     }
   }
 ]
