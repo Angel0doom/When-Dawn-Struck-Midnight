@@ -1,0 +1,138 @@
+type: legs
+health: 10000
+speed: 0.6
+hitSize: 20
+rotateSpeed: 10
+drag: 0.1
+accel: 0.11
+armor: 16
+name: Gerb
+description: extraterrestrial being able to adapt to any environment.
+details: ":3"
+mineSpeed: 10
+buildSpeed: 5
+drownTimeMultiplier: 69
+strafePenalty: 0
+buildBeamOffset: 10
+shadowElevation: 0.1
+isEnemy: false
+allowedInPayloads: false
+groundLayer: 74.02
+hovering: true
+drawCell: false
+outlineColor: 354136
+mineTier: 6
+legCount: 8
+legLength: 16
+legSpeed: 0.3
+legBaseOffset: 4
+legMaxLength: 1.5
+baseLegStraightness: 1
+lockLegBase: true
+loopSound: techLoop
+legGroupSize: 3
+flipBackLegs: false
+legContinuousMove: true
+weapons: [
+{
+name: arecius-gerb-laser
+heatColor: ff0000
+reload: 40
+mirror: false
+rotate: true
+top: true
+predictTarget: false
+shootSound: laserBeam
+continuous: true
+recoil: 1
+x: 0
+y: -2
+shootCone: 2
+parentizeEffects: true
+layerOffset: 1
+shootStatus: slow
+shootStatusDuration: 20
+bullet: {
+  type: ContinuousLaserBulletType
+  damage: 200
+  length: 120
+  width: 6
+  colors: [ccb66daa, f1eb7eaa, f1eb7e, ffffff]
+  lifetime: 300
+  pointyScaling: 1
+  largeHit: true
+  hitColor: f1eb7e
+  bulletInterval: 60
+  intervalBullet: {
+    type: BulletType
+    speed: 1
+    keepVelocity: true
+    lifetime: 0
+    instantDisappear: true
+    hitEffect: none
+    collides: false
+    collidesAir: false
+    collidesGround: false
+    collidesTiles: false
+    collideTerrain: false
+    despawnHit: true
+    despawnEffect: {
+      type: MultiEffect
+        effects: [
+{
+type: ParticleEffect
+colorFrom: a2a2a2
+colorTo: 191919
+length: 120
+layer: 95
+particles: 50
+sizeFrom: 4
+interp: pow10Out
+sizeInterp: pow3In
+lifetime: 60
+cone: 4
+}
+{
+type: ParticleEffect
+colorFrom: a2a2a2
+colorTo: 191919
+particles: 16
+length: 120
+sizeFrom: 6
+interp: pow10Out
+sizeInterp: pow3In
+lifetime: 70
+cone: 4
+layer: 95
+}
+{
+type: ParticleEffect
+colorFrom: f1eb7e
+line: true
+colorTo: f1eb7e
+lifetime: 35
+lenFrom: 12
+lenTo: 0
+strokeFrom: 1
+strokeTo: 0
+layer: 100
+interp: pow10Out
+sizeInterp: pow5In
+}
+]
+}
+fragBullets: 2
+fragRandomSpread: 5
+fragBullet: {
+  type: BulletType
+  damage: 200
+  hitEffect: none
+  despawnEffect: none
+  speed: 120
+  hitSize: 8
+  lifetime: 1
+    }
+  }
+}
+}
+  ]
