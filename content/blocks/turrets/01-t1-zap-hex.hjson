@@ -1,6 +1,6 @@
 type: LiquidTurret
 reload: 80
-ammoPerShot: 12
+ammoPerShot: 30
 hasLiquid: true
 extinguish: false
 range: 120
@@ -59,15 +59,36 @@ color: f1eb7e
 predictTarget: false
 ammoTypes: {
 01-i1-yellow-mana-liquid: {
-    type: PointBulletType
-    damage: 50
-    trailEffect: none
-    despawnEffect: chainLightning
-    hitEffect: chainLightning
-    shootEffect: colorSpark
-    smokeEffect: lancerLaserShootSmoke
-    status: shocked
-      }
+    type: LightningBulletType
+    damage: 8
+    lightningLength: 4
+    lightning: 2
+    lightningColor: f1eb7e
+    lightningType:{
+      type: LightningBulletType
+      damage: 6
+      lightningLength: 6
+      lightning: 2
+      createChance: 0.8
+      lightningColor: f1eb7e
+      lightningType:{
+        type: LightningBulletType
+        damage: 4
+        lightningLength: 4
+        lightning: 6
+        createChance: 0.4
+        lightningColor: f1eb7e
+        lightningType:{
+          type: LightningBulletType
+          damage: 2
+          lightningLength: 2
+          lightning: 0
+          createChance: 0.2
+          lightningColor: f1eb7e
+}
+}
+}
+}
 }
 requirements: [
   01-i1-metalloid/300
