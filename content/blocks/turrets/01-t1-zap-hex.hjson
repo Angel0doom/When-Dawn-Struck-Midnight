@@ -1,0 +1,68 @@
+type: LiquidTurret
+reload: 80
+ammoPerShot: 12
+hasLiquid: true
+extinguish: false
+range: 120
+shootSound: spark
+Xrand: 4
+size: 2
+category: turrets
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: HaloPart
+radius: 0
+y: -8
+tri: true
+shapes: 1
+color: f1eb7e
+triLength: 18
+radiusTo: 5
+haloRadius: 0
+layer: 100
+}
+{
+type: ShapePart
+circle: true
+hollow: true
+radius: 8
+layer: 100
+color: f1eb7e
+}
+{
+  type: HaloPart
+  tri: true
+  triLength: 0
+  triLengthTo: 4
+  color: f1eb7e
+  shapes: 2
+  haloRotation: 90
+  shapeRotation: 90
+  layer: 100
+    }
+    {
+  type: HaloPart
+  tri: true
+  triLength: 0
+  triLengthTo: 4
+  color: f1eb7e
+  shapes: 2
+  haloRotation: 90
+  shapeRotation: -90
+  layer: 100
+    }
+]
+}
+ammoTypes: {
+01-i1-yellow-mana-liquid: {
+    type: PointBulletType
+    damage: 50
+    trailEffect: none
+    despawnEffect: chainLightning
+    hitEffect: chainLightning
+    shootEffect: colorSpark
+    smokeEffect: lancerLaserShootSmoke
+      }
+}
