@@ -112,7 +112,7 @@ treshold: 0.3
 }
 ]
 itemWhitelist: [
-  01-i1-metalloid, 01-i2-yellow-mana-shard
+  01-i1-metalloid, 01-i2-yellow-mana-crystal-shard
   ]
 hasAtmosphere: true
 allowWaveSimulation: false
