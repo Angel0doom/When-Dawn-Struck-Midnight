@@ -1,0 +1,35 @@
+name: Ship Manufacturer
+description: Assembles huge ships out of inputed blocks and power sources. Output tier may be increased by adding modules.
+type: unitAssembler
+areaSize: 19
+size: 6
+dronesCreated: 8
+configurable: true
+droneConstructTime: 720
+consumes: {
+    power: 27
+liquids: [
+    flourite/0.4
+]
+}
+plans: [ 
+{
+type: UnitAssemblerPlan
+  unit: u19-t6-convulse
+      time: 18000
+        requirements: [
+          chemical-combustion-chamber/2
+          ship-fabricator/3
+          shielded-wall/12
+]
+}
+]
+category: units
+requirements: [
+  beryllium/800
+  silicon/1200
+  tungsten/500
+  thorium/600
+  phase-fabric/300
+]
+research: basic-assembler-module
