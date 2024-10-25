@@ -7,7 +7,7 @@ range: 120
 shootSound: spark
 Xrand: 4
 size: 2
-category: turrets
+category: turret
 drawer: {
 type: DrawTurret
 basePrefix: hex-
