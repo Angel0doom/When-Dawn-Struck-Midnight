@@ -10,6 +10,7 @@ size: 2
 category: turrets
 drawer: {
 type: DrawTurret
+basePrefix: hex-
 parts: [
 {
 type: HaloPart
@@ -55,6 +56,7 @@ color: f1eb7e
     }
 ]
 }
+predictTarget: false
 ammoTypes: {
 01-i1-yellow-mana-liquid: {
     type: PointBulletType
@@ -64,5 +66,6 @@ ammoTypes: {
     hitEffect: chainLightning
     shootEffect: colorSpark
     smokeEffect: lancerLaserShootSmoke
+    status: shocked
       }
 }
