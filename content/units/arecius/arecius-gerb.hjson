@@ -23,16 +23,19 @@ drawCell: false
 outlineColor: 354136
 mineTier: 6
 legCount: 8
-legLength: 16
+legLength: 24
+legExtension: -2
 legSpeed: 0.3
 legBaseOffset: 4
 legMaxLength: 1.5
-baseLegStraightness: 1
+baseLegStraightness: 0.5
+legStraightLength: 0.9
 lockLegBase: true
 loopSound: techLoop
 legGroupSize: 3
 flipBackLegs: false
 legContinuousMove: true
+legStraightness: 0.5
 weapons: [
 {
 name: arecius-gerb-laser
@@ -52,6 +55,7 @@ parentizeEffects: true
 layerOffset: 1
 shootStatus: slow
 shootStatusDuration: 20
+shootY: 4
 bullet: {
   type: ContinuousLaserBulletType
   damage: 200
@@ -63,6 +67,7 @@ bullet: {
   largeHit: true
   hitColor: f1eb7e
   bulletInterval: 60
+  intervalRandomSpread: 0
   intervalBullet: {
     type: BulletType
     speed: 1
@@ -118,6 +123,8 @@ strokeTo: 0
 layer: 100
 interp: pow10Out
 sizeInterp: pow5In
+length: 120
+cone: 5
 }
 ]
 }
