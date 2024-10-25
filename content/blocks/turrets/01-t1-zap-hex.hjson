@@ -69,3 +69,12 @@ ammoTypes: {
     status: shocked
       }
 }
+requirements: [
+  01-i1-metalloid/300
+  01-i2-yellow-mana-crystal-shard/120
+    ]
+research: 00-c1-core-focus
+researchCost: [
+  01-i1-metalloid/300
+  01-i2-yellow-mana-crystal-shard/120
+    ]
