@@ -15,7 +15,7 @@ engineColors: [
 weapons: [
   {
     name: lasser
-    reload: 10000
+    reload: 1000
     shootCone: 360
     inaccuracy: 0
     mirror: false
@@ -26,6 +26,7 @@ weapons: [
       type: laserBulletType
       lifetime: 120
       damage: 90000
+      length: 10000000
       width: 80
       colors: [
         05ff2b
