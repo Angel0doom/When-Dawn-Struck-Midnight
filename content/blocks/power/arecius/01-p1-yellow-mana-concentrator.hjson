@@ -26,9 +26,8 @@ drawLiquid: 01-i1-yellow-mana-liquid
 suffix: -liquid
 }
 {
-type: DrawSoftParticles
-color1: f1eb7e00
-color2: f1eb7eaa
+type: DrawParticles
+color: f1eb7eaa
 particles: 10
 particleRad: 4
 rotateScl: 5
