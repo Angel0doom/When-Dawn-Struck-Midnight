@@ -16,8 +16,21 @@ weapons: [
     minShootVelocity: 0.001
     reload: 15
     shoot: {
-      shots: 5
+      shots: 2
       shotDelay: 1
     }
-    
-    
+    mirror: true
+    alternate: true
+    rotate: false
+    baseRotation: 10
+    x: 3
+    y: 4
+    bullet: {
+      type: lightningBulletType
+      damage: 20
+      lightningLength: 2
+      lightningLengthRand: 2
+      lightningColor: ffd6f9
+    }
+  }
+]
