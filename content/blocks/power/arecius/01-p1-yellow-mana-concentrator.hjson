@@ -27,7 +27,6 @@ suffix: -liquid
 }
 {
 type: DrawSoftParticles
-region: particle
 color1: f1eb7e00
 color2: f1eb7eaa
 particles: 10
