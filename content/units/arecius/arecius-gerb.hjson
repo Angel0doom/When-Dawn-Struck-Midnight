@@ -9,6 +9,7 @@ armor: 16
 name: Gerb
 description: extraterrestrial being able to adapt to any environment.
 details: ":3"
+envDisabled: 0
 mineSpeed: 10
 buildSpeed: 5
 drownTimeMultiplier: 69
