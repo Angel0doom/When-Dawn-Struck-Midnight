@@ -1,0 +1,12 @@
+type: Wall
+health: 2500
+armor: 4
+size: 1
+category: defense
+requirements: [
+  01-i1-metalloid/6
+    ]
+research: 00-c1-core-focus
+researchCost: [
+  01-i1-metalloid/50
+  ]
