@@ -3,7 +3,7 @@ reload: 80
 ammoPerShot: 30
 hasLiquid: true
 extinguish: false
-range: 120
+range: 60
 shootSound: spark
 Xrand: 4
 size: 2
