@@ -3,7 +3,6 @@ speed: 0.8
 hitSize: 12
 template: TankUnitType
 outlineColor: 6f72ae
-treadRegion: none
 health: 800
 armor: 4
 controller: suicideAi
