@@ -5,7 +5,7 @@ flying: true
 itemCapacity: 18
 circleTarget: true
 speed: 4.96 
-accel: 0.07
+accel: 0.04
 drag: 0.13
 range: 74 
 lowAltitude: false
@@ -34,4 +34,21 @@ weapons: [
       lightningColor: ffd6f9
     }
   }
+
+  {
+    name: affinis-dash
+    reload: 0
+    minShootVelocity: 4.96
+    mirror: false
+    inaccuracy: 0
+    rotate: false
+    x: 0
+    y: 0
+    bullet: {
+      type: laserBulletType 
+      lifetime: 5
+      recoil: -90
+      length: 120
+      width: 6
+    }
 ]
