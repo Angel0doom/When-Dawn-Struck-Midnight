@@ -71,6 +71,7 @@ rotate: true
 bullet: {
   type: ContinuousBulletType
   lifetime: 36
+  damageInterval: 12
   damage: 40
   length: 50
   shootEffect: none
