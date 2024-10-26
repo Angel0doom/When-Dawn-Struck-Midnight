@@ -13,7 +13,6 @@ weapons: [
 
   {
     name: affinis-electric
-    minShootVelocity: 0.001
     reload: 15
     shoot: {
       shots: 2
