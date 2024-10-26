@@ -20,6 +20,7 @@ weapons: [
     }
     mirror: true
     shootCone: 35
+    inaccuracy: 0
     alternate: true
     rotate: false
     baseRotation: -17
