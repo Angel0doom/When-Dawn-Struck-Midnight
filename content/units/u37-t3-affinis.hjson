@@ -19,18 +19,18 @@ weapons: [
       shotDelay: 5
     }
     mirror: true
-    shootCone: 35
+    shootCone: 40
     inaccuracy: 0
     alternate: true
     rotate: false
-    baseRotation: -17
-    x: 3
-    y: 4
+    baseRotation: -20
+    x: 5
+    y: 7
     bullet: {
       type: lightningBulletType
       damage: 20
-      lightningLength: 15
-      lightningLengthRand: 7
+      lightningLength: 7
+      lightningLengthRand: 3
       lightningColor: ffd6f9
     }
   }
