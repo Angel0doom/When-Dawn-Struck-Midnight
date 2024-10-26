@@ -19,10 +19,10 @@ weapons: [
       shotDelay: 1
     }
     mirror: true
-    shootCone: 30
+    shootCone: 35
     alternate: true
     rotate: false
-    baseRotation: 10
+    baseRotation: -17
     x: 3
     y: 4
     bullet: {
