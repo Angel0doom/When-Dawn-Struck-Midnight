@@ -1,6 +1,5 @@
 type: LiquidTurret
 reload: 80
-ammoPerShot: 30
 hasLiquid: true
 extinguish: false
 range: 60
@@ -60,6 +59,7 @@ predictTarget: false
 ammoTypes: {
 01-i1-yellow-mana-liquid: {
     type: LightningBulletType
+    ammoMultiplier: 0.1
     damage: 8
     lightningLength: 4
     lightning: 2
