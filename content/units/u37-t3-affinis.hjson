@@ -16,7 +16,7 @@ weapons: [
     reload: 15
     shoot: {
       shots: 2
-      shotDelay: 1
+      shotDelay: 5
     }
     mirror: true
     shootCone: 35
