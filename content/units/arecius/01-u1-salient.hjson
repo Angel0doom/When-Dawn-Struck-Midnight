@@ -1,0 +1,95 @@
+type: tank
+speed: 0.8
+hitSize: 12
+template: TankUnitType
+outlineColor: 6f72ae
+treadRegion: none
+health: 800
+armor: 4
+controller: suicideAi
+parts: [
+{
+type: HoverPart
+mirror: true
+radius: 4
+x: 3
+y: 2.5
+color: f1eb7e
+layerOffset: -0.001
+sides: 3
+  }
+  {
+type: HoverPart
+mirror: true
+radius: 6
+x: 3
+y: -2
+sides: 8
+color: f1eb7e
+layerOffset: -0.001
+sides: 3
+  }
+]
+useEngineElevation: false
+engineSize: 3
+engineOffset: 5
+engineColor: f1eb7e
+weapons: [
+{
+parts: [
+{
+type: ShapePart
+progress: charge
+sides: 3
+hollow: false
+radius: 0
+radiusTo: 3
+layer: 100
+}
+  {
+type: ShapePart
+radius: 3
+circle: true
+hollow: true
+layer: 100
+stroke: 3
+color: f1eb7e
+  }
+  ]
+mirror: false
+y: 0
+x: 0
+reload: 120
+shoot: {
+  firstShotDelay: 20
+    }
+continuous: true
+shootStatus: unmoving
+shootStatusDuration: 60
+shake: 0
+bullet: {
+  type: ContinuousBulletType
+  lifetime: 36
+  damage: 40
+  length: 50
+  parts: [
+{
+type: HaloPart
+shapes: 1
+radius: 0
+haloRotateSpeed: 0
+tri: true
+triLengthTo: 50
+progress: {
+  type: life
+  op: curve
+  interp: pow10Out
+}
+color: f1eb7e
+layer: 100
+radius: 3
+}
+]
+}
+}
+]
