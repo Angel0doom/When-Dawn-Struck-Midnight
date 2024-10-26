@@ -13,10 +13,10 @@ weapons: [
 
   {
     name: affinis-electric
-    reload: 15
+    reload: 60
     shoot: {
-      shots: 2
-      shotDelay: 5
+      shots: 9
+      shotDelay: 6
     }
     mirror: true
     shootCone: 40
