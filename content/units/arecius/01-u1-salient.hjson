@@ -2,7 +2,7 @@ type: tank
 speed: 0.8
 hitSize: 12
 template: TankUnitType
-outlineColor: 6f72ae
+outlineColor: ab5e5c
 health: 800
 armor: 4
 controller: suicideAi
@@ -65,20 +65,26 @@ shoot: {
 continuous: true
 shootStatus: unmoving
 shootStatusDuration: 60
+shootSound: laser
 shake: 0
+rotate: true
 bullet: {
   type: ContinuousBulletType
   lifetime: 36
   damage: 40
   length: 50
+  shootEffect: none
+  smokeEffect: none
+  hitEffect: hitBeam
+  hitColor: f1eb7e
   parts: [
 {
 type: HaloPart
 shapes: 1
-radius: 0
 haloRotateSpeed: 0
 tri: true
 triLengthTo: 50
+haloRadius: 0
 progress: {
   type: life
   op: curve
