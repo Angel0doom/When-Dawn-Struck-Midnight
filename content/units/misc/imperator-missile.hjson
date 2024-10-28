@@ -12,7 +12,7 @@ weapons: [
     rotate: false
     y: 0
     alwaysShooting: true
-    baseRotation: 189
+    baseRotation: 182
     bullet: {
       type: BulletType
       hitSize: 13
