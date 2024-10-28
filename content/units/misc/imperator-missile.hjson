@@ -11,8 +11,9 @@ weapons: [
     reload: 1
     rotate: false
     y: 0
+    x: 0
     alwaysShooting: true
-    baseRotation: 182
+    baseRotation: 190
     bullet: {
       type: BulletType
       hitSize: 13
