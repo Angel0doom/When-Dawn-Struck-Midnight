@@ -3,6 +3,7 @@ speed: 8
 health: 9999999
 armor: -100
 flying: true
+rotateSpeed: 360
 range: 9000000000
 drag: -0.0001
 drawBody: false
@@ -20,6 +21,7 @@ weapons: [
     inaccuracy: 0
     mirror: false
     alternate: false
+    rotateSpeed: 360
     x: 0
     y: 0
     bullet: {
