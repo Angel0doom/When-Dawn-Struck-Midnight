@@ -8,10 +8,8 @@ drag: -0.0001
 accel: 1
 engineOffset: 0
 engineSize: 100
-engineColors: [
-  fc0303
-  05cdff
-]
+engineColor: fc0303
+innerEngineColor: 05cdff
 weapons: [
   {
     name: lasser
