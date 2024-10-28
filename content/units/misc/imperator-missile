@@ -1,0 +1,32 @@
+type: missile
+accel: 0.6
+speed: 3.76
+health: 600
+targetable: false
+rotateSpeed: 0.5
+missileAccelTime: 0.6
+weapons: [
+  {
+    name: missile-flare
+    reload: 1
+    rotate: false
+    y: 0
+    alwaysShooting: true
+    baseRotation: 189
+    bullet: {
+      type: BulletType
+      hitSize: 13
+      lifetime: 18
+      pierce: true
+      collidesAir: false
+      statusDuration: 60
+      shootEffect: shootPyraFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      pierceBuilding: true
+      status: burning
+      keepVelocity: false
+      hittable: false
+      damage: 17
+    }
+  }
