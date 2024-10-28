@@ -9,6 +9,12 @@ drag: -0.0001
 drawBody: false
 drawCell: false
 accel: 1
+engines: [
+ 0, 0
+ 1, 4
+ 6, 9
+ 4, 2
+]
 engineOffset: 0
 engineSize: 100
 engineColor: fc0303
