@@ -4,6 +4,7 @@ speed: 3.76
 health: 600
 targetable: false
 rotateSpeed: 0.5
+
 missileAccelTime: 0.6
 weapons: [
   {
@@ -13,7 +14,8 @@ weapons: [
     y: 0
     x: 0
     alwaysShooting: true
-    baseRotation: 190
+    baseRotation: 180
+    mirror: false
     bullet: {
       type: BulletType
       hitSize: 13
