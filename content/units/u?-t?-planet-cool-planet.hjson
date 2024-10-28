@@ -12,7 +12,7 @@ accel: 1
 engineOffset: 0
 engineSize: 100
 engineColor: fc0303
-innerEngineColor: 05cdff
+engineColorInner: 05cdff
 weapons: [
   {
     name: lasser
