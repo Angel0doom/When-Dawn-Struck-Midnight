@@ -38,7 +38,7 @@ weapons: [
 
   {
     name: affinis-dash
-    reload: 90
+    reload: 0
     minShootVelocity: 0
     mirror: false
     inaccuracy: 0
@@ -47,6 +47,7 @@ weapons: [
     y: 0
     bullet: {
       type: laserBulletType 
+      killShooter: true
       lifetime: 5
       recoil: -100
       length: 420
