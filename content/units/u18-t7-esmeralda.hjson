@@ -21,9 +21,9 @@ weapons: [
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragBullet: {
-        keepVelocity: true
+        keepVelocity: false
         speed: 0.06
-        drag: -1.6
+        drag: -0.06
         lifetime: 60
       }
     }
