@@ -8,12 +8,12 @@ weapons: [
     y: 9
     bullet: {
       drag: -0.05
-      lifetime: 20
+      lifetime: 100
       speed: -0.2
-      width: 15
-      height: 19
-      ShrinkX: 12
-      shrinkY: 9
+      width: 8
+      height: 8
+      ShrinkX: 6
+      shrinkY: -2
       pierce: true
       pierceBuilding: true
       fragBullets: 1
