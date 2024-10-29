@@ -21,7 +21,7 @@ weapons: [
       fragVelocityMax: 1
       despawnEffect: none
       hitEffect: none
-      fragAngle: 180
+      fragAngle: 0
       fragBullet: {
         height: 8
         width: 8
