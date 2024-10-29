@@ -7,9 +7,9 @@ weapons: [
     x: 14
     y: 9
     bullet: {
-      drag: -0.05
-      lifetime: 100
-      speed: -0.2
+      drag: 0.05
+      lifetime: 30
+      speed: -0.7
       width: 8
       height: 8
       ShrinkX: 6
@@ -24,7 +24,7 @@ weapons: [
         keepVelocity: true
         width: 3
         height: 10
-        speed: 7
+        speed: 8
         lifetime: 60
       }
     }
