@@ -8,7 +8,7 @@ weapons: [
     y: 9
     bullet: {
       keepVelocity: false
-      drag: 0.28
+      drag: 0.09
       lifetime: 60
       speed: -8.3
       width: 8
@@ -21,13 +21,13 @@ weapons: [
       fragVelocityMax: 1
       despawnEffect: none
       hitEffect: none
-      fragAngle: 180
+      fragAngle: 0
       fragBullet: {
         height: 8
         width: 8
         keepVelocity: false
         speed: 0.1
-        drag: -0.15
+        drag: -0.09
         lifetime: 130
       }
     }
