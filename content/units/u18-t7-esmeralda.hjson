@@ -18,7 +18,10 @@ weapons: [
       pierceBuilding: true
       fragBullets: 1
       fragRandomSpread: 0
+      fragVelocityMin: 1
+      fragVelocityMax: 1
       fragBullet: {
+        keepVelocity: true
         width: 3
         height: 10
         speed: 7
