@@ -9,7 +9,7 @@ weapons: [
     bullet: {
       keepVelocity: false
       drag: 0.06
-      lifetime: 80
+      lifetime: 70
       speed: -1.7
       width: 8
       height: 8
@@ -21,7 +21,11 @@ weapons: [
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
+      despawnEffect: none
+      hitEffect: none
       fragBullet: {
+        height: 10
+        width: 2
         keepVelocity: false
         speed: 0.01
         drag: -0.08
