@@ -9,12 +9,10 @@ weapons: [
     bullet: {
       keepVelocity: false
       drag: 0.06
-      lifetime: 50
-      speed: -1.7
+      lifetime: 80
+      speed: -2.6
       width: 8
       height: 8
-      ShrinkX: 6
-      shrinkY: -2
       pierce: true
       pierceBuilding: true
       fragBullets: 1
@@ -23,6 +21,7 @@ weapons: [
       fragVelocityMax: 1
       despawnEffect: none
       hitEffect: none
+      fragAngle: 180
       fragBullet: {
         height: 8
         width: 8
