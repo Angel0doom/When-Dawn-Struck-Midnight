@@ -20,7 +20,6 @@ weapons: [
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
-      }
     }
   }
 ]
