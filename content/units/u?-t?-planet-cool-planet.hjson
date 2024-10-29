@@ -10,10 +10,26 @@ drawBody: false
 drawCell: false
 accel: 1
 engines: [
- 0, 0
- 1, 4
- 6, 9
- 4, 2
+  {
+    x: 0
+    y: 0
+    radius: 100
+    rotation: 0
+  }
+
+  {
+    x: 6
+    y: 3
+    radius: 95
+    rotation: 0
+  }
+
+  {
+    x: -2
+    y: -6
+    radius: 90
+    rotation: 0
+  }
 ]
 engineOffset: 0
 engineSize: 100
