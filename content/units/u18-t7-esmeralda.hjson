@@ -9,8 +9,8 @@ weapons: [
     bullet: {
       keepVelocity: false
       drag: 0.06
-      lifetime: 60
-      speed: -1.6
+      lifetime: 80
+      speed: -1.7
       width: 8
       height: 8
       ShrinkX: 6
@@ -23,9 +23,9 @@ weapons: [
       fragVelocityMax: 1
       fragBullet: {
         keepVelocity: false
-        speed: 0.06
-        drag: -0.06
-        lifetime: 60
+        speed: 0.01
+        drag: -0.08
+        lifetime: 130
       }
     }
   }
