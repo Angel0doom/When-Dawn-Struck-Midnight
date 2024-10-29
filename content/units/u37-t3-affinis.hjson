@@ -5,7 +5,8 @@ flying: true
 itemCapacity: 18
 circleTarget: true
 speed: 4.96 
-accel: 0.04
+accel: 1
+// 0.06
 drag: 0.13
 range: 74 
 lowAltitude: false
