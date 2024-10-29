@@ -8,9 +8,9 @@ weapons: [
     y: 9
     bullet: {
       keepVelocity: false
-      drag: 0.06
+      drag: 0.28
       lifetime: 60
-      speed: -2.6
+      speed: -8.3
       width: 8
       height: 8
       pierce: true
@@ -26,8 +26,8 @@ weapons: [
         height: 8
         width: 8
         keepVelocity: false
-        speed: 0.01
-        drag: -0.08
+        speed: 0.1
+        drag: -0.15
         lifetime: 130
       }
     }
