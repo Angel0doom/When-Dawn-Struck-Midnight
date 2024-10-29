@@ -8,7 +8,7 @@ weapons: [
     y: 9
     bullet: {
       drag: 0.05
-      lifetime: 30
+      lifetime: 100
       speed: -0.7
       width: 8
       height: 8
@@ -20,12 +20,6 @@ weapons: [
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
-      fragBullet: {
-        keepVelocity: true
-        width: 3
-        height: 10
-        speed: 8
-        lifetime: 60
       }
     }
   }
