@@ -39,7 +39,7 @@ weapons: [
   {
     name: affinis-dash
     reload: 0
-    minShootVelocity: 4.96
+    minShootVelocity: 0
     mirror: false
     inaccuracy: 0
     rotate: false
