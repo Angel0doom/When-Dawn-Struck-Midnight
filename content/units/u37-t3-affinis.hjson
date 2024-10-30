@@ -43,15 +43,39 @@ weapons: [
     mirror: false
     inaccuracy: 0
     rotate: false
+    killShooter: true
     x: 0
     y: 0
     bullet: {
       type: laserBulletType 
-      killShooter: true
       lifetime: 5
       recoil: -100
       length: 420
       width: 9
+    }
+  }
+
+  {
+    name: affinis-bombs
+    reload: 0
+    minShootVelocity: 0
+    mirror: false
+    inaccuracy: 15
+    rotate: false
+    killShooter: true
+    shoot: {
+      shots: 45
+      hootDelay: 0.1
+    bullet: {
+      speed: 6
+      drag: 0.13
+      height: 2
+      width: 2
+      shrinkX: 3
+      shrinkY: 3
+      lifetime: 60
+      despawnEffect: greenLaserChargeSmall
+      collides: false
     }
   }
 ]
