@@ -1,3 +1,4 @@
+
 health: 720
 armor: 0
 hitSize: 16
@@ -36,24 +37,24 @@ weapons: [
     }
   }
 
-  {
-    name: affinis-dash
-    reload: 0
-    minShootVelocity: 0
-    mirror: false
-    inaccuracy: 0
-    rotate: false
-    killShooter: true
-    x: 0
-    y: 0
-    bullet: {
-      type: laserBulletType 
-      lifetime: 5
-      recoil: -100
-      length: 420
-      width: 9
-    }
-  }
+ // {
+//    name: affinis-dash
+//    reload: 0
+//    minShootVelocity: 0
+//    mirror: false
+//    inaccuracy: 0
+//    rotate: false
+//    killShooter: true
+//    x: 0
+//    y: 0
+//    bullet: {
+//      type: laserBulletType 
+//      lifetime: 5
+//      recoil: -100
+//      length: 420
+//      width: 9
+//    }
+//  }
 
   {
     name: affinis-bombs
@@ -68,6 +69,7 @@ weapons: [
       hootDelay: 1
     }
     bullet: {
+      keepVelocity: false
       speed: 6
       drag: 0.13
       height: 2
