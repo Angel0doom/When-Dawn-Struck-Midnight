@@ -1,4 +1,3 @@
-
 health: 720
 armor: 0
 hitSize: 16
@@ -45,6 +44,9 @@ weapons: [
     inaccuracy: 0
     rotate: false
     killShooter: true
+    shoot: {
+      firstShotDelay: 3
+    }
     x: 0
     y: 0
     bullet: {
@@ -60,6 +62,7 @@ weapons: [
   {
     name: affinis-bombs
     reload: 0
+    velocityRnd: 30
     minShootVelocity: 0
     mirror: false
     inaccuracy: 15
@@ -71,7 +74,7 @@ weapons: [
     }
     bullet: {
       killShooter: true
-      keepVelocity: false
+      keepVelocity: true
       speed: 6
       drag: 0.13
       height: 2
