@@ -45,14 +45,14 @@ weapons: [
     rotate: false
     killShooter: true
     shoot: {
-      firstShotDelay: 3
+      firstShotDelay: 10
     }
     x: 0
     y: 0
     bullet: {
       killShooter: true
       type: laserBulletType 
-      lifetime: 10
+      lifetime: 20
       recoil: -100
       length: 420
       width: 9
