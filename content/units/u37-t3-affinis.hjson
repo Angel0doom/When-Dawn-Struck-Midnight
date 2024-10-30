@@ -65,7 +65,7 @@ weapons: [
     killShooter: true
     shoot: {
       shots: 45
-      hootDelay: 0.1
+      hootDelay: 1
     }
     bullet: {
       speed: 6
