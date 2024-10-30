@@ -70,6 +70,7 @@ weapons: [
       shootDelay: 0.5
     }
     bullet: {
+      killShooter: true
       keepVelocity: false
       speed: 6
       drag: 0.13
