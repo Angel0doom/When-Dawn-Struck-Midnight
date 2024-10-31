@@ -32,21 +32,18 @@ weapons: [
       damage: 20
       lightningLength: 7
       lightningLengthRand: 3
-      lightningColor: ffd6f9
+      lightningColor: d2a3d9
     }
   }
 
   {
     name: affinis-dash
-    reload: 0
-    minShootVelocity: 0
+    reload: 100
+    minShootVelocity: 1
     mirror: false
     inaccuracy: 0
     rotate: false
     killShooter: true
-    shoot: {
-      firstShotDelay: 0
-    }
     x: 0
     y: 0
     bullet: {
@@ -56,21 +53,29 @@ weapons: [
       recoil: -100
       length: 410
       width: 9
+      colors: [
+        d2a3d9
+        d0b8d4
+        ffffff
+      ]
     }
   }
 
   {
     name: affinis-bombs
     reload: 100
-    minShootVelocity: 0
+    minShootVelocity: 1
+    x: 0
+    y: 0
     mirror: false
     inaccuracy: 0
     rotate: false
     baseRotation: 0
     shootCone: 360
+    killShooter: true
     bullet: {
       type: bulletType 
-      killShooter: false
+      killShooter: true
       keepVelocity: false
       speed: 60
       drag: 0
