@@ -72,13 +72,14 @@ weapons: [
       type: bulletType 
       killShooter: false
       keepVelocity: false
-      speed: 30
+      speed: 60
       drag: 0
       height: 0
       width: 0
-      lifetime: 13
+      lifetime: 6.5
       bulletInterval: 0.1
       intervalBullets: 3
+      intervalRandomSpread: 30
       collides: false
       intervalBullet: {
         keepVelocity: false
