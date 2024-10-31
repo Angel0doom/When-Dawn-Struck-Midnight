@@ -62,12 +62,13 @@ weapons: [
   {
     name: affinis-bombs
     reload: 100
-    velocityRnd: 12
+    velocityRnd: 18
     minShootVelocity: 0
     mirror: false
     inaccuracy: 15
     rotate: false
     killShooter: true
+    baseRotation: 180
     shoot: {
       shots: 45
       shootDelay: 0.1
@@ -75,14 +76,14 @@ weapons: [
     bullet: {
       killShooter: true
       keepVelocity: true
-      speed: 6
-      drag: 0.13
-      height: 2
-      width: 2
+      speed: 24
+      drag: 0.19
+      height: 0
+      width: 0
       shrinkX: -3
       shrinkY: -3
-      lifetime: 60
-      despawnEffect: greenBomb
+      lifetime: 15
+      despawnEffect: sparkExplosion
       collides: false
     }
   }
