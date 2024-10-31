@@ -1,1 +1,58 @@
-
+health: 100
+speed: 2.3
+weapons: [
+  {
+    name: maculata-orb
+    reload: 200
+    shootCone: 100
+    inaccuracy: 50
+    rotate: false
+    mirror: false
+    bullet: {
+      x: 10
+      y: 10
+      speed: 0.5
+      homingPower: 0.34
+      homingRange: 300
+      lifetime: 300
+      pierce: true
+      rotate: 5
+      fragBullets: 2
+      fragSpread: 7.5
+      fragBullet: {
+        x: 5
+        y: 5
+        speed: 0.5
+        homingPower: 0.34
+        homingRange: 300
+        lifetime: 150
+        pierce: true
+        rotate: 5
+        fragBullets: 2
+        fragSpread: 7.5
+        fragBullet: {
+          x: 2.5
+          y: 2.5
+          speed: 0.5
+          homingPower: 0.34
+          homingRange: 300
+          lifetime: 75
+          pierce: true
+          rotate: 5
+          fragBullets: 2
+          fragSpread: 7.5
+          fragBullet: {
+            x: 10
+            y: 10
+            speed: 0.5
+            homingPower: 0.34
+            homingRange: 300
+            lifetime: 300
+            pierce: true
+            rotate: 5
+          }
+        }
+      }
+    }
+  }
+]
