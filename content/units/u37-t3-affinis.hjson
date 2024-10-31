@@ -76,13 +76,13 @@ weapons: [
       drag: 0
       height: 0
       width: 0
-      lifetime: 10
+      lifetime: 13
       bulletInterval: 0.1
       intervalBullets: 3
       collides: false
       intervalBullet: {
         keepVelocity: false
-        lifetime: 2
+        lifetime: 7
         speed: 5
         splashDamage: 50
         splashDamageRadius: 8
