@@ -43,6 +43,7 @@ weapons: [
     mirror: false
     inaccuracy: 0
     rotate: false
+    killShooter: true
     shoot: {
       firstShotDelay: 0.1
     }
@@ -57,7 +58,7 @@ weapons: [
       width: 9
       colors: [
         d2a3d9
-        d0b8d4
+        b8d4c9
         ffffff
       ]
     }
@@ -91,7 +92,7 @@ weapons: [
         lifetime: 14
         speed: 2.5
         splashDamage: 50
-        splashDamageRadius: 8
+        splashDamageRadius: 9
         despawnEffect: hitLancer
       }
     }
