@@ -69,6 +69,7 @@ weapons: [
     rotate: false
     killShooter: true
     baseRotation: 180
+    shootCone: 360
     shoot: {
       shots: 45
       shootDelay: 0.1
@@ -83,7 +84,7 @@ weapons: [
       shrinkX: -3
       shrinkY: -3
       lifetime: 15
-      despawnEffect: sparkExplosion
+      despawnEffect: dynamicSpikes
       collides: false
     }
   }
