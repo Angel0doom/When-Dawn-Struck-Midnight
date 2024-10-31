@@ -66,14 +66,14 @@ weapons: [
     mirror: false
     inaccuracy: 0
     rotate: false
-    baseRotation: 180
+    baseRotation: 0
     shootCone: 360
     bullet: {
       type: bulletType 
       killShooter: false
       keepVelocity: false
       speed: 30
-      drag: 0.19
+      drag: 0.05
       height: 0
       width: 0
       bulletInterval: 0.1
