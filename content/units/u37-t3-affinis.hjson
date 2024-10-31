@@ -87,7 +87,7 @@ weapons: [
         speed: 2.5
         splashDamage: 50
         splashDamageRadius: 8
-        despawnEffect: healWave
+        despawnEffect: hitEmpSpark
       }
     }
   }
