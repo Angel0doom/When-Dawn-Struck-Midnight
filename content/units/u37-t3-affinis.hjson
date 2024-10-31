@@ -54,7 +54,7 @@ weapons: [
       type: laserBulletType 
       lifetime: 29
       recoil: -100
-      length: 420
+      length: 410
       width: 9
     }
   }
@@ -77,7 +77,7 @@ weapons: [
       height: 0
       width: 0
       lifetime: 7
-      bulletInterval: 0.1
+      bulletInterval: 0.13
       intervalBullets: 2
       intervalRandomSpread: 40
       collides: false
