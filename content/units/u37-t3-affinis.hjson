@@ -72,7 +72,7 @@ weapons: [
       type: bulletType 
       killShooter: false
       keepVelocity: false
-      speed: 0.3
+      speed: 30
       drag: 0.19
       height: 0
       width: 0
