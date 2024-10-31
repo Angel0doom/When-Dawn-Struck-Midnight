@@ -19,6 +19,7 @@ weapons: [
       rotate: 5
       fragBullets: 2
       fragSpread: 7.5
+      fragRandomSpread: 0
       fragBullet: {
         x: 5
         y: 5
@@ -30,6 +31,7 @@ weapons: [
         rotate: 5
         fragBullets: 2
         fragSpread: 7.5
+        fragRandomSpread: 0
         fragBullet: {
           x: 2.5
           y: 2.5
@@ -41,6 +43,7 @@ weapons: [
           rotate: 5
           fragBullets: 2
           fragSpread: 7.5
+          fragRandomSpread: 0
           fragBullet: {
             x: 10
             y: 10
