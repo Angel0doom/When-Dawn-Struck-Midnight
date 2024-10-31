@@ -45,7 +45,7 @@ weapons: [
     rotate: false
     killShooter: true
     shoot: {
-      firstShotDelay: 5
+      firstShotDelay: 0
     }
     x: 0
     y: 0
@@ -73,9 +73,10 @@ weapons: [
       killShooter: false
       keepVelocity: false
       speed: 30
-      drag: 0.05
+      drag: 0
       height: 0
       width: 0
+      lifetime: 10
       bulletInterval: 0.1
       intervalBullets: 3
       collides: false
