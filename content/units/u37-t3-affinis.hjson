@@ -43,7 +43,9 @@ weapons: [
     mirror: false
     inaccuracy: 0
     rotate: false
-    killShooter: true
+    shoot: {
+      firstShotDelay: 0.1
+    }
     x: 0
     y: 0
     bullet: {
@@ -72,10 +74,8 @@ weapons: [
     rotate: false
     baseRotation: 0
     shootCone: 360
-    killShooter: true
     bullet: {
       type: bulletType 
-      killShooter: true
       keepVelocity: false
       speed: 60
       drag: 0
