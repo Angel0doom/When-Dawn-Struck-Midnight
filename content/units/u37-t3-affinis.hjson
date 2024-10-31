@@ -78,13 +78,13 @@ weapons: [
       width: 0
       lifetime: 6.5
       bulletInterval: 0.1
-      intervalBullets: 3
-      intervalRandomSpread: 30
+      intervalBullets: 1
+      intervalRandomSpread: 40
       collides: false
       intervalBullet: {
         keepVelocity: false
-        lifetime: 7
-        speed: 5
+        lifetime: 14
+        speed: 2.5
         splashDamage: 50
         splashDamageRadius: 8
         despawnEffect: flakExplosion 
