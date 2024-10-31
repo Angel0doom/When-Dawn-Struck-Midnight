@@ -76,9 +76,9 @@ weapons: [
       drag: 0
       height: 0
       width: 0
-      lifetime: 6.5
+      lifetime: 7
       bulletInterval: 0.1
-      intervalBullets: 1
+      intervalBullets: 2
       intervalRandomSpread: 40
       collides: false
       intervalBullet: {
