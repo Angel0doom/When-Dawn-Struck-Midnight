@@ -43,7 +43,6 @@ weapons: [
     mirror: false
     inaccuracy: 0
     rotate: false
-    killShooter: true
     shoot: {
       firstShotDelay: 0.1
     }
