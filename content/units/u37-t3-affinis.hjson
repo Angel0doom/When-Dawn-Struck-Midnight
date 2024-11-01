@@ -54,12 +54,11 @@ weapons: [
       type: bulletType
       killShooter: true
       instantDisappear: true
+      recoil: -100
+      rangeOverride: 3
       fragBullet: {
-        type: laserBulletType 
-        rangeOverride: 3
-        killShooter: true
+        type: laserBulletType
         lifetime: 29
-        recoil: -100
         length: 410
         width: 9
         colors: [
