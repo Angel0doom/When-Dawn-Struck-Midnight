@@ -43,13 +43,11 @@ weapons: [
     mirror: false
     inaccuracy: 0
     rotate: false
-    shoot: {
-      firstShotDelay: 0.1
-    }
     x: 0
     y: 0
     bullet: {
       type: laserBulletType 
+      rangeOverride: 3
       killShooter: true
       lifetime: 29
       recoil: -100
@@ -82,6 +80,7 @@ weapons: [
     shootCone: 360
     bullet: {
       type: bulletType 
+      rangeOverride: 3
       keepVelocity: false
       speed: 60
       drag: 0
