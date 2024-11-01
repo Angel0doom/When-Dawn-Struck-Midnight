@@ -45,24 +45,28 @@ weapons: [
     rotate: false
     x: 0
     y: 0
+    shoot: {
+      firstShotDelay: 0.05
+    }
     bullet: {
-      type: laserBulletType 
-      rangeOverride: 3
-      killShooter: true
-      lifetime: 29
-      recoil: -100
-      length: 410
-      width: 9
-      colors: [
-        d2a3d9
-        b8d4c9
-        ffffff
-      ]
       fragBullets: 1
+      fragRandomSpread: 0
+      type: bulletType
+      killShooter: true
+      instantDisappear: true
       fragBullet: {
-        type: bulletType
+        type: laserBulletType 
+        rangeOverride: 3
         killShooter: true
-        instantDisappear: true
+        lifetime: 29
+        recoil: -100
+        length: 410
+        width: 9
+        colors: [
+          d2a3d9
+          b8d4c9
+          ffffff
+        ]
       }
     }
   }
