@@ -34,6 +34,8 @@ weapons: [
         fragBullets: 2
         fragSpread: 7.5
         fragRandomSpread: 0
+        fragVelocityMin: 1
+        fragVelocityMax: 1
         fragBullet: {
           x: 10
           y: 10
@@ -47,6 +49,8 @@ weapons: [
           fragBullets: 2
           fragSpread: 10
           fragRandomSpread: 0
+          fragVelocityMin: 1
+          fragVelocityMax: 1
           fragBullet: {
             x: 5
             y: 5
