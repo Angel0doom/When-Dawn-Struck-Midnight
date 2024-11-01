@@ -8,7 +8,7 @@ speed: 4.96
 accel: 1
 // 0.06
 drag: 0.13
-range: 74 
+range: 18
 lowAltitude: false
 weapons: [
 
