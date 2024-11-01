@@ -9,8 +9,8 @@ weapons: [
     rotate: false
     mirror: false
     bullet: {
-      x: 10
-      y: 10
+      x: 20
+      y: 20
       speed: 0.5
       homingPower: 0.34
       homingRange: 300
@@ -21,36 +21,36 @@ weapons: [
       fragSpread: 7.5
       fragRandomSpread: 0
       fragBullet: {
-        x: 5
-        y: 5
+        x: 15
+        y: 15
         speed: 0.5
         homingPower: 0.34
         homingRange: 300
-        lifetime: 150
+        lifetime: 250
         pierce: true
         rotate: 5
         fragBullets: 2
         fragSpread: 7.5
         fragRandomSpread: 0
         fragBullet: {
-          x: 2.5
-          y: 2.5
+          x: 10
+          y: 10
           speed: 0.5
           homingPower: 0.34
           homingRange: 300
-          lifetime: 75
+          lifetime: 200
           pierce: true
           rotate: 5
           fragBullets: 2
-          fragSpread: 7.5
+          fragSpread: 10
           fragRandomSpread: 0
           fragBullet: {
-            x: 10
-            y: 10
+            x: 5
+            y: 5
             speed: 0.5
             homingPower: 0.34
             homingRange: 300
-            lifetime: 300
+            lifetime: 150
             pierce: true
             rotate: 5
           }
