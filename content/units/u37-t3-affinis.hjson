@@ -60,6 +60,12 @@ weapons: [
         b8d4c9
         ffffff
       ]
+      fragBullets: 1
+      fragBullet: {
+        type: bulletType
+        killShooter: true
+        instantDisappear: true
+      }
     }
   }
 
