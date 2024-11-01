@@ -38,7 +38,7 @@ weapons: [
 
   {
     name: affinis-dash
-    reload: 100
+    reload: 10
     minShootVelocity: 1
     mirror: false
     inaccuracy: 0
@@ -46,7 +46,7 @@ weapons: [
     x: 0
     y: 0
     shoot: {
-      firstShotDelay: 0.05
+      firstShotDelay: 0.1
     }
     bullet: {
       fragBullets: 1
@@ -72,7 +72,7 @@ weapons: [
 
   {
     name: affinis-bombs
-    reload: 100
+    reload: 10
     minShootVelocity: 1
     x: 0
     y: 0
