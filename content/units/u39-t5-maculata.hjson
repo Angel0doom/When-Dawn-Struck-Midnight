@@ -18,9 +18,11 @@ weapons: [
       pierce: true
       rotate: 5
       fragBullets: 2
-      fragSpread: 7.5
+      fragSpread: 20
       fragRandomSpread: 0
       pierceBuilding: true
+      fragVelocityMin: 1
+      fragVelocityMax: 1
       fragBullet: {
         x: 15
         y: 15
@@ -32,7 +34,7 @@ weapons: [
         rotate: 5
         pierceBuilding: true
         fragBullets: 2
-        fragSpread: 7.5
+        fragSpread: 20
         fragRandomSpread: 0
         fragVelocityMin: 1
         fragVelocityMax: 1
@@ -47,7 +49,7 @@ weapons: [
           rotate: 5
           pierceBuilding: true
           fragBullets: 2
-          fragSpread: 10
+          fragSpread: 20
           fragRandomSpread: 0
           fragVelocityMin: 1
           fragVelocityMax: 1
