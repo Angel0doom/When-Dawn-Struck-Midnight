@@ -23,6 +23,7 @@ weapons: [
       pierceBuilding: true
       fragVelocityMin: 1
       fragVelocityMax: 1
+      reflectable: false
       fragBullet: {
         x: 15
         y: 15
@@ -38,6 +39,7 @@ weapons: [
         fragRandomSpread: 0
         fragVelocityMin: 1
         fragVelocityMax: 1
+        reflectable: false
         fragBullet: {
           x: 10
           y: 10
@@ -53,6 +55,7 @@ weapons: [
           fragRandomSpread: 0
           fragVelocityMin: 1
           fragVelocityMax: 1
+          reflectable: false
           fragBullet: {
             x: 5
             y: 5
@@ -63,6 +66,7 @@ weapons: [
             pierce: true
             rotate: 5
             pierceBuilding: true
+            reflectable: false
           }
         }
       }
