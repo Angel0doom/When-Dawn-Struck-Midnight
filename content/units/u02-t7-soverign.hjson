@@ -12,7 +12,6 @@ speed: 0.29
 range: 
 weapons: [
 
-  {
     name: sovereign-pods
     reload: 260
     x: 22
