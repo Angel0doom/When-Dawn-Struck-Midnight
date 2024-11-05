@@ -1,0 +1,45 @@
+health: 1
+targetable: false
+hidden: true
+playerControllable: false
+killable: false
+logicControllable: false
+hitSize: 1
+collides: false
+type: neoplasmUnitType
+rotateSpeed: 2.5
+omniMovement: false
+segments: 6
+drawBody: false
+crushDamage: 0.1
+aiController: hugAi
+targetAir: false
+segmentScl: 1
+segmentPhase: 5
+segmentMag: 2
+speed: 0.3
+useUnitCap: false
+createWreck: false
+createScorch: false
+range: 30000
+weapons: [
+  {
+    name: mite-poison
+    reload: 0
+    shoot: {
+      firstShotDelay: 120
+    }
+    x: 0
+    y: 0
+    bullet: {
+      killShooter: true
+      instantDisappear: true
+      despawnEffect: shieldBreak
+      splashDamage: 10
+      splashDamageRadius: 4
+      shootEffect: none
+      status: poison
+      statusDuration: 470
+    }
+  }
+]
