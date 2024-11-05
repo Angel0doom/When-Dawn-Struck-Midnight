@@ -54,7 +54,7 @@ weapons: [
       splashDamage: 28
       incendAmount: 3
       incendSpread: 3
-      incendChance: 0.7
+      incendChance: 8
     }
   }
 ]
