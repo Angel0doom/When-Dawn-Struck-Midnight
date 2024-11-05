@@ -1,9 +1,7 @@
 health: 1
 targetable: false
 hidden: true
-playerControllable: false
 killable: false
-logicControllable: false
 hitSize: 1
 collides: false
 rotateSpeed: 2.5
