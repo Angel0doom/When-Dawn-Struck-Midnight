@@ -11,32 +11,15 @@ range: 49
 lowAltitude: false
 weapons: [
   {
-    name: rufa-bolts1
-    reload: 40
+    name: rufa-bolts
     shootCone: 60
+    reload: 25
     rotate: false
-    baseRotation: 5
-    x: 3
-    y: 4
-    bullet: {
-      speed: 2.4
-      keepVelocity: true
-      status: overload
-      statusDuration: 185
-      pierce: true
-      weaveScale: 0.3
-      weaveMag: 3
-    }
-  }
-
-  {
-    name: rufa-bolts2
-    shootCone: 60
-    reload: 40
-    rotate: false
+    inaccuracy: 5
     baseRotation: 0
     shoot: {
-      firstShotDelay: 5
+      shots: 3
+      shotDelay: 5
     }
     x: 3
     y: 4
@@ -44,7 +27,7 @@ weapons: [
       speed: 2.4
       keepVelocity: true
       status: overload
-      statusDuration: 185
+      statusDuration: 45
       pierce: true
       weaveScale: 0.3
       weaveMag: 3
