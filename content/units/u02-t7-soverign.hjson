@@ -21,6 +21,7 @@ weapons: [
     shoot: {
       shots: 16
       type: shootBarrel
+      shotDelay: 10
       barrels: [
         8, 3.46, 0
         4, 3.46, 0
