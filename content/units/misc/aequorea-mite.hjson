@@ -11,7 +11,6 @@ omniMovement: false
 segments: 6
 drawBody: false
 crushDamage: 0.1
-aiController: hugAi
 targetAir: false
 segmentScl: 1
 segmentPhase: 5
