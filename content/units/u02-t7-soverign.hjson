@@ -48,7 +48,7 @@ weapons: [
       homingPower: 0.03
       lifetime: 75
       speed: 5.6
-      weaveMag: 8
+      weaveMag: 2
       weaveScale: 2
       splashDamage: 120
       splashDamage: 28
