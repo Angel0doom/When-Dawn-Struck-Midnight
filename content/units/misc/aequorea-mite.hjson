@@ -16,7 +16,7 @@ aiController: hugAi
 targetAir: false
 segmentScl: 1
 segmentPhase: 5
-segmentMag: 2
+segmentMag: 0.1
 speed: 0.3
 useUnitCap: false
 createWreck: false
