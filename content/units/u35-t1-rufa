@@ -1,1 +1,51 @@
+name: rufa
+speed: 5.19
+accel: 1
+drag: 0.19
+rotateSpeed: 6
+hitSize: 8.2
+circleTarget: true
+flying: true
+strafePenalty: 1.6
+range: 49
+lowAltitude: false
+weapons: [
+  {
+    name: rufa-bolts1
+    reload: 60
+    rotate: false
+    baseRotation: -10
+    x: 3
+    y: 4
+    bullet: {
+      speed: 2.4
+      keepVelocity: true
+      status: overload
+      statusDuration: 185
+      pierce: true
+      weaveScale: 0.4
+      weaveMag: 0.5
+    }
+  }
 
+  {
+    name: rufa-bolts2
+    reload: 60
+    rotate: false
+    baseRotation: -10
+    shoot: {
+      firstShotDelay: 45
+    }
+    x: 4
+    y: 2
+    bullet: {
+      speed: 2.4
+      keepVelocity: true
+      status: overload
+      statusDuration: 185
+      pierce: true
+      weaveScale: 0.4
+      weaveMag: 0.5
+    }
+  }
+]
