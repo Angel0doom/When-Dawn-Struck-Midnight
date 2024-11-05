@@ -6,7 +6,6 @@ killable: false
 logicControllable: false
 hitSize: 1
 collides: false
-type: neoplasmUnitType
 rotateSpeed: 2.5
 omniMovement: false
 segments: 6
