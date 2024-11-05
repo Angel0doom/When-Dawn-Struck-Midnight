@@ -22,7 +22,7 @@ weapons: [
     shoot: {
       shots: 16
       type: shootBarrel
-      shotDelay: 10
+      shotDelay: 5
       barrels: [
         8, 3.46, 0
         4, 3.46, 0
@@ -45,11 +45,11 @@ weapons: [
     bullet: {
       rangeOverride: 720
       homingRange: 720
-      homingPower: 0.12
-      lifetime: 300
-      speed: 2.4
-      weaveMag: 1.3
-      weaveScale: 2.3
+      homingPower: 0.03
+      lifetime: 75
+      speed: 5.6
+      weaveMag: 8
+      weaveScale: 2
       splashDamage: 120
       splashDamage: 28
       incendAmount: 3
