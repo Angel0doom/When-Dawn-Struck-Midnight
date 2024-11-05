@@ -101,6 +101,8 @@ weapons: [
         splashDamage: 50
         splashDamageRadius: 9
         despawnEffect: hitLancer
+        statusDuration: 100
+        status: overload
       }
     }
   }
