@@ -25,7 +25,7 @@ weapons: [
       statusDuration: 185
       pierce: true
       weaveScale: 0.3
-      weaveMag: 1.2
+      weaveMag: 3
     }
   }
 
@@ -34,7 +34,7 @@ weapons: [
     shootCone: 60
     reload: 40
     rotate: false
-    baseRotation: 5
+    baseRotation: 0
     shoot: {
       firstShotDelay: 20
     }
@@ -47,7 +47,7 @@ weapons: [
       statusDuration: 185
       pierce: true
       weaveScale: 0.3
-      weaveMag: 1.2
+      weaveMag: 3
     }
   }
 ]
