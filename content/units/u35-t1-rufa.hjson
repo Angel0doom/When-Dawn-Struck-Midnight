@@ -12,7 +12,7 @@ lowAltitude: false
 weapons: [
   {
     name: rufa-bolts1
-    reload: 60
+    reload: 40
     shootCone: 60
     rotate: false
     baseRotation: -10
@@ -24,19 +24,19 @@ weapons: [
       status: overload
       statusDuration: 185
       pierce: true
-      weaveScale: 0.4
-      weaveMag: 0.5
+      weaveScale: 0.3
+      weaveMag: 1.2
     }
   }
 
   {
     name: rufa-bolts2
     shootCone: 60
-    reload: 60
+    reload: 40
     rotate: false
     baseRotation: -10
     shoot: {
-      firstShotDelay: 45
+      firstShotDelay: 20
     }
     x: 4
     y: 2
@@ -46,8 +46,8 @@ weapons: [
       status: overload
       statusDuration: 185
       pierce: true
-      weaveScale: 0.4
-      weaveMag: 0.5
+      weaveScale: 0.3
+      weaveMag: 1.2
     }
   }
 ]
