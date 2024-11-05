@@ -1,1 +1,60 @@
-
+type: mech
+health: 47000
+armor: 31
+hitSize: 49
+rotateSpeed: 0.99
+mechStepParticles: true
+mechStepShake: 2.8
+mechFrontSway: 3
+mechSideSway: 1
+singleTarget: true
+speed: 0.29
+range: 
+weapons: [
+  {
+    name: sovereign-pods
+    reload: 260
+    x: 22
+    y: -17
+    rotate: false
+    baseRotation: 10
+    shoot: {
+      shots: 16
+      type: shootBarrel
+      barrels: [
+        8, 3.46, 0
+        4, 3.46, 0
+        0, 3.46, 0
+        -4, 3.46, 0
+        -8, 3.46, 0
+        10, 0, 0
+        6, 0, 0
+        2, 0, 0
+        -2, 0, 0
+        -6, 0, 0
+        -10, 0, 0
+        8, -3.46, 0
+        4, -3.46, 0
+        0, -3.46, 0
+        -4, -3.46, 0
+        -8, -3.46, 0
+      ]
+    }
+    bullet: {
+      rangeOverride: 720
+      homingRange: 720
+      homingPower: 0.12
+      lifetime: 300
+      speed: 2.4
+      weaveMag: 2
+      weaveScale: 1.2
+      splashDamage: 120
+      splashDamage: 28
+      incendAmount: 3
+      incendSpread: 3
+      incendChance: 0.7
+    }
+  }
+]
+    
+    
