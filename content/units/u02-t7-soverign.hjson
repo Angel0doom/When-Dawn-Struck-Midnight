@@ -44,12 +44,12 @@ weapons: [
     }
     bullet: {
       rangeOverride: 720
-      homingRange: 720
-      homingPower: 0.03
+      homingRange: 60
+      homingPower: 0.3
       lifetime: 75
       speed: 5.6
-      weaveMag: 2
-      weaveScale: 2
+      weaveMag: 1
+      weaveScale: 0.5
       splashDamage: 120
       splashDamage: 28
       incendAmount: 3
