@@ -13,6 +13,7 @@ weapons: [
   {
     name: rufa-bolts1
     reload: 60
+    shootCone: 60
     rotate: false
     baseRotation: -10
     x: 3
