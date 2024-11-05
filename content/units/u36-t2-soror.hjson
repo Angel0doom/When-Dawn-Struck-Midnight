@@ -57,7 +57,7 @@ weapons: [
             instantDisappear: true
             splashDamage: 30
             splashDamageRadius: 18
-            despawnEffect: lancerHit
+            despawnEffect: lancerLaserCharge
           }
         ]
       }
