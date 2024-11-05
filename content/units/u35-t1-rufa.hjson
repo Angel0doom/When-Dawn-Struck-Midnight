@@ -36,10 +36,10 @@ weapons: [
     rotate: false
     baseRotation: 0
     shoot: {
-      firstShotDelay: 20
+      firstShotDelay: 5
     }
-    x: 4
-    y: -2
+    x: 3
+    y: 4
     bullet: {
       speed: 2.4
       keepVelocity: true
