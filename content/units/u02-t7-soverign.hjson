@@ -9,7 +9,7 @@ mechFrontSway: 3
 mechSideSway: 1
 singleTarget: true
 speed: 0.29
-range: 
+range: 340
 weapons: [
   {
     name: sovereign-pods
