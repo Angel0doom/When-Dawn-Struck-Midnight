@@ -31,6 +31,7 @@ weapons: [
 
   {
     name: rufa-bolts2
+    shootCone: 60
     reload: 60
     rotate: false
     baseRotation: -10
