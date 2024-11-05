@@ -42,6 +42,9 @@ weapons: [
         lightColor: e69ede
         lightRadius: 27
         lightOpacity: 0.3
+        despawnEffect: none
+        hitEffect: none
+        damage: 0
         spawnBullets: [
           {
             createChance: 0.7
@@ -51,7 +54,6 @@ weapons: [
             damage: 13
             lightningColor: 9cd6ba
           }
-
           {
             createChance: 0.6
             instantDisappear: true
