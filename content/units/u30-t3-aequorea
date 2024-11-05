@@ -1,1 +1,19 @@
-
+hitSize: 15
+health: 100
+speed: 0.3
+weapons: [
+  {
+    name: aequorea-mites
+    reload: 60
+    shoot: {
+      shots: 40
+      shotDelay: 1
+    }
+    inaccuracy: 0
+    x: 0
+    y: 0
+    bullet: {
+      summonUnit: aequorea-mite
+    }
+  }
+]
