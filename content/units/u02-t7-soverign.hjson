@@ -18,6 +18,7 @@ weapons: [
     y: -17
     rotate: false
     baseRotation: 10
+    shootCone: 180
     shoot: {
       shots: 16
       type: shootBarrel
