@@ -21,22 +21,22 @@ weapons: [
     y: 3
     mirror: false
     bullet: {
-      speed: 0.9
+      speed: 2.6
       drag: 0.05
       width: 2
       height: 2
       shrinkY: -10
       shrinkX: -10
-      lifetime: 130
+      lifetime: 255
       intervalBullets: 1
-      intervalDelay: 40
+      intervalDelay: 50
       bulletInterval: 10
       intervalBullet: {
         speed: 0
         width: 12
         height: 12
         lifetime: 1
-        shrinkY: -2
+        shrinkY: -4
         shrinkX: -4
         lightColor: e69ede
         lightRadius: 27
@@ -54,7 +54,7 @@ weapons: [
             instantDisappear: true
             splashDamage: 30
             splashDamageRadius: 18
-            despawnEffect: dynamicWave
+            despawnEffect: none
           }
         ]
       }
