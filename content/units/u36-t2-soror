@@ -1,1 +1,63 @@
+health: 100
+speed: 3.89
+strafePenalty: 0.3
+faceTarget: true
+accel: 1
+drag: 0.09
+range: 50
+flying: true
+lowAltitude: false
+weapons: [
+  {
+    name: soror-fractal
+    reload: 120
+    shoot: {
+      shots: 4
+      shootDelay: 20
+    }
+    shootCone: 30
+    inaccuracy: 20
+    x: 0
+    y: 3
+    mirror: false
+    bullet: {
+      speed: 0.9
+      drag: 0.05
+      width: 2
+      height: 2
+      shrinkY: -10
+      shrinkX: -10
+      lifetime: 130
+      intervalBullets: 1
+      intervalDelay: 40
+      bulletInterval: 10
+      intervalBullet: {
+        speed: 0
+        width: 12
+        height: 12
+        lifetime: 1
+        shrinkY: -2
+        shrinkX: -4
+        lightColor: e69ede
+        lightRadius: 27
+        lightOpacity: 0.3
+        spawnBullets: [
+          {
+            type: lightningBulletType
+            lightningLengthRand: 6
+            lightningLength: 8
+            damage: 10
+            lightningColor: 9cd6ba
+          }
 
+          {
+            instantDisappear: true
+            splashDamage: 30
+            splashDamageRadius: 18
+            despawnEffect: dynamicWave
+          }
+        ]
+      }
+    }
+  }
+]
