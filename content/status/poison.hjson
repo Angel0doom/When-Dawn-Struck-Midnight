@@ -1,1 +1,6 @@
-
+name: Venom
+damage: 2.5
+speedMultiplier: 0.6
+reloadMultiplier: 0.6
+healthMultiplier: 0.6
+dragMultiplier: 0.4
