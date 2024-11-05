@@ -45,7 +45,7 @@ weapons: [
     bullet: {
       rangeOverride: 720
       homingRange: 720
-      homingPower: 0.001
+      homingPower: 0.01
       lifetime: 75
       speed: 5.6
       weaveMag: 1
