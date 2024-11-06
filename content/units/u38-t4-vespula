@@ -1,1 +1,62 @@
+health: 720
+armor: 0
+hitSize: 16
+flying: true
+itemCapacity: 18
+circleTarget: true
+speed: 3.12
+accel: 1
+drag: 0.13
+range: 39
+lowAltitude: false
+weapons: [
 
+  {
+    name: vespula-storm
+    reload: 560
+    mirror: false
+    shoot: {
+      shots: 40
+      firstShotDelay: 20
+      shotDelay: 3
+    }
+    rotate: false
+    x: 0
+    y: 0
+    shootY: 0
+    bullet: {
+      type: lightningBulletType
+      damage: 20
+      lifetime:1
+      lightningLength: 20
+      lightningLengthRand: 3
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragBullet: {
+        type: lightningBulletType
+        damage: 20
+        lifetime:1
+        lightningLength: 15
+        lightningLengthRand: 3
+        fragBullets: 1
+        fragRandomSpread: 0
+        fragBullet: {
+          type: lightningBulletType
+          damage: 20
+          lifetime:1
+          lightningLength: 10
+          lightningLengthRand: 3
+          fragBullets: 1
+          fragRandomSpread: 0
+          fragBullet: {
+            type: lightningBulletType
+            damage: 20
+            lifetime:1
+            lightningLength: 5
+            lightningLengthRand: 3
+          }
+        }
+      }
+    }
+  }
+]
