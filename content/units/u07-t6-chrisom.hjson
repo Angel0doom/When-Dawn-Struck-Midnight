@@ -69,7 +69,7 @@ weapons: [
     reload: 140
     rotate: false
     baseRotation: 55
-    range: 90
+    range: 145
     shootCone: 360
     useAttackRange: false
     inaccuracy: 60
@@ -80,7 +80,7 @@ weapons: [
       shotDelay: 0.5
     }
     bullet: {
-      homingRange: 90
+      homingRange: 145
       homingPower: 0.12
       lifetime: 80
       speed: 1
