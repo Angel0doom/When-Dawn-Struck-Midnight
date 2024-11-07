@@ -19,6 +19,9 @@ weapons: [
     rotate: false
     baseRotation: 10
     shootCone: 180
+    shootSound: missile
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
     shoot: {
       shots: 16
       type: shootBarrel
@@ -43,12 +46,10 @@ weapons: [
       ]
     }
     bullet: {
-      rangeOverride: 720
-      homingRange: 80
-      homingPower: 0.5
-      homingDelay: 18
-      lifetime: 69
-      speed: 11.2
+      rangeOverride: 240
+      homingRange: 240
+      homingPower: 0.08
+      lifetime: 240
       weaveMag: 2
       weaveScale: 8
       splashDamage: 120
