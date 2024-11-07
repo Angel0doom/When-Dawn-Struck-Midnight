@@ -49,8 +49,8 @@ weapons: [
       homingDelay: 18
       lifetime: 69
       speed: 11.2
-      weaveMag: 3
-      weaveScale: 0.5
+      weaveMag: 2
+      weaveScale: 8
       splashDamage: 120
       splashDamage: 28
       incendAmount: 3
