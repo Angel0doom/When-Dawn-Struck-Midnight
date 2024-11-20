@@ -1,0 +1,121 @@
+type: flying
+speed: 2.1
+health: 190
+flying: true
+lowAltitude: true
+engineSize: 5
+engineOffset: 4
+engineColor: cc73a3
+hitSize: 10
+accel: 0.09
+drag: 0.07
+abilities: [
+  {
+  type: RegenAbility
+  amount: 0.1
+    }
+]
+weapons: [
+{
+name: intrude-weapon
+reload: 65
+mirror: false
+recoil: 0
+x: 0
+y: 0
+shootY: 2
+ejectEffect: {
+    type: ParticleEffect
+    particles: 1
+    casingFlip: true
+    interp: swingOut
+    cone: 2
+    offset: 90
+    line: true
+    spin: 2
+    lifetime: 50
+    colorFrom: cc73a3
+    colorTo: cc73a300
+    lightColor: cc73a333
+    strokeFrom: 2
+    strokeTo: 2
+    lenFrom: 4
+    lenTo: 4
+    length: 20
+      }
+shootSound: blaster
+parts: [
+{
+type: ShapePart
+hollow: true
+y: 2
+radius: 2
+sides: 4
+color: cc73a3
+layer: 110
+stroke: 0.5
+rotateSpeed: 0
+  }
+  ]
+bullet: {
+  type: ContinuousBulletType
+  parts: [
+{
+type: RegionPart
+name: mine-bullet-back
+color: cc73a3
+layer: 100
+  }
+{
+  type: RegionPart
+  name: mine-bullet
+  color: ff0000
+  layer: 100
+    }
+{
+  type: HaloPart
+  haloRotateSpeed: 3
+  haloRadius: 5
+  color: cc73a3
+  layer: 100
+  sides: 5
+  rotateSpeed: 2
+    }
+    ]
+  damage: 5
+  speed: 1
+  lifetime: 100
+  pierce: true
+  pierceBuilding: true
+  recoil: -5
+  shootEffect: shootBigColor
+  smokeEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+size: 2
+colorTo: cc73a3
+sizeTo: 16
+strokeFrom: 1
+sides: 5
+}
+{
+type: ParticleEffect
+particles: 8
+length: 12
+line: true
+lenFrom: 2
+lenTo: 0
+strokeFrom: 4
+strokeTo: 0
+lifetime: 12
+cone: 6
+}
+]
+}
+    hitEffect: hitFlameBeam
+    despawnEffect: hitBulletColor
+      }
+}
+]
