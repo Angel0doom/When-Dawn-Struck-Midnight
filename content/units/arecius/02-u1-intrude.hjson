@@ -62,18 +62,6 @@ bullet: {
   type: ContinuousBulletType
   parts: [
 {
-type: RegionPart
-name: whendawnstruckmidnight-mine-bullet-back
-color: cc73a3
-layer: 100
-  }
-{
-  type: RegionPart
-  name: whendawnstruckmidnight-mine-bullet
-  color: ff0000
-  layer: 100
-    }
-{
   type: HaloPart
   haloRotateSpeed: 3
   haloRadius: 5
@@ -91,6 +79,7 @@ layer: 100
   length: 8
   recoil: -5
   shootEffect: shootBigColor
+  hitColor: cc73a3
   smokeEffect: {
     type: MultiEffect
     effects: [
