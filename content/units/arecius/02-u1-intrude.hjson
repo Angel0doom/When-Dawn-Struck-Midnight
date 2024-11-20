@@ -63,13 +63,13 @@ bullet: {
   parts: [
 {
 type: RegionPart
-name: mine-bullet-back
+name: whendawnstruckmidnight-mine-bullet-back
 color: cc73a3
 layer: 100
   }
 {
   type: RegionPart
-  name: mine-bullet
+  name: whendawnstruckmidnight-mine-bullet
   color: ff0000
   layer: 100
     }
