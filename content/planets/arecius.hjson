@@ -25,7 +25,7 @@ planet: arecius
 divisions: 5
 color1: 354136
 color2: 687974
-radius: 0.9
+radius: 0.95
 octaves: 4
 persistence: 1.1
   }
@@ -35,7 +35,7 @@ planet: arecius
 divisions: 5
 color1: cc8c6d
 color2: f1eb7e
-radius: 1
+radius: 0.9499
 octaves: 4
 persistence: 0.5
 mag: 2.7
@@ -46,7 +46,7 @@ planet: arecius
 divisions: 5
 color1: 6faeac
 color2: 8fdbc5
-radius: 1
+radius: 0.9498
 octaves: 4
 persistence: 2.1
   }
@@ -57,8 +57,8 @@ divisions: 5
 color1: 935a5a
 color2: cc73a3
 radius: 1
-octaves: 4
-persistence: 0.5
+octaves: 4.5
+persistence: 0.9
 mag: 2.7
   }
     {
@@ -67,7 +67,7 @@ planet: arecius
 divisions: 5
 color1: 6f72ae
 color2: c3d0de
-radius: 0.9
+radius: 0.951
 octaves: 4
 persistence: 0.5
 mag: 2.7
