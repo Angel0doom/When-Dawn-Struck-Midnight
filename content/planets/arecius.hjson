@@ -38,7 +38,7 @@ color2: f1eb7e
 radius: 1
 octaves: 4
 persistence: 0.5
-mag: 1.7
+mag: 2.7
   }
     {
 type: NoiseMesh
@@ -48,7 +48,7 @@ color1: 6faeac
 color2: 8fdbc5
 radius: 1
 octaves: 4
-persistence: 1.1
+persistence: 2.1
   }
   {
 type: NoiseMesh
@@ -59,7 +59,7 @@ color2: cc73a3
 radius: 1
 octaves: 4
 persistence: 0.5
-mag: 1.7
+mag: 2.7
   }
     {
 type: NoiseMesh
@@ -70,7 +70,7 @@ color2: c3d0de
 radius: 0.9
 octaves: 4
 persistence: 0.5
-mag: 2.4
+mag: 2.7
   }
       {
 type: NoiseMesh
@@ -81,7 +81,7 @@ color2: 8fdbc5
 radius: 1
 octaves: 4
 persistence: 0.5
-mag: 2.4
+mag: 2.7
   }
 ]
 
