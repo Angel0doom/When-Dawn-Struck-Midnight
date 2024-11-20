@@ -5,7 +5,7 @@ flying: true
 lowAltitude: true
 engineSize: 5
 engineOffset: 4
-envDisabled: none
+envDisabled: 0
 engineColor: cc73a3
 hitSize: 10
 accel: 0.09
