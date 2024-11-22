@@ -70,6 +70,7 @@ bullet: {
       sizeInterp: slope
       colorTo: 8fdbc5
       lifetime: 60
+      layer: 10
         }
     }
 }
