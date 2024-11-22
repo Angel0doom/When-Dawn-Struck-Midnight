@@ -13,6 +13,7 @@ effect: {
   useRotation: false
   sizeFrom: 5
   sizeTo: 7
+  cone: 20
     }
 attributes: {
    power: 1
