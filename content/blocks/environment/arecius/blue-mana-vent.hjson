@@ -7,10 +7,9 @@ effect: {
   lifetime: 180
   colorFrom: 6f99aeaa
   colorTo: 6f99ae00
-  offset: 45
+  offset: -45
   particles: 9
   length: 100
-  useRotation: false
   sizeFrom: 5
   sizeTo: 7
   cone: 20
