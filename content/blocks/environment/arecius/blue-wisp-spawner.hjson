@@ -5,7 +5,6 @@ size: 1
 solid: false
 drawer: {
 type: DrawRegion
-region: whendawnstruckmidnight-blue-wisp-spawner
   }
 shootSound: torch
 soundPitchMin: 1
