@@ -1,0 +1,118 @@
+type: PowerTurret
+reload: 900
+alwaysShooting: true
+size: 1
+solid: false
+drawer: {
+type: DrawRegion
+region: whendawnstruckmidnight-blue-wisp-spawner
+  }
+shootSound: torch
+soundPitchMin: 1
+soundPitchMax: 2
+enableDrawStatus: false
+drawTeamOverlay: false
+shootType: {
+  createChance: 0.02
+  spawnUnit: blue-wisp
+  spawnBullets: [
+//cracking effect
+{
+type: BulletType
+collides: false
+collidesAir: false
+collidesGround: false
+collidesTiles: false
+damage: 0
+hitSize: 0.1
+fragBullets: 3
+fragLifeMin: 1
+fragBullet: {
+    type:BulletType
+    collides: false
+collidesAir: false
+collidesGround: false
+collidesTiles: false
+damage: 0
+hitSize: 0.1
+fragBullets: 2
+speed: 8
+lifetime: 1
+despawnEffect: {
+  type: ParticleEffect
+  length: 0.01
+  layer: 10
+  colorFrom: 59417dff
+  colorTo: 6f99ae00
+  line: true
+  particles: 1
+  offset: 180
+  lenFrom: 8
+  lenTo: 8
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 170
+    }
+fragLifeMin: 1
+fragRandomSpread: 190
+  fragBullet: {
+    type:BulletType
+    collides: false
+collidesAir: false
+createChance: 0.5
+collidesGround: false
+collidesTiles: false
+damage: 0
+hitSize: 0.1
+fragBullets: 2
+speed: 8
+lifetime: 1
+despawnEffect: {
+  type: ParticleEffect
+  length: 0.01
+  layer: 10
+  colorFrom: 59417dff
+  colorTo: 6f99ae00
+  line: true
+  particles: 1
+  offset: 180
+  lenFrom: 8
+  lenTo: 8
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 170
+    }
+fragLifeMin: 1
+fragRandomSpread: 190
+  fragBullet: {
+    createChance: 0.5
+    type:BulletType
+    collides: false
+collidesAir: false
+collidesGround: false
+collidesTiles: false
+damage: 0
+hitSize: 0.1
+speed: 8
+lifetime: 1
+despawnEffect: {
+  type: ParticleEffect
+  length: 0.01
+  layer: 10
+  colorFrom: 59417dff
+  colorTo: 6f99ae00
+  line: true
+  particles: 1
+  offset: 180
+  lenFrom: 8
+  lenTo: 8
+  strokeFrom: 1
+  strokeTo: 0
+  lifetime: 170
+    }
+}
+}
+}
+}
+    ]
+}
