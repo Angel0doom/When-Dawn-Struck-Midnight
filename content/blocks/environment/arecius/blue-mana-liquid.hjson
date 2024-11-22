@@ -1,0 +1,4 @@
+type: LiquidFloor
+speedMultiplier: 0.3
+variants: 0
+cacheLayer: water
