@@ -1,6 +1,7 @@
 type: SteamVent
 blendGroup: blue-mana-floor
 parent: blue-mana-floor
+varients: 2
 effect: {
   type: ParticleEffect
   lifetime: 180
