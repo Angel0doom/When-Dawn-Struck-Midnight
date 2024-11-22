@@ -10,8 +10,8 @@ shootSound: torch
 soundPitchMin: 1
 soundPitchMax: 2
 enableDrawStatus: false
+ignoreBuildDarkness: true
 drawTeamOverlay: false
-health: 999999999999
 size: 1
 consumes: {
   power: 0
