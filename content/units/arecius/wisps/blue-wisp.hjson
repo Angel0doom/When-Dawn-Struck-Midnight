@@ -10,21 +10,21 @@ parts: [
 type: FlarePart
 color1: 6f99ae
 color2: ffffff
-length: 6
+radius: 6
 spinSpeed: 8
 }
 {
 type: FlarePart
 color1: 6f99ae
 color2: ffffff
-length: 6
+radius: 6
 spinSpeed: -8
 }
 {
 type: FlarePart
 color1: 6f99ae
 color2: ffffff
-length: 4
+radius: 4
 sides: 12
 spinSpeed: 4
 }
@@ -49,6 +49,7 @@ bullet: {
   damageInterval: 60
   collidesAir: false
   bulletInterval: 60
+  lifetime: 1500
   intervalBullet: {
     type: BulletType
     lifetime: 0
