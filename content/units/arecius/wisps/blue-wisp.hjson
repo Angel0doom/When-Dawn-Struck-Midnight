@@ -10,21 +10,21 @@ parts: [
 type: FlarePart
 color1: 6f99ae
 color2: ffffff
-length: 12
+length: 6
 spinSpeed: 8
 }
 {
 type: FlarePart
 color1: 6f99ae
 color2: ffffff
-length: 12
+length: 6
 spinSpeed: -8
 }
 {
 type: FlarePart
 color1: 6f99ae
 color2: ffffff
-length: 8
+length: 4
 sides: 12
 spinSpeed: 4
 }
@@ -43,7 +43,7 @@ x: 0
 y: 0
 minShootVelocity: 0.1
 bullet: {
-  type: CountinuousBulletType
+  type: ContinuousBulletType
   length: 9
   damage: 12
   damageInterval: 60
