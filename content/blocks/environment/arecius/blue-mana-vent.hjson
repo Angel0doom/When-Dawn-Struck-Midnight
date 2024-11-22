@@ -1,0 +1,18 @@
+type: SteamVent
+blendGroup: blue-mana-floor
+parent: blue-mana-floor
+effect: {
+  type: ParticleEffect
+  lifetime: 180
+  colorFrom: 6f99aeaa
+  colorTo: 6f99ae00
+  offset: 45
+  particles: 9
+  length: 100
+  useRotation: false
+  sizeFrom: 5
+  sizeTo: 7
+    }
+attributes: {
+   power: 1
+}
