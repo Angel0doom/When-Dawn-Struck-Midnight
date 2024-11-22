@@ -1,2 +1,6 @@
 type: Floor
 variants: 3
+attributes: {
+  yellowmana: 0.2
+  bluemana: 1
+  }
