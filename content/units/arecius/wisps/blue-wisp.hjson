@@ -30,8 +30,8 @@ spinSpeed: 4
 }
 ]
 controller: SuicideAI
-drag: 0.0009
-accel: 0.0011
+drag: 0.009
+accel: 0.011
 weapons: [
 {
 reload: 10
@@ -51,6 +51,7 @@ bullet: {
   bulletInterval: 60
   intervalBullet: {
     type: BulletType
+    lifetime: 0
     instantDisappear: true
     damage: 0
     collides: false
