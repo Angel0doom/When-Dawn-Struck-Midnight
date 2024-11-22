@@ -12,6 +12,19 @@ soundPitchMin: 1
 soundPitchMax: 2
 enableDrawStatus: false
 drawTeamOverlay: false
+health: 999999999999
+size: 1
+consumes: {
+  power: 0
+  }
+replaceable: false
+targetable: false
+canOverdrive: false
+hasShadow: false
+buildVisibility: editorOnly
+destructible: false
+breakable: false
+alwaysReplace: false
 shootType: {
   createChance: 0.02
   spawnUnit: blue-wisp
