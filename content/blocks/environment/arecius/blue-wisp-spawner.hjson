@@ -22,6 +22,8 @@ canOverdrive: false
 hasShadow: false
 buildVisibility: editorOnly
 destructible: false
+baseHealth: 9999999999
+drawCracks: false
 breakable: false
 alwaysReplace: false
 shootType: {
