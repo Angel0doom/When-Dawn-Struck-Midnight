@@ -22,8 +22,9 @@ canOverdrive: false
 hasShadow: false
 buildVisibility: editorOnly
 destructible: false
-baseHealth: 9999999999
-health: 999999999999
+baseHealth: 999999999
+health: 999999999
+armor: 9999999
 hittable: false
 drawCracks: false
 breakable: false
