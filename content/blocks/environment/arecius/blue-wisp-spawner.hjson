@@ -6,6 +6,7 @@ solid: false
 drawer: {
 type: DrawRegion
   }
+underBullets: true
 shootSound: torch
 soundPitchMin: 1
 soundPitchMax: 2
