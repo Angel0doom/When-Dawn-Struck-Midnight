@@ -51,6 +51,8 @@ bullet: {
   collidesAir: false
   bulletInterval: 60
   lifetime: 1500
+  smokeEffect: none
+  shootEffect: none
   intervalBullet: {
     type: BulletType
     lifetime: 0
