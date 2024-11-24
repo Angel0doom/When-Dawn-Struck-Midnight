@@ -13,6 +13,7 @@ enableDrawStatus: false
 ignoreBuildDarkness: true
 drawTeamOverlay: false
 size: 1
+canBreak: false
 consumes: {
   power: 0
   }
