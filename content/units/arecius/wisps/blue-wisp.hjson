@@ -5,6 +5,7 @@ lifetime: 15000
 speed: 0.9
 engineSize: 0
 hitSize: 10
+envDisabled: 0
 parts: [
 {
 type: FlarePart
