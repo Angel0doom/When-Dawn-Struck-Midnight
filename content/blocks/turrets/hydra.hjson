@@ -10,6 +10,7 @@ predictTarget: true
 shoot: {
   shots: 3
   firstShotDelay: 30
+  shotDelay: 5
 }
 ammoTypes: {
   plastanium: {
