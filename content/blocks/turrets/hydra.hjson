@@ -15,6 +15,7 @@ shoot: {
 ammoTypes: {
   plastanium: {
     type: MissileBulletType
+    drag: 0.01
     speed: 6
     lifetime: 3600
     ammoMultiplier: 3
