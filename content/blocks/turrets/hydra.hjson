@@ -1,6 +1,6 @@
 type: itemTurret 
 name: Hydra
-reload: 80
+reload: 30
 range: 631.2
 Xrand: 15
 maxAmmo: 30
@@ -16,17 +16,17 @@ ammoTypes: {
   plastanium: {
     type: MissileBulletType
     drag: -0.01
-    speed: 6
-    lifetime: 3600
+    speed: 2
+    lifetime: 1200
     ammoMultiplier: 3
     damage: 0
     splashDamage: 50
     splashDamageRadius: 17
-    weaveMag: 6
-    weaveScale: 12
+    weaveMag: 3
+    weaveScale: 6
     homingRange: 800
-    homingPower: 0.11
-    homingDelay: 10
+    homingPower: 0.06
+    homingDelay: 18
     explodeDelay: 3
     explodeRange: 16
   }
