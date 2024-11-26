@@ -23,10 +23,10 @@ ammoTypes: {
     weaveMag: 6
     weaveScale: 12
     homingRange: 800
-    homingPower: 0.03
+    homingPower: 0.13
     homingDelay: 10
     explodeDelay: 3
-    explodeRange: 10
+    explodeRange: 16
   }
 }
 
