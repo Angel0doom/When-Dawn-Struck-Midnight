@@ -1,7 +1,7 @@
 type: itemTurret 
+name: Hydra
 reload: 80
 range: 631.2
-shootSound: missileTrail
 Xrand: 15
 size: 4
 category: turret
@@ -28,3 +28,7 @@ ammoTypes: {
     explodeRange: 10
   }
 }
+
+requirements: [
+  beryllium/1
+]
