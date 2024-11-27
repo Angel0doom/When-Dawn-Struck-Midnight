@@ -31,9 +31,11 @@ hittable: false
 drawCracks: false
 breakable: false
 ammoTypes:{
-metalloid: {
+01-i1-metalloid: {
   createChance: 0.02
   spawnUnit: blue-wisp
+  shootEffect: none
+  smokeEffect: none
   spawnBullets: [
 //cracking effect
 {
