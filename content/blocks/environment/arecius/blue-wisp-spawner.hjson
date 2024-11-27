@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ItemTurret
 reload: 900
 alwaysShooting: true
 size: 1
@@ -30,8 +30,8 @@ armor: 9999999
 hittable: false
 drawCracks: false
 breakable: false
-alwaysReplace: false
-shootType: {
+ammoTypes:{
+metalloid: {
   createChance: 0.02
   spawnUnit: blue-wisp
   spawnBullets: [
@@ -134,4 +134,5 @@ despawnEffect: {
 }
 }
     ]
+}
 }
