@@ -29,6 +29,8 @@ ammoTypes: {
     homingDelay: 60
     explodeDelay: 3
     explodeRange: 16
+    flakDelay: 30
+    flakInterval: 60
   }
 }
 
