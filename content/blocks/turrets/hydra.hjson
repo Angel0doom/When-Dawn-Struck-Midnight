@@ -22,10 +22,10 @@ ammoTypes: {
     damage: 0
     splashDamage: 50
     splashDamageRadius: 17
-    weaveMag: 3
+    weaveMag: 1
     weaveScale: 6
     homingRange: 800
-    homingPower: 0.06
+    homingPower: 0.01
     homingDelay: 60
     explodeDelay: 3
     explodeRange: 16
