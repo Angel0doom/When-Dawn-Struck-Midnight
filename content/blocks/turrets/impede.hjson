@@ -1,0 +1,27 @@
+name: Impede
+type: powerTurret 
+reload: 3
+range: 130
+size: 3
+category: turret
+predictTarget: false
+shoot: {
+  shots: 10
+  shootDelay: 1
+}
+shootType: {
+  type: lightningBulletType
+  homingRange: 130
+  lightningLength: 240
+  fragBullets: 10
+  damage: 6
+  fragBullet: {
+    type: lightningBulletType
+    lightningLength: 5
+    damage: 3
+  }
+}
+
+requirements: [
+  beryllium/1
+]
