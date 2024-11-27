@@ -14,7 +14,7 @@ shoot: {
 }
 ammoTypes: {
   plastanium: {
-    type: MissileBulletType
+    type: FlakBulletType
     drag: -0.005
     speed: 2
     lifetime: 600
