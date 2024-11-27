@@ -1,16 +1,16 @@
 type: itemTurret 
 name: Hydra
-reload: 80
+reload: 30
 range: 631.2
 xRand: 15
 maxAmmo: 30
-size: 4
+size: 5
 category: turret
 predictTarget: true
 shoot: {
-  shots: 7
+  shots: 13
   firstShotDelay: 30
-  shotDelay: 0.5
+  shotDelay: 2
 }
 ammoTypes: {
   plastanium: {
