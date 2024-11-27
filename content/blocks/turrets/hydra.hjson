@@ -8,13 +8,13 @@ size: 4
 category: turret
 predictTarget: true
 shoot: {
-  shots: 30
+  shots: 7
   firstShotDelay: 30
-  shotDelay: 2.5
+  shotDelay: 0.5
 }
 ammoTypes: {
   plastanium: {
-    type: FlakBulletType
+    type: MissileBulletType
     drag: -0.005
     speed: 2
     lifetime: 600
