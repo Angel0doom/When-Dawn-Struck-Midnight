@@ -13,7 +13,7 @@ shootType: {
   type: lightningBulletType
   homingRange: 130
   homingPower: 1
-  lightningLength: 240
+  lightningLength: 40
   fragBullets: 10
   damage: 6
   fragBullet: {
