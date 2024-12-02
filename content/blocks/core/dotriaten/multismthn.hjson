@@ -14,11 +14,7 @@ shootType: {
   healPercent: 5
   lifetime: 0
   speed: 0
-  despawnUnit: multi-sap
-  fragBullets: 1
-  fragBullet: {
-    spawnUnit: multi-heal
-  }
+  despawnUnit: multi-unit
 }
 requirement: [
   copper/1
