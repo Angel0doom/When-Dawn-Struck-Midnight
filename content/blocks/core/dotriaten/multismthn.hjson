@@ -1,0 +1,25 @@
+name: Multi smthn
+description: Saps enemy healing units and buildings, aswell as healing blocks and units
+reload: 30
+type: PowerTurret
+consumes: {
+  power: 5
+}
+range: 174
+shootX: 0
+shooyY: 0
+shootType: {
+  type: bulletType
+  splashDamageRadius: 87
+  healPercent: 5
+  lifetime: 0
+  speed: 0
+  despawnUnit: multi-sap
+  fragBullets: 1
+  fragBullet: {
+    spawnUnit: multi-heal
+  }
+}
+requirement: [
+  copper/1
+]
