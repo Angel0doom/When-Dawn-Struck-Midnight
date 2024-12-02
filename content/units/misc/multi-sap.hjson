@@ -17,14 +17,23 @@ abilities: [
 {
   type: SuppressionFieldAbility
   range: 174
+  reload: 30
+  
 }
 {
   type: StatusFieldAbility
   range: 174
+  effect: sapped
+  duration: 30
+  orbRadius: 7.3
+  partcalSize: 6
+  particalLength: 7
+  particals: 7
 }
 {
   type: RepairFieldAbility
   range: 174
+  amount: 50
 }
   ]
 useUnitCap: false
