@@ -20,6 +20,6 @@ shootType: {
   speed: 0
   despawnUnit: multi-unit
 }
-requirement: [
+requirements: [
   copper/1
 ]
