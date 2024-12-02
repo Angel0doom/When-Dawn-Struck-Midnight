@@ -1,4 +1,8 @@
 name: Multi smthn
+size: 5
+loopSound: arcSheildBreak
+hasPower: true
+category: effect
 description: Saps enemy healing units and buildings, aswell as healing blocks and units
 reload: 30
 type: PowerTurret
