@@ -1,0 +1,39 @@
+type: missile
+template: MissileUnitType
+hitSize: 0
+speed: 0
+lifetime: 30
+controller: MissileAI
+accel: 0
+rotateSpeed: 0
+hoverable: false
+flying: true
+hittable: false
+targetable: false
+engineSize: 0
+deathExplosionEffect: none
+deathSound: none
+abilities: [
+{
+  type: SuppressionFieldAbility
+  range: 174
+}
+{
+  type: StatusFieldAbility
+  range: 174
+}
+{
+  type: RepairFieldAbility
+  range: 174
+}
+  ]
+useUnitCap: false
+createWreck: false
+createScorch: false
+controllable: false
+aiControllable: false
+shootOnDeath: true
+hidden: true
+drawBody: false
+drawCell: false
+physics: false
