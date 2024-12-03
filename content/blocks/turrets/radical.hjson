@@ -19,12 +19,7 @@ ammoTypes: {
     intervalBullets: 1
     bulletInterval: 5
     intervalBullet: {
-      type: EmpBulletType
-      radius: 100
-      timeDuration: 5
-      lifetime: 0
-      instantDisappear: true
-      damage: 50
+      spawnUnit: radical-electric
     }
   }
 }
