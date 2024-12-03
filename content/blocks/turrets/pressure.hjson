@@ -1,0 +1,24 @@
+name: pressure
+type: itemTurret 
+reload: 60
+range: 230
+maxAmmo: 70
+size: 5
+category: turret
+predictTarget: true
+shoot: {
+  shots: 50
+  shotDelay: 10
+}
+ammoTypes: {
+  plastanium: {
+    type: railBulletType
+    length: 230
+    ammoMultiplier: 14
+    damage: 12
+  }
+}
+
+requirements: [
+  beryllium/1
+]
