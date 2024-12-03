@@ -19,7 +19,6 @@ abilities: [
   range: 50
   reload: 0
   damage: 25
-  healEffect: 
 }
   ]
 useUnitCap: false
