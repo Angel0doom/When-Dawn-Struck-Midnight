@@ -1,0 +1,34 @@
+name: radical
+reload: 160
+type: itemTurret
+range: 260
+maxAmmo: 15
+ammoPerShot: 15
+size: 5
+category: turret
+predictTarget: true
+ammoTypes: {
+  plastanium: {
+    type: BasicBulletType
+    speed: 2.4
+    lifetime: 108
+    ammoMultiplier: 3
+    damage: 28
+    splashDamage: 410
+    splashDamageRadius: 20
+    intervalBullets: 1
+    bulletInterval: 5
+    intervalBullet: {
+      type: EmpBulletType
+      radius: 100
+      timeDuration: 5
+      lifetime: 0
+      instantDisappear: true
+      damage: 50
+    }
+  }
+}
+
+requirements: [
+  beryllium/1
+]
