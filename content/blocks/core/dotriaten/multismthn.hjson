@@ -1,6 +1,8 @@
 name: Multi smthn
 size: 5
 loopSound: arcSheildBreak
+playerControllable: false
+logicControllable: false
 hasPower: true
 category: effect
 description: Saps enemy healing units and buildings, aswell as healing blocks and units
