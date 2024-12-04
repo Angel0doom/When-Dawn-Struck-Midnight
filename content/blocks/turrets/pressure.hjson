@@ -8,7 +8,7 @@ category: turret
 predictTarget: true
 shoot: {
   shots: 50
-  shotDelay: 10
+  shotDelay: 9.927
 }
 ammoTypes: {
   plastanium: {
