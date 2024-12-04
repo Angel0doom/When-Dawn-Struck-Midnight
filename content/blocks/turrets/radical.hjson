@@ -27,3 +27,249 @@ ammoTypes: {
 requirements: [
   beryllium/1
 ]
+
+drawer:{
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side3
+      progress: warmup
+      under: true
+      moveY: 2
+      heatProgress: warmup
+      moveX: -1
+      mirror: true
+      heatColor: ffffffcc
+      moves: [
+        {
+          x: 0
+          y: 4
+          type: PartMove
+          progress: recoil
+        }
+      ]
+    }
+
+    {
+      type: RegionPart
+      suffix: -bottom
+      moveY: -4
+      heatColor: ffffffcc
+      heatProgress: warmup
+      progress: recoil
+    }
+
+    {
+      type: RegionPart
+      suffix: -side1
+      progress: warmup
+      under: true
+      moveY: -1
+      heatProgress: warmup
+      moveX: 1
+      mirror: true
+      heatColor: ffffffcc
+      moves: [
+        {
+          x: 2
+          y: -2
+          type: PartMove
+          progress: recoil
+        }
+      ]
+      children: [
+        {
+          type: RegionPart
+          suffix: -side2
+          progress: warmup
+          under: true
+          moveY: -2
+          heatProgress: warmup       
+          moveX: 0.5
+          mirror: true
+          heatColor: ffffffcc
+          moves: [
+            {
+              x: 3
+              y: -4
+              type: PartMove
+              progress: recoil
+            }
+          ]
+        }
+      ]
+    }
+
+    {
+      type: RegionPart
+      color: ffffff00
+      colorTo: ffffffff
+      mixColor: ffffff00
+      mixColorTo: ffffff00
+      moveX: 1
+      moveY: -8
+      moveRot: 20
+      suffix: -blade
+      progress: warmup
+      mirror: true
+      layerOffset: -1
+    }
+
+    {
+      type: RegionPart
+      color: ffffff00
+      colorTo: ffffffff
+      mixColor: ffffff00
+      mixColorTo: ffffff00
+      moveX: 24
+      moveY: -8
+      moveRot: 20
+      suffix: -blade
+      progress: warmup
+      mirror: true
+      layerOffset: -1
+    }
+
+    {
+      type: RegionPart
+      color: ffffff00
+      colorTo: ffffffff
+      mixColor: ffffff00
+      mixColorTo: ffffff00
+      moveX: 32
+      moveY: -8
+      moveRot: 20
+      suffix: -blade
+      progress: warmup
+      mirror: true
+      layerOffset: -1
+    }
+
+    {
+      type: RegionPart
+      color: ffffff00
+      colorTo: ffffffff
+      mixColor: ffffff00
+      mixColorTo: ffffff00
+      moveX: 42
+      moveY: -8
+      moveRot: 45
+      suffix: -blade
+      progress: warmup
+      mirror: true
+      layerOffset: -1
+    }
+
+    {
+      type: RegionPart
+      color: ffffff00
+      colorTo: ffffffff
+      mixColor: ffffff00
+      mixColorTo: ffffff00
+      moveX: 40
+      moveY: 8
+      layerOffset: -1
+      moveRot: 45
+      suffix: -blade
+      progress: warmup
+      mirror: true
+    }
+
+    {
+      type: ShapePart
+      y: -50
+      radius: 0
+      radiusTo: 12
+      color: ffffffff
+      colorTo: ffffffff
+      layer: 110
+      circle: true
+      hollow: false
+    }
+
+    {
+      type: ShapePart
+      y: -50
+      radius: 0
+      radiusTo: 10
+      color: 000000ff
+      colorTo: 000000ff
+      layer: 111
+      circle: true
+      hollow: false
+    }
+
+    {
+      type: HaloPart
+      y: -50
+      haloRadius: 11
+      radius: 0
+      radiusTo: 8
+      tri: true
+      hollow: false
+      triLength: 0
+      triLengthTo: 4
+      color: ffffffff
+      colorTo: ffffffff
+      haloRotation: 90
+      haloRotateSpeed: 0
+      shapes: 2
+      layer: 110
+    }
+
+    {
+      type: HaloPart
+      y: -50
+      haloRadius: 11
+      radius: 0
+      radiusTo: 6
+      tri: true
+      hollow: false
+      triLength: 0
+      triLengthTo: 8
+      color: ffffffff
+      colorTo: ffffffff
+      haloRotation: 90
+      haloRotateSpeed: 0
+      shapes: 2
+      layer: 110
+    }
+
+    {
+      type: HaloPart
+      y: -50
+      haloRadius: 11
+      radius: 0
+      radiusTo: 4
+      tri: true
+      hollow: false
+      triLength: 0
+      triLengthTo: 16
+      color: ffffffff
+      colorTo: ffffffff
+      haloRotation: 90
+      haloRotateSpeed: 0
+      shapes: 2
+      layer: 110
+    }
+
+    {
+      type: HaloPart
+      y: -50
+      haloRadius: 11
+      layer: 110
+      radius: 0
+      radiusTo: 2
+      tri: true
+      hollow: false
+      triLength: 0
+      triLengthTo: 20
+      color: ffffffff
+      colorTo: ffffffff
+      haloRotation: 90
+      haloRotateSpeed: 0
+      shapes: 2
+    }
+  ]
+}
