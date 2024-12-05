@@ -28,19 +28,19 @@ weapons: [
     reload: 1000
     mirror: false
     shootY: 0
+    minWarmup: 580
+    shake: 900
     y: 0
     x: 0
     alwaysShooting: true
+
     bullet: {
-    type: BasicBulletType
-      width: 1
-      height: 1
+      type: BasicBulletType
+      killShooter: true
+      width: 0
+      height: 0
       speed: 0
-      collides: false
-      shrinkX: -8000
-      shrinkY: -8000
-      spin: 25
-      lifetime: 580
+      
     }
   }
 ]
