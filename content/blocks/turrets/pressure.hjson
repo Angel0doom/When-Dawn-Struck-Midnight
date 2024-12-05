@@ -1,6 +1,6 @@
 name: pressure
 type: itemTurret 
-reload: 30
+reload: 32.5
 range: 230
 maxAmmo: 70
 size: 5
