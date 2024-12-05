@@ -1,14 +1,14 @@
 name: pressure
 type: itemTurret 
-reload: 60
+reload: 30
 range: 230
 maxAmmo: 70
 size: 5
 category: turret
 predictTarget: true
 shoot: {
-  shots: 50
-  shotDelay: 4.5
+  shots: 5
+  shotDelay: 10
 }
 ammoTypes: {
   plastanium: {
