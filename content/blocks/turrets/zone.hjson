@@ -1,0 +1,15 @@
+name: Zone
+reload: 5
+range: 160
+type: powerTurret
+size: 4
+shootSound: none
+inaccuracy: 0
+category: turret
+consumes: {
+  power/10
+}
+shoot: {
+  {
+    spawnUnit: zone-dart-shooter
+  }
