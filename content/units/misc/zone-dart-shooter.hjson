@@ -1,1 +1,44 @@
+speed: 0
+hidden: true
+playerControllable: false
+health: 500
+armor: 0
+rotateSpeed: 0
+range: 200
+weapons: [
 
+  {
+    name: none
+    reload: 40
+    rotate: true
+    mirror: false
+    rotateSpeed: 1
+    shootCone: 360
+    inaccuracy: 0
+    bullet: {
+      killShooter: true
+      speed: 2
+      lifetime: 
+      drag: 0
+      pierce: true
+      pierceBuilding: true
+      damage: 70
+      reflectable: false
+      absorbable: false
+      hittable: false
+      fragBullets: 1
+      fragAngle: 180
+      randomFragSpread: 0
+      fragBullet: {
+        speed: 2
+        lifetime: 
+        drag: 0
+        pierce: true
+        pierceBuilding: true
+        damage: 70
+        reflectable: false
+        absorbable: false
+        hittable: false
+      }
+   }
+]
