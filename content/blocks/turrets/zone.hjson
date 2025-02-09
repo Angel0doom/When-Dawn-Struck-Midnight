@@ -10,6 +10,5 @@ consumes: {
   power/10
 }
 shoot: {
-  {
     spawnUnit: zone-dart-shooter
-  }
+}
