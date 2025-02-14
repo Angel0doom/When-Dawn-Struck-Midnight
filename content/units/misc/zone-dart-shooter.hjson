@@ -18,7 +18,7 @@ weapons: [
     bullet: {
       killShooter: true
       speed: 2
-      lifetime: 
+      lifetime: 100
       drag: 0
       pierce: true
       pierceBuilding: true
@@ -31,7 +31,7 @@ weapons: [
       randomFragSpread: 0
       fragBullet: {
         speed: 2
-        lifetime: 
+        lifetime: 100
         drag: 0
         pierce: true
         pierceBuilding: true
