@@ -9,6 +9,6 @@ category: turret
 consumes: {
   power: 10
 }
-shoot: {
+shootType: {
     spawnUnit: zone-dart-shooter
 }
