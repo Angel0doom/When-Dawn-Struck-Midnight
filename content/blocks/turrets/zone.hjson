@@ -7,7 +7,7 @@ shootSound: none
 inaccuracy: 0
 category: turret
 consumes: {
-  power/10
+  power: 10
 }
 shoot: {
     spawnUnit: zone-dart-shooter
