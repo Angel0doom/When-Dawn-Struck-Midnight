@@ -40,5 +40,6 @@ weapons: [
         absorbable: false
         hittable: false
       }
-   }
+    }
+  }
 ]
