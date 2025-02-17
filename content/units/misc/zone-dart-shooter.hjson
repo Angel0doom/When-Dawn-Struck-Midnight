@@ -1,11 +1,18 @@
+type: missile
+template: MissileUnitType
+hitSize: 0
 speed: 0
-hidden: true
-playerControllable: false
-health: 10
-targetable: false 
-armor: 0
+lifetime: 30
+controller: MissileAI
+accel: 0
 rotateSpeed: 0
-range: 200
+hoverable: false
+flying: true
+hittable: false
+targetable: false
+engineSize: 0
+deathExplosionEffect: none
+deathSound: none
 weapons: [
 
   {
@@ -18,7 +25,6 @@ weapons: [
     shootCone: 360
     inaccuracy: 0
     bullet: {
-      killShooter: true
       speed: 2
       lifetime: 100
       drag: 0
