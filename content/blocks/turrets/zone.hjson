@@ -12,3 +12,6 @@ consumes: {
 shootType: {
     spawnUnit: zone-dart-shooter
 }
+requirements: [
+  beryllium/1
+]
