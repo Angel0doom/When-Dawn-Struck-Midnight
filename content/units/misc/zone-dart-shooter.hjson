@@ -25,7 +25,7 @@ weapons: [
     shootCone: 360
     inaccuracy: 0
     bullet: {
-      speed: 2
+      speed: 8
       lifetime: 100
       drag: 0
       pierce: true
@@ -40,7 +40,7 @@ weapons: [
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragBullet: {
-        speed: 2
+        speed: 8
         lifetime: 100
         drag: 0
         pierce: true
