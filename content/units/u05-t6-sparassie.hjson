@@ -22,7 +22,7 @@ legSplashRange: 75
 range: 220
 weapons: [
   {
-    name: sparassie-main-cannon
+    name: sparassie-main-cannon-homing
     reload: 510
     shootStatus: slow
     rotate: false
@@ -48,16 +48,90 @@ weapons: [
       intervalBullets: 1
       bulletInterval: 1
       intervalBullet: {
-        createChance: 0.85
+        createChance: 0.5
+        damage: 30
+        pierceBuilding: true
+        speed: 3
+        lifetime: 60
+        pierce: false
+        homingRange: 50
+        homingPower: 0.32
+        homingDelay: 5
+      }
+    }
+  }
+
+  {
+    name: sparassie-main-cannon-explosive
+    reload: 510
+    shootStatus: slow
+    rotate: false
+    shootCone: 5
+    mirror: false
+    shootStatusDuration: 80
+    parentizeEffects: true
+    shoot: {
+      shotDelay: 100
+      firstShotDelay: 100
+    }
+    bullet: {
+      rangeOverride: 220
+      speed: 2
+      lifetime: 110
+      pierce: true
+      hittable: false
+      reflecable: false
+      absorbable: false
+      splashDamage: 0
+      splashDamageRadius: 0
+      pierceBuilding: true
+      intervalBullets: 1
+      bulletInterval: 1
+      intervalBullet: {
+        createChance: 0.5
+        splashDamage: 45
+        splashDamageRadius: 15
+        pierceBuilding: true
+        speed: 2
+        lifetime: 40
+      }
+    }
+  }
+
+  {
+    name: sparassie-main-cannon-curve
+    reload: 510
+    shootStatus: slow
+    rotate: false
+    shootCone: 5
+    mirror: false
+    shootStatusDuration: 80
+    parentizeEffects: true
+    shoot: {
+      shotDelay: 100
+      firstShotDelay: 100
+    }
+    bullet: {
+      rangeOverride: 220
+      speed: 2
+      lifetime: 110
+      pierce: true
+      hittable: false
+      reflecable: false
+      absorbable: false
+      splashDamage: 560
+      splashDamageRadius: 95
+      pierceBuilding: true
+      intervalBullets: 1
+      bulletInterval: 1
+      intervalBullet: {
+        createChance: 0.5
         splashDamage: 45
         splashDamageRadius: 15
         pierceBuilding: true
         speed: 3
         lifetime: 60
         pierce: true
-        homingRange: 50
-        homingPower: 0.32
-        homingDelay: 5
       }
     }
   }
