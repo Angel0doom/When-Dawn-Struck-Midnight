@@ -10,7 +10,7 @@ range: 252
 lowAltitude: true
 weapons: [
   {
-    name: chrisom-autocannons
+    name: corona-autocannons
     reload: 20
     mirror: true
     x: 20
@@ -42,7 +42,7 @@ weapons: [
   }
 
   {
-    name: chrisom-machinegun
+    name: corona-machinegun
     reload: 2
     inaccuracy: 5
     shootCone: 35
@@ -63,7 +63,7 @@ weapons: [
   }
 
   {
-    name: chrisom-missiles
+    name: corona-missiles
     mirror: true
     alternate: true
     reload: 140
