@@ -15,7 +15,7 @@ hovering: true
 shadowElevation: 0.2
 weapons: [
   {
-    name: aves-laser1
+    name: neutron-laser1
     reload: 16
     x: 20
     y: 1
@@ -36,7 +36,7 @@ weapons: [
   }
 
   {
-    name: aves-laser2
+    name: neutron-laser2
     reload: 14
     x: 15
     y: 3
@@ -57,7 +57,7 @@ weapons: [
   }
 
   {
-    name: aves-laser3
+    name: neutron-laser3
     reload: 18
     x: 10
     y: 5
@@ -78,7 +78,7 @@ weapons: [
   }
 
   {
-    name: aves-laser4
+    name: neutron-laser4
     reload: 26
     x: 5
     y: 5
