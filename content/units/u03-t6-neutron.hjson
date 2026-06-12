@@ -23,7 +23,7 @@ weapons: [
     alternate: false
     rotate: false
     bullet: {
-      type: laserBoltBulletType
+      type: LaserBoltBulletType
       speed: 26
       lifetime: 18.4
       width: 8
@@ -42,7 +42,7 @@ weapons: [
       lightningLengthRand: 2
       lightningLength: 2
       lightningDamage: 65
-      lightningType: lightningBulletType
+      lightningType: LightningBulletType
     }
   }
 ]
