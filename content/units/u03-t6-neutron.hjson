@@ -36,7 +36,8 @@ weapons: [
       laserAbsorb: true
       splashDamageRadius: 32
       splashDamage: 295
-      fragBullets: 3
+      scaledSplashDamage: true
+      splashDamagePierce: true
       fragOnDespawn: false
       lightning: 3
       lightningLengthRand: 2
