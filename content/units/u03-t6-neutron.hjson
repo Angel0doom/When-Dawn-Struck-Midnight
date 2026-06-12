@@ -23,7 +23,7 @@ weapons: [
     alternate: false
     rotate: false
     bullet: {
-      type: LaserBoltBulletType
+      type: BasicBulletType
       speed: 26
       lifetime: 18.4
       width: 8
@@ -35,14 +35,14 @@ weapons: [
       healPercent: 33.3
       laserAbsorb: true
       splashDamageRadius: 32
-      splashDamage: 295
+      splashDamage: 70
       scaledSplashDamage: true
       splashDamagePierce: true
       fragOnDespawn: false
       lightning: 3
       lightningLengthRand: 2
       lightningLength: 2
-      lightningDamage: 65
+      lightningDamage: 30
     }
   }
 ]
