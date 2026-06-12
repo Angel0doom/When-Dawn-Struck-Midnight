@@ -19,14 +19,14 @@ weapons: [
     top: false
     layerOffset: -0.01
     shootCone: 25
-    reload: 90
+    reloa
     cooldownTime: 120
     alternate: true
     rotate: true
     targetAir: true
     range: 340
     rotateSpeed: 1.3
-    recoil: 9
+    recoil: 60
     shootSound: largeCannon
     rotationLimit: 10
     shootY: 19
