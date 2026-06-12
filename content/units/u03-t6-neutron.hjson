@@ -48,7 +48,7 @@ weapons: [
         splashDamageRadius: 32
         splashDamagePierce: true
         scaleSplashDamage: true
-        
+      }
     }
   }
 ]
