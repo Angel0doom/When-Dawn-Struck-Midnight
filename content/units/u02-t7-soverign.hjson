@@ -9,7 +9,7 @@ mechFrontSway: 3
 mechSideSway: 1
 singleTarget: true
 speed: 0.29
-range: 340
+range: 212
 weapons: [
   {
     name: u02-t7-soverign-weapon
@@ -24,7 +24,7 @@ weapons: [
     alternate: true
     rotate: true
     targetAir: true
-    range: 340
+    range: 212
     rotateSpeed: 1.3
     recoil: 60
     shootSound: largeCannon
@@ -34,7 +34,7 @@ weapons: [
       type: BasicBulletType
       keepVelocity: true
       collidesAir: true
-      speed: 22
+      speed: 18
       damage: 750
       pierce: true
       hitShake: 4
@@ -52,7 +52,7 @@ weapons: [
       splashDamageRadius: 8
       pierceDamageFactor: 1
       knockback: 9
-      lifetime: 21.25
+      lifetime: 11.7
       fragBullets: 12
       fragRandomSpread: 15
       fragVelocityMin: 1
@@ -76,7 +76,7 @@ weapons: [
         knockback: 2
         width: 8
         height: 10
-        lifetime: 8
+        lifetime: 4
       }
     }
   }
