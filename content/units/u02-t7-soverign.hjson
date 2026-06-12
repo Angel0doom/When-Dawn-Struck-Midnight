@@ -12,53 +12,79 @@ speed: 0.29
 range: 340
 weapons: [
   {
-    name: sovereign-pods
-    reload: 260
-    x: 22
-    y: -17
-    rotate: false
-    baseRotation: 10
-    inaccuracy: 10
-    shootCone: 180
-    shootSound: missile
-    hitEffect: blastExplosion
-    despawnEffect: blastExplosion
+    name: u02-t7-soverign-weapon
     shoot: {
-      shots: 16
-      type: shootBarrel
-      shotDelay: 5
-      barrels: [
-        8, 3.46, 0
-        4, 3.46, 0
-        0, 3.46, 0
-        -4, 3.46, 0
-        -8, 3.46, 0
-        10, 0, 0
-        6, 0, 0
-        2, 0, 0
-        -2, 0, 0
-        -6, 0, 0
-        -10, 0, 0
-        8, -3.46, 0
-        4, -3.46, 0
-        0, -3.46, 0
-        -4, -3.46, 0
-        -8, -3.46, 0
-      ]
+      shots: 2
+      type: shootAlternate
+      spread: 5
+      barrels: 2
+      shotDelay: 2
     }
+    x: 49
+    inaccuracy: 2
+    y: 1
+    top: false
+    layerOffset: -0.01
+    shootCone: 25
+    reload: 90
+    cooldownTime: 120
+    alternate: true
+    rotate: true
+    targetAir: true
+    range: 340
+    rotateSpeed: 1.3
+    recoil: 9
+    shootSound: largeCannon
+    rotationLimit: 10
+    shootY: 19
     bullet: {
-      rangeOverride: 240
-      homingRange: 240
-      homingPower: 0.08
-      lifetime: 60
-      speed: 4
-      splashDamage: 120
-      splashDamage: 28
-      incendAmount: 3
-      incendSpread: 3
-      incendChance: 0.7
+      type: BasicBulletType
+      keepVelocity: true
+      collidesAir: true
+      speed: 22
+      damage: 450
+      pierce: true
+      hitShake: 4
+      pierceCap: 5
+      pierce: true
+      pierceBuilding: true
+      splashDamage: 80
+      width: 20
+      height: 24
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: flakExplosionBig
+      buildingDamageMultiplier: 3
+      impact: true
+      splashDamageRadius: 2.5
+      pierceDamageFactor: 0.9
+      knockback: 9
+      lifetime: 21.25
+      fragBullets: 5
+      fragRandomSpread: 15
+      fragVelocityMin: 1
+      fragLifeMin: 0.5
+      fragLifeMax: 1
+      pierceFragCap: 5
+      fragBullet: {
+        type: BasicBulletType
+        keepVelocity: true
+        collidesAir: false
+        speed: 10
+        damage: 40
+        pierce: true
+        hitShake: 0.1
+        hitEffect: flakExplosion
+        pierceCap: 3
+        pierceBuilding: true
+        splashDamage: 35
+        impact: true
+        splashDamageRadius: 2
+        knockback: 2
+        width: 8
+        height: 10
+        lifetime: 8
+      }
     }
   }
-]
-    
     
