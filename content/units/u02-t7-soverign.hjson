@@ -56,7 +56,7 @@ weapons: [
       hitEffect: flakExplosionBig
       buildingDamageMultiplier: 3
       impact: true
-      splashDamageRadius: 2.5
+      splashDamageRadius: 8
       pierceDamageFactor: 0.9
       knockback: 9
       lifetime: 21.25
@@ -87,4 +87,4 @@ weapons: [
       }
     }
   }
-    
+}
