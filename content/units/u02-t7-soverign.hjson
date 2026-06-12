@@ -13,13 +13,6 @@ range: 340
 weapons: [
   {
     name: u02-t7-soverign-weapon
-    shoot: {
-      shots: 2
-      type: shootAlternate
-      spread: 5
-      barrels: 2
-      shotDelay: 2
-    }
     x: 49
     inaccuracy: 2
     y: 1
@@ -42,10 +35,10 @@ weapons: [
       keepVelocity: true
       collidesAir: true
       speed: 22
-      damage: 450
+      damage: 750
       pierce: true
       hitShake: 4
-      pierceCap: 5
+      pierceCap: 7
       pierce: true
       pierceBuilding: true
       splashDamage: 80
@@ -57,29 +50,29 @@ weapons: [
       buildingDamageMultiplier: 3
       impact: true
       splashDamageRadius: 8
-      pierceDamageFactor: 0.9
+      pierceDamageFactor: 1
       knockback: 9
       lifetime: 21.25
-      fragBullets: 5
+      fragBullets: 12
       fragRandomSpread: 15
       fragVelocityMin: 1
       fragLifeMin: 0.5
       fragLifeMax: 1
-      pierceFragCap: 5
+      pierceFragCap: 7
       fragBullet: {
         type: BasicBulletType
         keepVelocity: true
         collidesAir: false
         speed: 10
-        damage: 40
+        damage: 120
         pierce: true
         hitShake: 0.1
         hitEffect: flakExplosion
         pierceCap: 3
         pierceBuilding: true
-        splashDamage: 35
+        splashDamage: 50
         impact: true
-        splashDamageRadius: 2
+        splashDamageRadius: 4
         knockback: 2
         width: 8
         height: 10
