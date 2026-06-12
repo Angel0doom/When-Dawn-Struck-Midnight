@@ -34,15 +34,21 @@ weapons: [
       pierceBuilding: true
       healPercent: 33.3
       laserAbsorb: true
-      splashDamageRadius: 32
-      splashDamage: 70
-      scaledSplashDamage: true
-      splashDamagePierce: true
       fragOnDespawn: false
-      lightning: 3
-      lightningLengthRand: 2
-      lightningLength: 2
-      lightningDamage: 30
+      fragBullets: 1
+      fragOnDespawn: false
+      fragBullet: {
+        speed: 0
+        lifetime: 0
+        lightning: 3
+        lightningLengthRand: 2
+        lightningLength: 2
+        lightningDamage: 30
+        splashDamage: 70
+        splashDamageRadius: 32
+        splashDamagePierce: true
+        scaleSplashDamage: true
+        
     }
   }
 ]
