@@ -3,7 +3,7 @@ armor: 14
 hitSize: 33.68
 speed: 0.49
 itemCapacity: 140
-range: 520
+range: 480
 type: legs
 singleTarget: false 
 legCount: 6
@@ -15,100 +15,34 @@ hovering: true
 shadowElevation: 0.2
 weapons: [
   {
-    name: neutron-laser1
-    reload: 16
-    x: 20
-    y: 1
-    mirror: true
-    alternate: true
-    rotate: true
-    rotateSpeed: 0.6
-    rotateLimit: 28
+    name: neutron-blast
+    reload: 400
+    x: 0
+    y: 20
+    mirror: false
+    alternate: false
+    rotate: false
     bullet: {
-      type: laserBulletType
-      length: 520
-      width: 1
+      type: laserBoltBulletType
+      speed: 26
+      lifetime: 18.4
+      width: 8
+      height: 16
       damage: 35
       pierce: true
-      collidedsTeam: true
-      healPercent: 1
+      collidesTeam: true
+      pierceBuilding: true
+      healPercent: 33.3
+      laserAbsorb: true
+      splashDamageRadius: 32
+      splashDamage: 295
+      fragBullets: 3
+      fragOnDespawn: false
+      lightning: 3
+      lightningLengthRand: 2
+      lightningLength: 2
+      lightningDamage: 65
+      lightningType: lightningBulletType
     }
   }
-
-  {
-    name: neutron-laser2
-    reload: 14
-    x: 15
-    y: 3
-    mirror: true
-    alternate: true
-    rotate: true
-    rotateSpeed: 0.6
-    rotateLimit: 28
-    bullet: {
-      type: laserBulletType
-      length: 520
-      width: 2
-      damage: 45
-      pierce: true
-      collidedsTeam: true
-      healPercent: 2
-    }
-  }
-
-  {
-    name: neutron-laser3
-    reload: 18
-    x: 10
-    y: 5
-    mirror: true
-    alternate: true
-    rotate: true
-    rotateSpeed: 0.6
-    rotateLimit: 28
-    bullet: {
-      type: laserBulletType
-      length: 520
-      width: 4
-      damage: 55
-      pierce: true
-      collidedsTeam: true
-      healPercent: 3
-    }
-  }
-
-  {
-    name: neutron-laser4
-    reload: 26
-    x: 5
-    y: 5
-    mirror: true
-    alternate: true
-    rotate: true
-    rotateSpeed: 0.6
-    rotateLimit: 28
-    bullet: {
-      type: laserBulletType
-      length: 520
-      width: 6
-      damage: 65
-      pierce: true
-      collidedsTeam: true
-      healPercent: 4
-    }
-}
-]
-
-abilities: [
-{
-type: EnergyFieldAbility
-statusDuration: 300
-maxTargets: 40
-damage: 180
-range: 136
-reload: 45
-healPercent: 0.5
-sectors: 6
-y: -2
-}
 ]
