@@ -42,7 +42,6 @@ weapons: [
       lightningLengthRand: 2
       lightningLength: 2
       lightningDamage: 65
-      lightningType: LightningBulletType
     }
   }
 ]
