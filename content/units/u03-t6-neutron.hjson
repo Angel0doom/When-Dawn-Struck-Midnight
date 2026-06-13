@@ -16,31 +16,31 @@ shadowElevation: 0.2
 weapons: [
   {
     name: neutron-blast
-    reload: 400
+    reload: 450
     x: 0
     y: 20
     mirror: false
     alternate: false
     rotate: false
     bullet: {
-      type: BasicBulletType
-      speed: 26
-      lifetime: 18.4
-      width: 8
-      height: 16
-      damage: 35
+      type: LaserBulletType
+      length: 480
+      lifetime: 35
+      width: 60
+      damage: 65
       pierce: true
       collidesTeam: true
       pierceBuilding: true
       healPercent: 33.3
-      laserAbsorb: false
+      laserAbsorb: true
       fragOnDespawn: false
       fragBullets: 1
-      fragOnDespawn: false
       fragBullet: {
         type: BasicBulletType
         speed: 0
-        lifetime: 4
+        height: 0
+        length: 0
+        lifetime: 10
         lightning: 3
         lightningLengthRand: 2
         lightningLength: 2
