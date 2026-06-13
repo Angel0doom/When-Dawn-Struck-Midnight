@@ -53,7 +53,7 @@ weapons: [
         lightningLengthRand: 2
         lightningLength: 2
         lightningDamage: 30
-        splashDamage: 50
+        splashDamage: 70
         splashDamageRadius: 32
         splashDamagePierce: true
         scaledSplashDamage: true
