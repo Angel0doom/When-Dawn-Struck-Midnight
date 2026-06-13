@@ -33,7 +33,7 @@ weapons: [
       collidesTeam: true
       pierceBuilding: true
       healPercent: 33.3
-      laserAbsorb: true
+      laserAbsorb: false
       fragOnDespawn: false
       fragBullets: 1
       fragOnDespawn: false
