@@ -39,7 +39,7 @@ weapons: [
       fragLifeMax: 1
       pierceFragCap: 9999999999999999999999999999
       fragBullet: {
-        type: BasicBulletType
+        type: ArtilleryBulletType
         speed: 0
         height: 0
         length: 0
