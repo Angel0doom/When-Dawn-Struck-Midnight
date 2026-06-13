@@ -20,7 +20,7 @@ weapons: [
     x: 0
     y: 20
     mirror: false
-    alternate: false
+    baseRotation: 0
     rotate: false
     bullet: {
       type: LaserBulletType
