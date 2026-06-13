@@ -1,4 +1,4 @@
-localizedName: Silvex
+localizedName: Dawn
 alwaysUnlocked: false
 mesh: [
  {
@@ -8,8 +8,8 @@ mesh: [
     divisions: 5
     seed: 36
     radius: 0.25
-    color1: 35373d
-    color2: 3b404d
+    color1: 000000
+    color2: 000000
     octaves: 3.7
     persistence: 1.1
   }
@@ -20,8 +20,8 @@ mesh: [
     divisions: 5
     radius: 0.24
     seed: 28
-    color1: 676d7a
-    color2: 757985
+    color1: 000000
+    color2: 000000
     octaves: 3.7
     persistence: 0.6
   }
