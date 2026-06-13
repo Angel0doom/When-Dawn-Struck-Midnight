@@ -111,7 +111,7 @@ weapons: [
     rotateSpeed: 360
     shootSound: none
       bullet: {
-        rangeOverride: 336
+        rangeOverride: 216
         instantDisappear: true
         hitEffect: none
         despawnEffect: none
@@ -144,7 +144,7 @@ weapons: [
         }
     shootStatusDuration: 2
       bullet: {
-        rangeOverride: 336
+        rangeOverride: 216
         instantDisappear: true
         hitEffect: none
         despawnEffect: none
@@ -194,7 +194,7 @@ weapons: [
         }
     shootStatusDuration: 2
       bullet: {
-        rangeOverride: 336
+        rangeOverride: 216
         instantDisappear: true
         hitEffect: none
         despawnEffect: none
@@ -205,7 +205,7 @@ weapons: [
   {
     name: effect4
     reload: 1
-    minWarmup: 60
+    minWarmup: 0.6
     controllable: true
     rotate: true
     rotateSpeed: 360
@@ -245,7 +245,7 @@ weapons: [
         }
     shootStatusDuration: 2
       bullet: {
-        rangeOverride: 336
+        rangeOverride: 216
         instantDisappear: true
         hitEffect: none
         despawnEffect: none
