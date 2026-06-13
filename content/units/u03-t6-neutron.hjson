@@ -35,17 +35,18 @@ weapons: [
       laserAbsorb: true
       fragOnDespawn: false
       fragBullets: 1
+      fragLifeMin: 0.2
       fragBullet: {
         type: BasicBulletType
         speed: 0
         height: 0
         length: 0
-        lifetime: 10
+        lifetime: 30
         lightning: 3
         lightningLengthRand: 2
         lightningLength: 2
         lightningDamage: 30
-        splashDamage: 70
+        splashDamage: 50
         splashDamageRadius: 32
         splashDamagePierce: true
         scaleSplashDamage: true
