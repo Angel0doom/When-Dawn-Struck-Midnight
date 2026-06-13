@@ -24,6 +24,8 @@ weapons: [
     rotate: false
     bullet: {
       type: LaserBulletType
+      frontColor: ffffff
+      backColor: 84f491
       length: 480
       lifetime: 35
       width: 60
@@ -57,7 +59,7 @@ weapons: [
           lifetime: 15
           sizeTo: 32
           colorFrom: ffffff
-          colorTo: 84f4ff
+          colorTo: 84f491
           strokeFrom: 4
           strokeTo: 0
         }
