@@ -36,12 +36,13 @@ weapons: [
       fragOnDespawn: false
       fragBullets: 1
       fragLifeMin: 0.2
+      fragLifeMax: 1
       fragBullet: {
         type: BasicBulletType
         speed: 0
         height: 0
         length: 0
-        lifetime: 30
+        lifetime: 40
         lightning: 3
         lightningLengthRand: 2
         lightningLength: 2
@@ -49,7 +50,16 @@ weapons: [
         splashDamage: 50
         splashDamageRadius: 32
         splashDamagePierce: true
-        scaleSplashDamage: true
+        scaledSplashDamage: true
+        despawnEffect: {
+          type: WaveEffect
+          lifetime: 15
+          sizeTo: 32
+          colorFrom: ffffff
+          colorTo: 84f4ff
+          strokeFrom: 4
+          strokeTo: 0
+        }
       }
     }
   }
