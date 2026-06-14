@@ -23,7 +23,7 @@ visible: true
 hasAtmosphere: false
 bloom: true
 orbitSpacing: 0.2
-solarSystem: 2-at-the-start-of-it-all
+solarSystem: 1-midnight
 radius: 1.5
 drawOrbit: false
 parent: sun
