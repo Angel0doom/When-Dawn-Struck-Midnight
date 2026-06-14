@@ -7,8 +7,8 @@ mesh: [
     octaves: 6
     persistence: 0.8
     scl: 0.9
+    pow: 1
     mag: 1.5            
-    colorScale: 2
     color1: 7afff4
     color2: adf7f1
   }
@@ -20,6 +20,7 @@ mesh: [
     octaves: 4
     persistence: 0.5
     scl: 1.5
+    pow: 1
     mag: 0.4
     color1: ffffff
     color2: c5faf6
