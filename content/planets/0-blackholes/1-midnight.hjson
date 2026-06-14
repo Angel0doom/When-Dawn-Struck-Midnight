@@ -9,8 +9,8 @@ mesh: [
     scl: 0.9
     mag: 1.5            
     colorScale: 2
-    color1: ffffff
-    color2: ffffff
+    color1: 7afff4
+    color2: adf7f1
   }
   
   {
@@ -22,9 +22,8 @@ mesh: [
     scl: 1.5
     mag: 0.4
     color1: ffffff
-    color2: ffffff
+    color2: c5faf6
   }
-
   {
     type: SunMesh
     divisions: 7
@@ -36,8 +35,8 @@ mesh: [
     mag: 0
     colorScale: 1
     colors: [
-      ffffff
-      ffffff
+      000000
+      000000
     ]
   }
 ]
