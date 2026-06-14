@@ -9,11 +9,8 @@ mesh: [
     scl: 0.9
     mag: 1.5            
     colorScale: 2
-    colors: [
-      ffffff
-      ffffff
-      ffffff
-    ]
+    color1: ffffff
+    color2: ffffff
   }
   
   {
@@ -24,10 +21,8 @@ mesh: [
     persistence: 0.5
     scl: 1.5
     mag: 0.4
-    colors: [
-      ffffff
-      ffffff
-    ]
+    color1: ffffff
+    color2: ffffff
   }
 
   {
