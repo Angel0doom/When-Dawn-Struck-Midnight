@@ -44,7 +44,7 @@ weapons: [
         scaledSplashDamage: true
         splashDamagePierce: true
         fragRandomSpread: 20
-        splashDamageRadius: 60
+        splashDamageRadius: 30
         fragVelocityMin: 0.4
         fragLifeMin: 0.7
         fragBullets: 4
@@ -56,7 +56,7 @@ weapons: [
           splashDamage: 120
           scaledSplashDamage: true
           splashDamagePierce: true
-          splashDamageRadius: 25
+          splashDamageRadius: 40
         }
       }
     }
