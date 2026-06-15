@@ -27,8 +27,8 @@ weapons: [
       damage: 650
       lineEffect: railTrail
       pierce: false
-      fragOnHit: false
-      fragOnDespawn: true
+      fragOnHit: true
+      fragOnDespawn: false
       fragRandomSpread: 80
       despawnShake: 12
       fragBullets: 5
