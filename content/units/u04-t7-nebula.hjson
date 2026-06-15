@@ -33,9 +33,10 @@ weapons: [
       fragBullets: 5
       fragLifeMin: 0.4
       fragVelocityMin: 0.4
+      pierceFragCap: 1
       fragBullet: {
         type: ArtilleryBulletType
-        speed: 20
+        speed: 4
         lifetime: 20
         damage: 0
         splashDamage: 320
@@ -47,7 +48,7 @@ weapons: [
         fragBullets: 4
         fragBullet: {
           type: artilleryBulletType
-          speed: 20
+          speed: 4
           lifetime: 20
           damage: 0
           splashDamage: 120
