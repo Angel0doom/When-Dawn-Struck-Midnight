@@ -23,8 +23,8 @@ weapons: [
     rotate: false
     bullet: {
       type: BasicBulletType
-      speed: 260
-      lifetime: 2
+      speed: 130
+      lifetime: 4
       damage: 650
       pierce: false
       fragOnHit: true
