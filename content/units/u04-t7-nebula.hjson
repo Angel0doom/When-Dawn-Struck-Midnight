@@ -1,0 +1,60 @@
+type: legs
+legCount: 6
+health: 30000
+armor: 18
+hitSize: 39.44
+speed: 0.4
+itemCount: 180
+range: 515
+singleTarget: true
+legLength: 21
+legBaseOffset: 16
+legMoveSpace: 1.7
+legForwardScl: 0.48
+hovering: true
+shadowElevation: 0.2
+weapons: [
+  {
+    name: u04-t7-nebula-railgun
+    reload: 580
+    x: 0
+    y: 30
+    mirror: false
+    rotate: false
+    bullet: {
+      type: railBulletType
+      length: 515
+      damage: 650
+      lineEffect: railTrail
+      pierce: false
+      fragOnHit: true
+      fragOnDespawn: false
+      despawnShake: 12
+      fragBullets: 5
+      fragLifeMin: 0.4
+      fragVelocityMin: 0.4
+      fragBullet: {
+        type: ArtilleryBulletType
+        speed: 20
+        lifetime: 20
+        damage: 0
+        splashDamage: 320
+        scaledSplashDamage: true
+        splashDamagePierce: true
+        splashDamageRadius: 60
+        fragVelocityMin: 0.4
+        fragLifeMin: 0.4
+        fragBullets: 4
+        fragBullet: {
+          speed: 20
+          lifetime: 20
+          damage: 0
+          splashDamage: 120
+          scaledSplashDamage: true
+          splashDamagePierce: true
+          splashDamageRadius: 25
+        }
+      }
+    }
+  }
+]
