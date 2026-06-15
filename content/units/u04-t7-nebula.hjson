@@ -17,17 +17,15 @@ weapons: [
   {
     name: u04-t7-nebula-railgun
     reload: 580
-    speed 260
-    lifetime: 2
     x: 0
     y: 30
     mirror: false
     rotate: false
     bullet: {
       type: BasicBulletType
-      speed: 90
+      speed: 260
+      lifetime: 2
       damage: 650
-      lineEffect: railTrail
       pierce: false
       fragOnHit: true
       fragOnDespawn: false
