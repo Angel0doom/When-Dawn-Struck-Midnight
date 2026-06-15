@@ -29,7 +29,7 @@ weapons: [
       pierce: false
       fragOnHit: true
       fragOnDespawn: false
-      fragRandomSpread: 80
+      fragRandomSpread: 20
       despawnShake: 12
       fragBullets: 5
       fragLifeMin: 0.4
@@ -43,7 +43,7 @@ weapons: [
         splashDamage: 320
         scaledSplashDamage: true
         splashDamagePierce: true
-        fragRandomSpread: 80
+        fragRandomSpread: 20
         splashDamageRadius: 60
         fragVelocityMin: 0.4
         fragLifeMin: 0.7
