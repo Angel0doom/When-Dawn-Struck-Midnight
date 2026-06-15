@@ -5,7 +5,7 @@ armor: 18
 hitSize: 39.44
 speed: 0.4
 itemCount: 180
-range: 515
+range: 520
 singleTarget: true
 legLength: 21
 legBaseOffset: 16
@@ -17,13 +17,15 @@ weapons: [
   {
     name: u04-t7-nebula-railgun
     reload: 580
+    speed 260
+    lifetime: 2
     x: 0
     y: 30
     mirror: false
     rotate: false
     bullet: {
-      type: railBulletType
-      length: 515
+      type: BasicBulletType
+      speed: 90
       damage: 650
       lineEffect: railTrail
       pierce: false
