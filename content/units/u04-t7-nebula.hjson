@@ -25,7 +25,9 @@ weapons: [
       type: BasicBulletType
       speed: 130
       lifetime: 4
-      damage: 650
+      damage: 0
+      splashDamage: 650
+      splashDamageRadius: 20
       pierce: false
       fragOnHit: true
       fragOnDespawn: false
