@@ -33,11 +33,11 @@ weapons: [
       despawnShake: 12
       fragBullets: 5
       fragLifeMin: 0.4
-      fragVelocityMin: 0.4
+      fragVelocityMin: 0.7
       pierceFragCap: 1
       fragBullet: {
         type: ArtilleryBulletType
-        speed: 4
+        speed: 7
         lifetime: 12
         damage: 0
         splashDamage: 320
@@ -46,11 +46,11 @@ weapons: [
         fragRandomSpread: 80
         splashDamageRadius: 60
         fragVelocityMin: 0.4
-        fragLifeMin: 0.4
+        fragLifeMin: 0.7
         fragBullets: 4
         fragBullet: {
           type: artilleryBulletType
-          speed: 4
+          speed: 7
           lifetime: 12
           damage: 0
           splashDamage: 120
