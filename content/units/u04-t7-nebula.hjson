@@ -46,6 +46,7 @@ weapons: [
         fragLifeMin: 0.4
         fragBullets: 4
         fragBullet: {
+          type: artilleryBulletType
           speed: 20
           lifetime: 20
           damage: 0
