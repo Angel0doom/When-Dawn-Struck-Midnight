@@ -1,1 +1,92 @@
+health: 30000
+armor: 17
+hitSize: 68.8
+flying: true
+itemCapacity: 310
+speed: 0.7
+accel: 0.03
+drag: 0.08
+range: 252
+lowAltitude: true
+weapons: [
+  {
+    name: corona-autocannons
+    reload: 20
+    mirror: true
+    x: 20
+    y: -15
+    shootCone: 5
+    alternate: true
+    range: 252
+    shoot: {
+      type: shootBarrel
+      barrels: [
+        6, 2, 0
+        -6, 2, 0
+        2, 4, 0
+        -2, 4, 0
+      ]
+    }
+    shootY: 0
+    rotate: true
+    rotateSpeed: 0.85
+    rotationLimit: 15
+    bullet: {
+      damage: 45
+      splashDamageRadius: 18
+      splashDamage: 120
+      speed: 20
+      lifetime: 12.6
+      pierce: true
+    }
+  }
 
+  {
+    name: corona-machinegun
+    reload: 2
+    inaccuracy: 5
+    shootCone: 35
+    useAttackRange: false
+    mirror: true
+    alternate: false
+    rotate: false
+    range: 165
+    x: 3
+    y: 25
+    bullet: {
+      damage: 20
+      splashDamageRadius: 5
+      splashDamage: 15
+      speed: 7
+      lifetime: 23.6
+    }
+  }
+
+  {
+    name: corona-missiles
+    mirror: true
+    alternate: true
+    reload: 140
+    rotate: false
+    baseRotation: 55
+    range: 145
+    shootCone: 360
+    useAttackRange: false
+    inaccuracy: 60
+    shootY: 0
+    velocityRnd: 0.4
+    shoot: {
+      shots: 32
+      shotDelay: 0.5
+    }
+    bullet: {
+      type: missileBulletType
+      homingRange: 145
+      homingPower: 0.12
+      lifetime: 80
+      speed: 1
+      splashDamage: 55
+      splashDamage: 24
+    }
+  }
+]
