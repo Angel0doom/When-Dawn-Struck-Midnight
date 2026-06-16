@@ -46,12 +46,12 @@ weapons: [
     y: 25
     bullet: {
       type: artilleryBulletType
-      status: melting
+      status: burning
       statusDuration: 140
       scaleLife: true
-      incendAmount: 2
+      incendAmount: 4
       incendSpread: 12
-      incendChance: 0.8
+      incendChance: 0.3
       makeFire: true
       damage: 0
       splashDamageRadius: 6
@@ -74,12 +74,12 @@ weapons: [
     y: -25
     bullet: {
       type: artilleryBulletType
-      status: melting
+      status: burning
       statusDuration: 140
       scaleLife: true
-      incendAmount: 2
+      incendAmount: 4
       incendSpread: 6
-      incendChance: 0.8
+      incendChance: 0.3
       makeFire: true
       damage: 0
       splashDamageRadius: 12
@@ -88,4 +88,25 @@ weapons: [
       lifetime: 46.2
     }
   }
-]
+
+  {
+    name: u08-t7-chromosphere-aura
+    reload: 30
+    x: 0
+    y: 0
+    alwaysShooting: true
+    mirror: false
+    rotate: false
+    bullet: {
+      type: BasicBulletType
+      incendAmount: 5
+      incendSpread: 30
+      incendChance: 0.2
+      splashDamageRadius: 30
+      splashDamage: 0
+      damage: 0
+      lifetime: 0
+      speed: 0
+      status: melting
+      statusDuration: 40
+]  
