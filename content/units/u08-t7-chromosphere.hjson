@@ -6,7 +6,7 @@ itemCapacity: 340
 speed: 0.8
 accel: 0.04
 drag: 0.08
-range: 252
+range: 324
 lowAltitude: true
 weapons: [
   {
@@ -42,7 +42,6 @@ weapons: [
     mirror: true
     alternate: true
     rotate: true
-    range: 252
     x: 25
     y: 25
     bullet: {
@@ -58,7 +57,7 @@ weapons: [
       splashDamageRadius: 6
       splashDamage: 86
       speed: 7
-      lifetime: 23.6
+      lifetime: 46.2
     }
   }
 
@@ -71,7 +70,6 @@ weapons: [
     minWarmup: 0.2
     alternate: true
     rotate: true
-    range: 292
     x: -25
     y: -25
     bullet: {
@@ -87,7 +85,7 @@ weapons: [
       splashDamageRadius: 12
       splashDamage: 86
       speed: 7
-      lifetime: 23.6
+      lifetime: 46.2
     }
   }
 ]
