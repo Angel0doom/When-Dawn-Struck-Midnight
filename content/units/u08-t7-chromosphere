@@ -11,52 +11,52 @@ lowAltitude: true
 weapons: [
   {
     name: u08-t7-chromosphere-miniguns
-    reload: 20
+    reload: 2
+    shootStatus: slow
+    shootStatusDuration: 20
     mirror: true
-    x: 20
-    y: -15
-    shootCone: 5
+    x: 15
+    y: 0
+    shootCone: 10
     alternate: true
-    range: 252
-    shoot: {
-      type: shootBarrel
-      barrels: [
-        6, 2, 0
-        -6, 2, 0
-        2, 4, 0
-        -2, 4, 0
-      ]
-    }
+    useAttackRange: false
+    range: 100
     shootY: 0
     rotate: true
     rotateSpeed: 0.85
-    rotationLimit: 15
+    rotationLimit: 25
+    inaccuracy: 10
     bullet: {
-      damage: 45
-      splashDamageRadius: 18
-      splashDamage: 120
-      speed: 20
+      damage: 20
+      speed: 8
       lifetime: 12.6
-      pierce: true
+      pierce: false
     }
   }
 
   {
     name: u08-t7-chromosphere-artillery1
-    reload: 2
-    inaccuracy: 5
-    shootCone: 35
-    useAttackRange: false
+    reload: 80
+    inaccuracy: 15
+    shootCone: 15
     mirror: true
-    alternate: false
-    rotate: false
-    range: 165
-    x: 3
+    alternate: true
+    rotate: true
+    range: 252
+    x: 25
     y: 25
     bullet: {
-      damage: 20
-      splashDamageRadius: 5
-      splashDamage: 15
+      type: artilleryBulletType
+      status: melting
+      statusDuration: 140
+      scaleLife: true
+      incendAmount: 2
+      incendSpread: 12
+      incendChance: 0.8
+      makeFire: true
+      damage: 0
+      splashDamageRadius: 12
+      splashDamage: 86
       speed: 7
       lifetime: 23.6
     }
@@ -64,29 +64,30 @@ weapons: [
 
   {
     name: u08-t7-chromosphere-artillery2
+    reload: 80
+    inaccuracy: 15
+    shootCone: 15
     mirror: true
+    delay: 20
     alternate: true
-    reload: 140
-    rotate: false
-    baseRotation: 55
-    range: 145
-    shootCone: 360
-    useAttackRange: false
-    inaccuracy: 60
-    shootY: 0
-    velocityRnd: 0.4
-    shoot: {
-      shots: 32
-      shotDelay: 0.5
-    }
+    rotate: true
+    range: 252
+    x: -25
+    y: -25
     bullet: {
-      type: missileBulletType
-      homingRange: 145
-      homingPower: 0.12
-      lifetime: 80
-      speed: 1
-      splashDamage: 55
-      splashDamage: 24
+      type: artilleryBulletType
+      status: melting
+      statusDuration: 140
+      scaleLife: true
+      incendAmount: 2
+      incendSpread: 12
+      incendChance: 0.8
+      makeFire: true
+      damage: 0
+      splashDamageRadius: 12
+      splashDamage: 86
+      speed: 7
+      lifetime: 23.6
     }
   }
 ]
