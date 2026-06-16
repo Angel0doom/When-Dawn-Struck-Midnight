@@ -27,7 +27,7 @@ weapons: [
     rotationLimit: 25
     inaccuracy: 10
     bullet: {
-      damage: 20
+      damage: 85
       speed: 10
       lifetime: 12
       pierce: false
@@ -55,7 +55,7 @@ weapons: [
       makeFire: true
       damage: 0
       splashDamageRadius: 6
-      splashDamage: 86
+      splashDamage: 230
       speed: 7
       lifetime: 46.2
     }
@@ -83,7 +83,7 @@ weapons: [
       makeFire: true
       damage: 0
       splashDamageRadius: 12
-      splashDamage: 86
+      splashDamage: 230
       speed: 7
       lifetime: 46.2
     }
@@ -101,7 +101,7 @@ weapons: [
       type: BasicBulletType
       incendAmount: 1
       incendSpread: 30
-      incendChance: 0.01
+      incendChance: 0.1
       splashDamageRadius: 30
       splashDamage: 0
       damage: 0
