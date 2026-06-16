@@ -89,7 +89,7 @@ weapons: [
   }
 
   {
-    name: effect1
+    name: u01-t6-monarch-effect1
     reload: 1
     controllable: true
     rotationLimit: 15
@@ -122,7 +122,7 @@ weapons: [
   }
 
   {
-    name: effect2
+    name: u01-t6-monarch-effect2
     reload: 1
     minWarmup: 0.6
     controllable: true
@@ -153,7 +153,7 @@ weapons: [
       }
   }
   {
-    name: effect3
+    name: u01-t6-monarch-effect3
     reload: 1
     minWarmup: 0.6
     controllable: true
@@ -203,7 +203,7 @@ weapons: [
   }
 
   {
-    name: effect4
+    name: u01-t6-monarch-effect4
     reload: 1
     minWarmup: 0.6
     controllable: true
