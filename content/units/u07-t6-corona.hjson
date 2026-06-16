@@ -1,6 +1,6 @@
 health: 30000
 armor: 17
-hitSize: 68.8
+hitSize: 62
 flying: true
 itemCapacity: 310
 speed: 0.7
@@ -10,7 +10,7 @@ range: 252
 lowAltitude: true
 weapons: [
   {
-    name: corona-autocannons
+    name: u07-t6-corona-autocannons
     reload: 20
     mirror: true
     x: 20
@@ -42,7 +42,7 @@ weapons: [
   }
 
   {
-    name: corona-machinegun
+    name: u07-t6-corona-machinegun
     reload: 2
     inaccuracy: 5
     shootCone: 35
@@ -63,7 +63,7 @@ weapons: [
   }
 
   {
-    name: corona-missiles
+    name: u07-t6-corona-missiles
     mirror: true
     alternate: true
     reload: 140
