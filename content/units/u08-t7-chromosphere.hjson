@@ -1,17 +1,17 @@
-health: 30000
-armor: 17
+health: 39000
+armor: 20
 hitSize: 68.8
 flying: true
-itemCapacity: 310
-speed: 0.7
-accel: 0.03
+itemCapacity: 340
+speed: 0.8
+accel: 0.04
 drag: 0.08
 range: 252
 lowAltitude: true
 weapons: [
   {
     name: u08-t7-chromosphere-miniguns
-    reload: 2
+    reload: 1
     shootStatus: slow
     shootStatusDuration: 20
     mirror: true
@@ -20,7 +20,7 @@ weapons: [
     shootCone: 10
     alternate: true
     useAttackRange: false
-    range: 100
+    range: 120
     shootY: 0
     rotate: true
     rotateSpeed: 0.85
@@ -28,8 +28,8 @@ weapons: [
     inaccuracy: 10
     bullet: {
       damage: 20
-      speed: 8
-      lifetime: 12.6
+      speed: 10
+      lifetime: 12
       pierce: false
     }
   }
@@ -55,7 +55,7 @@ weapons: [
       incendChance: 0.8
       makeFire: true
       damage: 0
-      splashDamageRadius: 12
+      splashDamageRadius: 6
       splashDamage: 86
       speed: 7
       lifetime: 23.6
@@ -68,10 +68,10 @@ weapons: [
     inaccuracy: 15
     shootCone: 15
     mirror: true
-    delay: 20
+    minWarmup: 0.2
     alternate: true
     rotate: true
-    range: 252
+    range: 292
     x: -25
     y: -25
     bullet: {
@@ -80,7 +80,7 @@ weapons: [
       statusDuration: 140
       scaleLife: true
       incendAmount: 2
-      incendSpread: 12
+      incendSpread: 6
       incendChance: 0.8
       makeFire: true
       damage: 0
