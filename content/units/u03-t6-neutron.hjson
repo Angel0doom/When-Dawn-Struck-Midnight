@@ -15,7 +15,7 @@ hovering: true
 shadowElevation: 0.2
 weapons: [
   {
-    name: neutron-blast
+    name: u03-t6-neutron-blast
     reload: 450
     x: 0
     y: 20
