@@ -91,7 +91,7 @@ weapons: [
 
   {
     name: u08-t7-chromosphere-aura
-    reload: 30
+    reload: 1
     x: 0
     y: 0
     alwaysShooting: true
@@ -99,9 +99,9 @@ weapons: [
     rotate: false
     bullet: {
       type: BasicBulletType
-      incendAmount: 5
+      incendAmount: 1
       incendSpread: 30
-      incendChance: 0.2
+      incendChance: 0.01
       splashDamageRadius: 30
       splashDamage: 0
       damage: 0
