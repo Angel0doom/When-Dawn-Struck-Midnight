@@ -109,4 +109,6 @@ weapons: [
       speed: 0
       status: melting
       statusDuration: 40
+    }
+  }
 ]  
