@@ -7,21 +7,25 @@ weapons: [
     x: 14
     y: 9
     bullet: {
+      type: artilleryBulletType
+      trailWidth: 12
+      scaleLife: true
       keepVelocity: false
-      drag: 0.09
       lifetime: 60
-      speed: -8.3
-      width: 8
-      height: 8
-      pierce: true
-      pierceBuilding: true
-      fragBullets: 1
+      speed: 8.3
+      width: 12
+      height: 16
+      damage: 230
+      splashDamage: 
+      fragBullets: 5
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
-      despawnEffect: none
-      hitEffect: none
-      fragAngle: 180
+      fragSpread: 72
+      despawnEffect: {
+        type: waveEffect
+        lifetime: 5
+      }
       fragBullet: {
         height: 8
         width: 8
