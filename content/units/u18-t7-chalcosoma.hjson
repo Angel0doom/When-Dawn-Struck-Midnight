@@ -9,6 +9,7 @@ weapons: [
     bullet: {
       type: artilleryBulletType
       trailWidth: 12
+      trailLength: 32
       scaleLife: true
       keepVelocity: false
       lifetime: 60
@@ -25,21 +26,36 @@ weapons: [
       fragSpread: 72
       despawnEffect: {
         type: WaveEffect
-        lifetime: 30
+        lifetime: 15
         sizeTo: 49.6
       }
       fragBullet: {
+        type: artilleryBulletType
         height: 12
         trailWidth: 8
+        trailLength: 24
         width: 8
         keepVelocity: false
-        speed: 1.65
-        lifetime: 30
+        damage: 190
+        splashDamage: 270
+        splashDamageRadius: 34.4
+        speed: 3.3
+        lifetime: 15
+        fragBullets: 3
+        fragRandomSpread: 0
+        fragSpread: 120
+        fragVelocityMin: 0
         despawnEffect: {
           type: WaveEffect
           lifetime: 15
           sizeTo: 34.4
         }
+        fragBullet: {
+          type: artilleryBulletType
+          height: 8
+          width: 4
+          trailWidth: 4
+          trailLength: 16
       }
     }
   }
