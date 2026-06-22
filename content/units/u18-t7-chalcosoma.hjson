@@ -56,6 +56,8 @@ weapons: [
           width: 4
           trailWidth: 4
           trailLength: 16
+          keepVelocity: false
+          speed: 3.3
       }
     }
   }
