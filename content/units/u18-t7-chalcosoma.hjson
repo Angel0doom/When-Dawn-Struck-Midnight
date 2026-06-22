@@ -17,22 +17,29 @@ weapons: [
       height: 16
       damage: 230
       splashDamage: 310
+      splashDamageRadius: 49.6
       fragBullets: 5
       fragRandomSpread: 0
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragSpread: 72
       despawnEffect: {
-        type: waveEffect
-        lifetime: 5
+        type: WaveEffect
+        lifetime: 30
+        sizeTo: 49.6
       }
       fragBullet: {
-        height: 8
+        height: 12
+        trailWidth: 8
         width: 8
         keepVelocity: false
-        speed: 0.1
-        drag: -0.09
-        lifetime: 130
+        speed: 1.65
+        lifetime: 30
+        despawnEffect: {
+          type: WaveEffect
+          lifetime: 15
+          sizeTo: 34.4
+        }
       }
     }
   }
