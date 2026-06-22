@@ -57,7 +57,17 @@ weapons: [
           trailWidth: 4
           trailLength: 16
           keepVelocity: false
-          speed: 3.3
+          speed: 2.29
+          lifetime: 15
+          damage: 160
+          splashDamage: 230
+          splashDamageRadius: 26.4
+          despawnEffect: {
+            type: WaveEffect
+            lifetime: 15
+            sizeTo: 26.4
+          }
+        }
       }
     }
   }
