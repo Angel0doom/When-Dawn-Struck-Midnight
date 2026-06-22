@@ -18,6 +18,8 @@ weapons: [
       height: 16
       damage: 230
       splashDamage: 310
+      scaledSplashDamage: true
+      splashDamagePierce: true
       splashDamageRadius: 49.6
       fragBullets: 5
       fragRandomSpread: 0
