@@ -1,6 +1,9 @@
 type: itemTurret 
 name: Acute
 reload: 60
+recoil: 5
+recoils: 6
+recoilTime: 120
 range: 272
 maxAmmo: 30
 size: 5
