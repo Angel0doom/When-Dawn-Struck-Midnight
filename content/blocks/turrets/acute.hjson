@@ -6,7 +6,7 @@ maxAmmo: 30
 size: 5
 category: turret
 velocityRnd: 0.2
-minWarmup: 5
+minWarmup: 0.7
 predictTarget: false
 inaccuracy: 15
 shoot: {
