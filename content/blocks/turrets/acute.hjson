@@ -1,0 +1,35 @@
+type: itemTurret 
+name: Acute
+reload: 60
+range: 272
+maxAmmo: 30
+size: 5
+category: turret
+predictTarget: false
+inaccuracy: 15
+shoot: {
+  shots: 20
+  firstShotDelay: 30
+  shotDelay: 1
+}
+ammoTypes: {
+  plastanium: {
+    type: FlakBulletType
+    speed: 30.2
+    lifetime: 9
+    velocityScaleRndMin: 0.1
+    ammoMultiplier: 0.5
+    damage: 290
+    splashDamage: 235
+    splashDamageRadius: 26
+    weaveMag: 1
+    weaveScale: 3
+    homingRange: 43
+    explodeDelay: 20
+    explodeRange: 26
+  }
+}
+
+requirements: [
+  beryllium/1
+]
