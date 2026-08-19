@@ -5,19 +5,21 @@ range: 272
 maxAmmo: 30
 size: 5
 category: turret
+velocityRnd: 0.2
+minWarmup: 5
 predictTarget: false
 inaccuracy: 15
 shoot: {
   shots: 20
   firstShotDelay: 30
-  shotDelay: 1
+  shotDelay: 0.2
 }
 ammoTypes: {
   plastanium: {
     type: FlakBulletType
     speed: 30.2
     lifetime: 9
-    velocityScaleRndMin: 0.1
+    
     damage: 290
     splashDamage: 235
     splashDamageRadius: 26
