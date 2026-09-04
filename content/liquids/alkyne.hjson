@@ -6,6 +6,11 @@ explosiveness: 0.95
 temperature: 0.55
 coolant: false
 color: a3b0b5
-viscosity: 0.15
+viscosity: 0.05
 spreadTarget: arkycite
 effect: sapped
+colorTo: a3b0b5
+maxSpread: 0.55
+spreadDamage: 25
+spreadConversion: 5
+cells: 2
