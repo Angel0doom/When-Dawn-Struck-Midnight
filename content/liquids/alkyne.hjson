@@ -1,0 +1,12 @@
+name: Alkyne
+type: liquid
+gas: false
+barBolor: 68bc9d
+flamibility: 0.3
+explosiveness: 0
+temperature: 0.65
+coolant: false
+color: 68bc9d
+viscosity: 0.15
+incinerable: false
+spreadTarget: water
