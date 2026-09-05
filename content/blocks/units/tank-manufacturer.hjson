@@ -3,7 +3,7 @@ description: Assembles huge tanks out of inputed blocks and power sources. Outpu
 type: unitAssembler
 areaSize: 19
 size: 6
-dronesCreated: 8
+dronesCreated: 4
 configurable: true
 droneConstructTime: 720
 consumes: {
