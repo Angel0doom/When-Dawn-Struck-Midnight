@@ -16,14 +16,13 @@ plans: [
 {
 type: UnitAssemblerPlan
   unit: u15-t6-subjugate
-      time: 18000
-        requirements: [
-          precept/3
-          chemical-combustion-chamber/4
-          tank-fabricator/5
-          shielded-wall/16
-          subjugate-core/1
-]
+    time: 14400
+      requirements: [
+        precept/3
+        chemical-combustion-chamber/4
+        shielded-wall/16
+        subjugate-core/1
+      ]
 }
 ]
 category: units
