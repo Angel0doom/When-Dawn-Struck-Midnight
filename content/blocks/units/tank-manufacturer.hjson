@@ -21,7 +21,6 @@ type: UnitAssemblerPlan
         precept/3
         chemical-combustion-chamber/4
         shielded-wall/16
-        subjugate-core/1
       ]
 }
 ]
