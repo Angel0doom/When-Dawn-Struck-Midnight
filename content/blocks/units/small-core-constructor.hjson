@@ -1,6 +1,6 @@
 name: Small Core Constructor
 type: constructor
-category: Constructor
+category: units
 size: 4
 health: 1070
 minBlockSize: 3
