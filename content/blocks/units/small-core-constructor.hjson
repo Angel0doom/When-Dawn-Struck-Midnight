@@ -1,9 +1,14 @@
 name: Small Core Constructor
 type: constructor
+size: 4
+health: 1070
 minBlockSize: 3
 maxBlockSize: 3
+consumePower: 12
+buildSpeed: 1.2
+hasPower: true
+hasLiquids: true
 consumes: [
   neoplasm/160
   alkyne/40
 ]
-consumePower: 12
