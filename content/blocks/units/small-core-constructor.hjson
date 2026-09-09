@@ -19,3 +19,6 @@ consumes: {
     neoplasm/0.25
   ]
 }
+requirements: [
+  beryllium/1
+]
