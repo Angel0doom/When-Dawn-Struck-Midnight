@@ -13,6 +13,7 @@ consumes: {
   power: 15
   items: [
     phase-fabric/0.1
+  ]
   liquids:[
     alkyne/1
     neoplasm/0.25
