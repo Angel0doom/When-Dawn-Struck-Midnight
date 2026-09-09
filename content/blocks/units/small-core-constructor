@@ -1,1 +1,9 @@
 name: Small Core Constructor
+type: constructor
+minBlockSize: 3
+maxBlockSize: 3
+consumes: [
+  neoplasm/160
+  alkyne/40
+]
+consumePower: 12
