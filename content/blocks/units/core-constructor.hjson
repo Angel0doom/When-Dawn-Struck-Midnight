@@ -4,7 +4,7 @@ category: units
 size: 5
 health: 1070
 minBlockSize: 3
-maxBlockSize: 4
+maxBlockSize: 3
 buildSpeed: 1.2
 hasPower: true
 hasLiquids: true
