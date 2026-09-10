@@ -19,3 +19,6 @@ consumes: {
 requirements: [
   beryllium/1
 ]
+filter: [
+  subjugate-core
+]
