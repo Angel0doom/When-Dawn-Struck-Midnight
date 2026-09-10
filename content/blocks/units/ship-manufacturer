@@ -15,12 +15,13 @@ liquids: [
 plans: [ 
 {
 type: UnitAssemblerPlan
-  unit: u19-t6-convulse
+  unit: u19-t6-fracture
       time: 18000
         requirements: [
-          chemical-combustion-chamber/2
-          ship-fabricator/3
+          obviate/3
+          chemical-combustion-chamber/3
           shielded-wall/12
+          fracture-core/1
 ]
 }
 ]
