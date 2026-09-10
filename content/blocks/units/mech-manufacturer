@@ -16,7 +16,7 @@ plans: [
 {
 type: UnitAssemblerPlan
   unit: u15-t6-lucanus
-    time: 16200
+    time: 18000
       requirements: [
         anthicus/3
         chemical-combustion-chamber/4
