@@ -16,7 +16,7 @@ plans: [
 {
 type: UnitAssemblerPlan
   unit: u19-t6-fracture
-      time: 18000
+      time: 16200
         requirements: [
           obviate/3
           chemical-combustion-chamber/3
