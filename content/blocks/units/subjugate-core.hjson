@@ -3,6 +3,7 @@ type: attributeCrafter
 category: units
 size: 3
 health: 2460
+minEfficiency: 10
 baseExplosiveness: 10
 attribute: oil
 hasLiquids: true
