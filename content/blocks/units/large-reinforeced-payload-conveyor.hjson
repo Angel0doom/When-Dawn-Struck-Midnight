@@ -1,0 +1,12 @@
+name: Large Reinforced Payload Conveyor
+type: payloadConveyor
+size: 5
+consumes: {
+  power/1
+}
+health: 2090
+requirements: [
+  silicon/50
+  carbide/15
+  thorium/20
+]
