@@ -12,10 +12,10 @@ consumes: {
   items: [
     sand/15
   ]
-  liquid: [
+  liquid: {
     liquid: water
     amount: 0.5
-  ]
+  }
 }
 requirements: [
   phase-fabric/250
