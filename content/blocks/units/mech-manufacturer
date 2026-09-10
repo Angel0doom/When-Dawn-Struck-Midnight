@@ -15,7 +15,7 @@ liquids: [
 plans: [ 
 {
 type: UnitAssemblerPlan
-  unit: u15-t6-lucanus
+  unit: u17-t6-lucanus
     time: 18000
       requirements: [
         anthicus/3
