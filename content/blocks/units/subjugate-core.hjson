@@ -1,0 +1,25 @@
+name: Subjugate Core
+category: units
+size: 3
+baseExplosiveness: 10
+placeablePlayer: false
+type: attributeCrater
+attribute: oil
+hasLiquids: true
+liquidCapacity: 60
+outputLiquid: slag/1.5
+consumes: {
+  items: [
+    sand/15
+  ]
+  liquid: [
+    liquid: water
+    amount: 0.5
+  ]
+}
+requirements: [
+  phase-fabric/250
+  carbide/650
+  silicon/750
+  oxide/350
+]
