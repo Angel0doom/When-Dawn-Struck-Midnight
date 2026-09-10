@@ -1,7 +1,7 @@
 name: Large Reinforced Payload Conveyor
 type: payloadConveyor
 size: 5
-payloadLimit: 4
+payloadLimit: 5
 health: 2090
 requirements: [
   silicon/50
