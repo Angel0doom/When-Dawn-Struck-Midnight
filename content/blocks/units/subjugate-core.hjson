@@ -2,15 +2,15 @@ name: Subjugate Core
 category: units
 size: 3
 baseExplosiveness: 10
-placeablePlayer: false
 type: attributeCrater
 attribute: oil
 hasLiquids: true
 liquidCapacity: 60
-outputLiquid: slag/1.5
+outputItem: graphite/10
+craftTime: 30
 consumes: {
   items: [
-    sand/15
+    sand/10
   ]
   liquid: {
     liquid: water
