@@ -4,7 +4,6 @@ category: units
 size: 3
 health: 2460
 baseExplosiveness: 10
-type: attributeCrater
 attribute: oil
 hasLiquids: true
 liquidCapacity: 60
