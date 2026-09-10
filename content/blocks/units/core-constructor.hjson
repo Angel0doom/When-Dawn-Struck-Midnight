@@ -1,7 +1,7 @@
-name: Small Core Constructor
+name: Core Constructor
 type: constructor
 category: units
-size: 4
+size: 5
 health: 1070
 minBlockSize: 3
 maxBlockSize: 3
