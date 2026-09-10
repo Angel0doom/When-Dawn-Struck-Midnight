@@ -21,4 +21,6 @@ requirements: [
 ]
 filter: [
   subjugate-core
+  fracture-core
+  lucanus-core
 ]
