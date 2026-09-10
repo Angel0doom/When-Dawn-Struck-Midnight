@@ -1,0 +1,27 @@
+name: Lucanus Core
+type: attributeCrafter
+category: units
+size: 3
+health: 2460
+minEfficiency: 10
+baseExplosiveness: 10
+attribute: oil
+hasLiquids: true
+liquidCapacity: 60
+outputItem: graphite/10
+craftTime: 30
+consumes: {
+  items: [
+    sand/10
+  ]
+  liquid: {
+    liquid: water
+    amount: 0.5
+  }
+}
+requirements: [
+  phase-fabric/250
+  carbide/650
+  silicon/750
+  oxide/350
+]
