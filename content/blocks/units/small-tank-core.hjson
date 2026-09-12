@@ -4,10 +4,9 @@ category: units
 size: 3
 health: 2460
 minEfficiency: 10
-baseExplosiveness: 10
-attribute: oil
-hasLiquids: true
-liquidCapacity: 60
+baseExplosiveness: 1
+attribute: heat
+hasLiquids: false
 craftTime: 30
 consumes: {
   power: 36.6666666666666666666666666
