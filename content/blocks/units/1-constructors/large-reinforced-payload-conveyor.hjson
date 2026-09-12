@@ -1,0 +1,11 @@
+name: Large Reinforced Payload Conveyor
+type: payloadConveyor
+category: units
+size: 5
+payloadLimit: 5
+health: 2090
+requirements: [
+  silicon/50
+  carbide/15
+  thorium/20
+]
