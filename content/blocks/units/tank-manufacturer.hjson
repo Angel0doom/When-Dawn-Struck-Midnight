@@ -1,5 +1,5 @@
 name: Tank Manufacturer
-description: Assembles huge tanks out of inputed blocks and power sources. Output tier may be increased by adding modules.
+description: Assembles huge tanks out of inputed blocks, units, and unit specific cores. Output tier may be increased by adding modules.
 type: unitAssembler
 areaSize: 19
 size: 6
