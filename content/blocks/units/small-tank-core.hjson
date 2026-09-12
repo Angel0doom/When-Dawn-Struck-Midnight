@@ -8,16 +8,9 @@ baseExplosiveness: 10
 attribute: oil
 hasLiquids: true
 liquidCapacity: 60
-outputItem: graphite/10
 craftTime: 30
 consumes: {
-  items: [
-    sand/10
-  ]
-  liquid: {
-    liquid: water
-    amount: 0.5
-  }
+  power: 36.6666666666666666666666666
 }
 requirements: [
   phase-fabric/250
