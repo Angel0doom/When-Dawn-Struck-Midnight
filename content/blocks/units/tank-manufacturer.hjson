@@ -21,7 +21,7 @@ type: UnitAssemblerPlan
         precept/3
         chemical-combustion-chamber/4
         shielded-wall/16
-        silicon-crucible/1
+        small-tank-core/1
       ]
 }
 ]
