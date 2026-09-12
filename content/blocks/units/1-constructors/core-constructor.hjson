@@ -20,7 +20,7 @@ requirements: [
   beryllium/1
 ]
 filter: [
-  small-tank-core
+  subjugate-core
   fracture-core
   lucanus-core
 ]
