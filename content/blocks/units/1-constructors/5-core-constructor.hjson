@@ -20,7 +20,7 @@ requirements: [
   beryllium/1
 ]
 filter: [
-  subjugate-core
-  fracture-core
-  lucanus-core
+  z1-subjugate-core
+  z2-fracture-core
+  z3-lucanus-core
 ]
