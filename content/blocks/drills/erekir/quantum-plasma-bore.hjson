@@ -1,1 +1,6 @@
-
+type: beamDrill
+tier: 6
+blockedItems: [
+  beryllium
+  graphite
+]
