@@ -12,7 +12,7 @@ speed: 0.29
 range: 212
 weapons: [
   {
-    name: u02-t7-soverign-weapon
+    name: u02-t7-command-weapon
     x: 49
     inaccuracy: 2
     y: 1
