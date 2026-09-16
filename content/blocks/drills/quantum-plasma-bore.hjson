@@ -6,6 +6,11 @@ blockedItems: [
   beryllium
   graphite
 ]
+drillMultpliers: {
+  thorium/1.5
+  tungsten/1.5
+  quartz/2
+}
 requirements: [
   surge-alloy/120
   quartz/200
