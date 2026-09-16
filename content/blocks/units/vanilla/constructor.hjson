@@ -1,4 +1,13 @@
 filter: [
-  ]
-minBlockSize: 2
+  beryllium-wall-large
+  tungsten-wall-large
+  blast-door
+  reinforced-surge-wall-large
+  carbide-wall-large
+  shielded-wall
+  reinforced-liquid-container
+  beam-node
+  reinforced-container
+]
+minBlockSize: 1
 maxBlockSize: 2
