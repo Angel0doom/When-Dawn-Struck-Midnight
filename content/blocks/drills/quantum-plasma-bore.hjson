@@ -1,6 +1,13 @@
 type: beamDrill
+size: 4
+health: 1690
 tier: 6
 blockedItems: [
   beryllium
   graphite
+]
+requirements: [
+  surge-alloy/120
+  quartz/200
+  carbide/170
 ]
