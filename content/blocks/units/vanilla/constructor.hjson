@@ -8,6 +8,7 @@ filter: [
   reinforced-liquid-container
   beam-node
   reinforced-container
+  unit-repair-tower
 ]
 minBlockSize: 1
 maxBlockSize: 2
