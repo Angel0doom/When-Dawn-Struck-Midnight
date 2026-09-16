@@ -1,0 +1,4 @@
+filter: [
+  ]
+minBlockSize: 2
+maxBlockSize: 2
