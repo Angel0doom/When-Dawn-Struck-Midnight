@@ -32,7 +32,8 @@ weapons: [
     shake: 3
     inaccuracy: 7
     bullet: {
-      type: artilleryBulletType
+      type: basicBulletType
+      collides: false
       trailWidth: 8
       trailLength: 40
       trailColor: 8ca9e8
@@ -41,16 +42,19 @@ weapons: [
       weaveScale: 0.5
       weaveMag: 0.6
       lifetime: 90
-      speed: 8.3
+      speed: 4
       width: 16
       height: 16
+      shrinkY: 0
+      frontColor: 8ca9e8
+      backColor: 8ca9e8
       damage: 0
       splashDamage: 290
       scaledSplashDamage: true
       splashDamagePierce: true
       splashDamageRadius: 32
       bulletInterval: 10
-      intervalDelay: 40
+      intervalDelay: 30
       despawnEffect: {
         type: WaveEffect
         colorFrom: 8ca9e8
