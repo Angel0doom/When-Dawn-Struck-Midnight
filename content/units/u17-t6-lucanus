@@ -1,1 +1,87 @@
-
+type: legs
+legCount: 4
+rotateSpeed: 0.8
+armor: 17
+lockLegBase: true
+legLengthScl: 1
+legContinuousMove: true
+legStraightness: 0.7
+baseLegStraightness: 0.4
+legMoveSpace: 1.5
+stepShake: 1.3
+legLength: 26
+hitSize: 52
+legGroupSize: 1
+legSplashDamage: 87
+legSplashRange: 24
+drownMultiplier: 0.3
+hovering: true
+shadowElevation: 0.4
+alwaysShootWhenMoving: true
+drag: 0.3
+speed: 0.79
+health: 29400
+weapons: [
+  {
+    reload: 280
+    shootCone: 1
+    mirror: false
+    x: 0
+    y: 10
+    rotate: false
+    shake: 3
+    inaccuracy: 7
+    bullet: {
+      type: artilleryBulletType
+      trailWidth: 8
+      trailLength: 40
+      trailColor: 8ca9e8
+      scaleLife: true
+      keepVelocity: false
+      lifetime: 90
+      speed: 8.3
+      width: 16
+      height: 16
+      damage: 0
+      splashDamage: 290
+      scaledSplashDamage: true
+      splashDamagePierce: true
+      splashDamageRadius: 32
+      bulletInterval: 10f
+      intervalDelay: 40
+      despawnEffect: {
+        type: WaveEffect
+        colorFrom: 8ca9e8
+        colorTo: 8ca9e8
+        lifetime: 15
+        sizeTo: 32
+      }
+      fragBullet: {
+        type: artilleryBulletType
+        height: 12
+        trailWidth: 2
+        trailLength: 24
+        trailColor: 8ca9e8
+        width: 8
+        keepVelocity: false
+        damage: 190
+        splashDamage: 270
+        splashDamageRadius: 34.4
+        speed: 3.3
+        lifetime: 15
+        fragBullets: 3
+        fragAngle: 180
+        fragRandomSpread: 0
+        fragSpread: 120
+        fragVelocityMin: 1
+        despawnEffect: {
+          type: WaveEffect
+          colorFrom: 8ca9e8
+          colorTo: 8ca9e8
+          lifetime: 15
+          sizeTo: 34.4
+        }
+      }
+    }
+  }
+]
