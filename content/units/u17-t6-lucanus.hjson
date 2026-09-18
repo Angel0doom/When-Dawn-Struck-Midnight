@@ -35,7 +35,7 @@ weapons: [
       type: basicBulletType
       collides: false
       trailWidth: 4
-      trailLength: 40
+      trailLength: 20
       trailColor: 8ca9e8
       scaleLife: false
       keepVelocity: true
@@ -43,8 +43,8 @@ weapons: [
       weaveMag: 0.6
       lifetime: 90
       speed: 4
-      width: 16
-      height: 16
+      width: 8
+      height: 8
       shrinkY: 0
       frontColor: 8ca9e8
       backColor: 8ca9e8
