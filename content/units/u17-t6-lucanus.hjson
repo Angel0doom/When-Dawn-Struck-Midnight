@@ -34,7 +34,7 @@ weapons: [
     bullet: {
       type: basicBulletType
       collides: false
-      trailWidth: 8
+      trailWidth: 4
       trailLength: 40
       trailColor: 8ca9e8
       scaleLife: false
@@ -52,17 +52,15 @@ weapons: [
       splashDamage: 290
       scaledSplashDamage: true
       splashDamagePierce: true
-      splashDamageRadius: 32
+      splashDamageRadius: 42
       bulletInterval: 10
       intervalDelay: 30
-      sticky: true
-      stickyExtraLifetime: 30
       despawnEffect: {
         type: WaveEffect
         colorFrom: 8ca9e8
         colorTo: 8ca9e8
         lifetime: 15
-        sizeTo: 32
+        sizeTo: 42
       }
       intervalBullet: {
         type: artilleryBulletType
