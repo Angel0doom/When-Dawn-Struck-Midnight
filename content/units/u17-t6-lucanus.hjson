@@ -37,8 +37,8 @@ weapons: [
       trailWidth: 8
       trailLength: 40
       trailColor: 8ca9e8
-      scaleLife: true
-      keepVelocity: false
+      scaleLife: false
+      keepVelocity: true
       weaveScale: 0.5
       weaveMag: 0.6
       lifetime: 90
@@ -55,6 +55,8 @@ weapons: [
       splashDamageRadius: 32
       bulletInterval: 10
       intervalDelay: 30
+      sticky: true
+      stickyExtraLifetime: 30
       despawnEffect: {
         type: WaveEffect
         colorFrom: 8ca9e8
