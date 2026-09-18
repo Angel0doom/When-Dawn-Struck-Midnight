@@ -1,1 +1,63 @@
+health: 39000
+armor: 20
+hitSize: 68.8
+flying: true
+itemCapacity: 340
+speed: 0.8
+accel: 0.04
+drag: 0.08
+range: 324
+lowAltitude: true
+weapons: [
+  {
+    name: u19-t6-fracture-missiles
+    reload: 80
+    shootStatus: slow
+    shootStatusDuration: 20
+    mirror: true
+    x: 15
+    y: 0
+    shootCone: 10
+    alternate: true
+    useAttackRange: false
+    range: 120
+    shootY: 0
+    rotate: true
+    rotateSpeed: 0.85
+    rotationLimit: 25
+    inaccuracy: 10
+    bullet: {
+      damage: 85
+      speed: 10
+      lifetime: 12
+      pierce: false
+    }
+  }
 
+  {
+    name: u19-t6-fracture-artillery1
+    reload: 80
+    inaccuracy: 15
+    shootCone: 15
+    mirror: true
+    alternate: true
+    rotate: true
+    x: 25
+    y: 25
+    bullet: {
+      type: artilleryBulletType
+      status: burning
+      statusDuration: 140
+      scaleLife: true
+      incendAmount: 4
+      incendSpread: 12
+      incendChance: 0.3
+      makeFire: true
+      damage: 0
+      splashDamageRadius: 6
+      splashDamage: 230
+      speed: 7
+      lifetime: 46.2
+    }
+  }
+]  
