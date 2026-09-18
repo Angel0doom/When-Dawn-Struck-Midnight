@@ -38,6 +38,8 @@ weapons: [
       trailColor: 8ca9e8
       scaleLife: true
       keepVelocity: false
+      weaveScale: 0.5
+      weaveMag: 0.6
       lifetime: 90
       speed: 8.3
       width: 16
@@ -47,7 +49,7 @@ weapons: [
       scaledSplashDamage: true
       splashDamagePierce: true
       splashDamageRadius: 32
-      bulletInterval: 10f
+      bulletInterval: 10
       intervalDelay: 40
       despawnEffect: {
         type: WaveEffect
@@ -56,30 +58,17 @@ weapons: [
         lifetime: 15
         sizeTo: 32
       }
-      fragBullet: {
+      intervalBullet: {
         type: artilleryBulletType
-        height: 12
-        trailWidth: 2
-        trailLength: 24
-        trailColor: 8ca9e8
-        width: 8
+        instantDisappear: true
         keepVelocity: false
-        damage: 190
-        splashDamage: 270
-        splashDamageRadius: 34.4
-        speed: 3.3
-        lifetime: 15
-        fragBullets: 3
-        fragAngle: 180
-        fragRandomSpread: 0
-        fragSpread: 120
-        fragVelocityMin: 1
+        damage: 0
+        splashDamage: 120
+        splashDamageRadius: 12
         despawnEffect: {
           type: WaveEffect
-          colorFrom: 8ca9e8
-          colorTo: 8ca9e8
           lifetime: 15
-          sizeTo: 34.4
+          sizeTo: 12
         }
       }
     }
