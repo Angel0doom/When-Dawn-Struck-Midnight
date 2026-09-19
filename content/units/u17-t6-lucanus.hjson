@@ -30,8 +30,8 @@ weapons: [
     mirror: false
     shoot: { 
       type: shootHelix
-      scale: 3
-      mag: 6
+      scale: 1.5
+      mag: 3
     }
     x: 2
     y: 10
