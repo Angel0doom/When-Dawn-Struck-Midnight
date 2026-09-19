@@ -41,8 +41,8 @@ weapons: [
       trailColor: 8ca9e8
       scaleLife: false
       keepVelocity: true
-      weaveScale: 5
-      weaveMag: 15
+      weaveScale: 15
+      weaveMag: 5
       lifetime: 90
       speed: 4
       width: 8
