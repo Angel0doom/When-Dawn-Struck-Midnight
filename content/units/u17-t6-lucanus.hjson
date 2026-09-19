@@ -25,10 +25,10 @@ speed: 0.79
 health: 29400
 weapons: [
   {
-    reload: 2
-    shootCone: 1
-    mirror: false
-    x: 0
+    reload: 280
+    shootCone: 3
+    mirror: true
+    x: -5
     y: 10
     rotate: false
     shake: 3
@@ -41,7 +41,7 @@ weapons: [
       trailColor: 8ca9e8
       scaleLife: false
       keepVelocity: true
-      weaveScale: 6
+      weaveScale: 3
       weaveMag: 6
       lifetime: 90
       speed: 4
