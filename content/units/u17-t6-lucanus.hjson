@@ -1,11 +1,12 @@
 type: legs
 legCount: 4
-rotateSpeed: 0.8
-armor: 17
+rotateSpeed: 1.1
+armor: 13
 lockLegBase: true
-legLengthScl: 1
+legBaseOffset: 18
+legLengthScl: 1.5
 legContinuousMove: true
-legStraightness: 0.7
+legStraightness: 0.3
 baseLegStraightness: 0.4
 legMoveSpace: 1.5
 stepShake: 1.3
