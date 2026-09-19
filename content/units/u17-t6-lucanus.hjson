@@ -28,11 +28,12 @@ weapons: [
     reload: 280
     shootCone: 3
     mirror: true
+    alternate: false
     x: -5
     y: 10
     rotate: false
     shake: 3
-    inaccuracy: 7
+    inaccuracy: 0
     bullet: {
       type: basicBulletType
       collides: false
@@ -70,11 +71,11 @@ weapons: [
         keepVelocity: false
         damage: 0
         splashDamage: 120
-        splashDamageRadius: 12
+        splashDamageRadius: 16
         despawnEffect: {
           type: WaveEffect
           lifetime: 15
-          sizeTo: 12
+          sizeTo: 16
         }
       }
     }
