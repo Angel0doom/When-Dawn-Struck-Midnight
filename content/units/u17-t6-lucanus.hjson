@@ -27,8 +27,12 @@ weapons: [
   {
     reload: 280
     shootCone: 3
-    mirror: true
-    alternate: false
+    mirror: false
+    shoot: { 
+      type: shootHelix
+      scale: 3
+      mag: 6
+    }
     x: 2
     y: 10
     rotate: false
@@ -42,9 +46,6 @@ weapons: [
       trailColor: 8ca9e8
       scaleLife: false
       keepVelocity: true
-      weaveRandom: false
-      weaveScale: 3
-      weaveMag: 6
       lifetime: 90
       speed: 4
       width: 8
