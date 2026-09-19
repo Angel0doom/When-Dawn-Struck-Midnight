@@ -4,7 +4,8 @@ rotateSpeed: 1.1
 armor: 13
 lockLegBase: true
 legBaseOffset: 18
-legLengthScl: 1.5
+legLengthScl: 1
+legForwardScl: 1.2
 legContinuousMove: true
 legStraightness: 0.3
 baseLegStraightness: 0.4
@@ -40,8 +41,8 @@ weapons: [
       trailColor: 8ca9e8
       scaleLife: false
       keepVelocity: true
-      weaveScale: 0.5
-      weaveMag: 0.6
+      weaveScale: 1
+      weaveMag: 3
       lifetime: 90
       speed: 4
       width: 8
