@@ -31,7 +31,7 @@ weapons: [
     shoot: { 
       type: shootHelix
       scale: 2
-      mag: 8
+      mag: 5
     }
     x: 0
     y: 10
@@ -41,15 +41,15 @@ weapons: [
     bullet: {
       type: basicBulletType
       collides: true
-      trailWidth: 1
+      trailWidth: 3
       trailLength: 7
       trailColor: 8ca9e8
       scaleLife: true
       keepVelocity: true
       lifetime: 90
       speed: 4
-      width: 2
-      height: 2
+      width: 6
+      height: 6
       shrinkY: 0
       frontColor: 8ca9e8
       backColor: 8ca9e8
