@@ -26,7 +26,7 @@ health: 29400
 weapons: [
   {
     reload: 280
-    shootCone: 1
+    shootCone: 0
     mirror: false
     shoot: { 
       type: shootHelix
