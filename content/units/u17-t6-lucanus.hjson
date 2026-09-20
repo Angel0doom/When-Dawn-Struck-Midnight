@@ -30,7 +30,7 @@ weapons: [
     mirror: false
     shoot: { 
       type: shootHelix
-      scale: 1.6
+      scale: 3.5
       mag: 3
     }
     x: 0
@@ -111,7 +111,7 @@ weapons: [
         width: 12
         frontColor: 8ca9e8
         backColor: 8ca9e8
-        splashDamage: 110
+        splashDamage: 380
         splashDamageRadius: 26
         despawnEffect: {
           type: WaveEffect
@@ -130,9 +130,9 @@ weapons: [
           lifeScaleRandMin: 0.8
           lifeScaleRandMax: 1.5
           speed: 3
-          damage: 43
-          splashDamage: 30
-          splashDamageRadius: 8
+          damage: 76
+          splashDamage: 60
+          splashDamageRadius: 18
           height: 4
           width: 4
           frontColor: 8ca9e8
@@ -144,7 +144,7 @@ weapons: [
           despawnEffect: {
             type: WaveEffect
             lifetime: 10
-            sizeTo: 8
+            sizeTo: 18
             color: 8ca9e8
           }
         }
