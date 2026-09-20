@@ -19,7 +19,7 @@ legSplashRange: 24
 drownMultiplier: 0.3
 hovering: true
 shadowElevation: 0.4
-alwaysShootWhenMoving: true
+alwaysShootWhenMoving: false
 drag: 0.3
 speed: 0.79
 health: 29400
