@@ -66,6 +66,7 @@ weapons: [
         splashDamageRadius: 16
         despawnEffect: {
           type: WaveEffect
+          color: 8ca9e8
           lifetime: 15
           sizeTo: 16
         }
@@ -97,20 +98,26 @@ weapons: [
       backColor: 8ca9e8
       damage: 0
       splashDamage: 0
+      fragRandomSpread: 0
       fragBullets: 1
-      intervalBullet: {
+      fragBullet: {
         type: basicBulletType
         speed: 0
         lifetime: 100
         keepVelocity: false
         collides: false
         damage: 0
+        height: 12
+        width: 12
+        frontColor: 8ca9e8
+        backColor: 8ca9e8
         splashDamage: 110
         splashDamageRadius: 26
         despawnEffect: {
           type: WaveEffect
           lifetime: 15
           sizeTo: 26
+          color: 8ca9e8
         }
         intervalRandomSpread: 0
         intervalSpread: 36
@@ -128,13 +135,17 @@ weapons: [
           splashDamageRadius: 8
           height: 4
           width: 4
+          frontColor: 8ca9e8
+          backColor: 8ca9e8
           trailWidth: 2
           trailLength: 5
+          trailColor: 8ca9e8
           rotateSpeed: 0.3
           despawnEffect: {
             type: WaveEffect
             lifetime: 10
             sizeTo: 8
+            color: 8ca9e8
           }
         }
       }
