@@ -30,7 +30,7 @@ weapons: [
     mirror: false
     shoot: { 
       type: shootHelix
-      scale: 0.75
+      scale: 1.6
       mag: 3
     }
     x: 0
@@ -127,7 +127,7 @@ weapons: [
         intervalBullet: {
           type: artilleryBulletType
           lifetime: 15
-          lifeScaleRandMin: 0.5
+          lifeScaleRandMin: 0.8
           lifeScaleRandMax: 1.5
           speed: 3
           damage: 43
