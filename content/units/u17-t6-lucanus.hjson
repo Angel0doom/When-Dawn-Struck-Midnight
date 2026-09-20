@@ -26,58 +26,116 @@ health: 29400
 weapons: [
   {
     reload: 280
-    shootCone: 3
+    shootCone: 1
     mirror: false
     shoot: { 
       type: shootHelix
       scale: 0.75
       mag: 3
     }
-    x: 2
+    x: 0
     y: 10
     rotate: false
     shake: 3
     inaccuracy: 0
     bullet: {
       type: basicBulletType
-      collides: false
-      trailWidth: 4
-      trailLength: 20
+      collides: true
+      trailWidth: 1
+      trailLength: 12
       trailColor: 8ca9e8
-      scaleLife: false
+      scaleLife: true
       keepVelocity: true
       lifetime: 90
       speed: 4
-      width: 8
-      height: 8
+      width: 2
+      height: 2
       shrinkY: 0
       frontColor: 8ca9e8
       backColor: 8ca9e8
       damage: 0
-      splashDamage: 290
-      scaledSplashDamage: true
-      splashDamagePierce: true
-      splashDamageRadius: 42
+      splashDamage: 0
       bulletInterval: 10
-      intervalDelay: 30
-      despawnEffect: {
-        type: WaveEffect
-        colorFrom: 8ca9e8
-        colorTo: 8ca9e8
-        lifetime: 15
-        sizeTo: 42
-      }
+      intervalDelay: 5
       intervalBullet: {
         type: artilleryBulletType
         instantDisappear: true
         keepVelocity: false
         damage: 0
-        splashDamage: 120
+        splashDamage: 60
         splashDamageRadius: 16
         despawnEffect: {
           type: WaveEffect
           lifetime: 15
           sizeTo: 16
+        }
+      }
+    }
+  }
+  {
+    reload: 280
+    shootCone: 0
+    mirror: false
+    x: 0
+    y: 10
+    rotate: false
+    shake: 3
+    inaccuracy: 0
+    bullet: {
+      type: artilleryBulletType
+      trailWidth: 6
+      trailLength: 20
+      trailColor: 8ca9e8
+      scaleLife: true
+      keepVelocity: true
+      lifetime: 90
+      speed: 4
+      width: 12
+      height: 12
+      shrinkY: 0
+      frontColor: 8ca9e8
+      backColor: 8ca9e8
+      damage: 0
+      splashDamage: 0
+      fragBullets: 1
+      intervalBullet: {
+        type: basicBulletType
+        speed: 0
+        lifetime: 100
+        keepVelocity: false
+        collides: false
+        damage: 0
+        splashDamage: 110
+        splashDamageRadius: 26
+        despawnEffect: {
+          type: WaveEffect
+          lifetime: 15
+          sizeTo: 26
+        }
+        intervalRandomSpread: 0
+        intervalSpread: 36
+        intervalAngle: 18
+        intervalBullets: 10
+        bulletInterval: 10
+        intervalBullet: {
+          type: artilleryBulletType
+          lifetime: 15
+          lifeScaleRandMin: 0.5
+          lifeScaleRandMax: 1.5
+          speed: 3
+          damage: 43
+          splashDamage: 30
+          splashDamageRadius: 8
+          height: 4
+          width: 4
+          trailWidth: 2
+          trailLength: 5
+          rotateSpeed: 0.3
+          despawnEffect: {
+            type: WaveEffect
+            lifetime: 10
+            sizeTo: 8
+          }
         }
       }
     }
