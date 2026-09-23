@@ -1,4 +1,3 @@
-name: Tank Manufacturer
 description: Assembles huge tanks out of inputed blocks, units, and cores. Output tier may be increased by adding modules.
 type: unitAssembler
 areaSize: 19
