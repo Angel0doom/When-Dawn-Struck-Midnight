@@ -1,5 +1,3 @@
-name: Ship Manufacturer
-description: Assembles huge ships out of inputed blocks and power sources. Output tier may be increased by adding modules.
 type: unitAssembler
 areaSize: 19
 size: 6
