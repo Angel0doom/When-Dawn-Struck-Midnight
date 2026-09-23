@@ -1,5 +1,3 @@
-name: Mech Manufacturer
-description: Assembles huge mechs out of inputed blocks and units. Output tier may be increased by adding modules.
 type: unitAssembler
 areaSize: 19
 size: 6
