@@ -1,5 +1,4 @@
 type: itemTurret 
-name: Acute
 reload: 60
 recoil: 5
 recoils: 6
