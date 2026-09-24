@@ -3,6 +3,12 @@ category: production
 size: 4
 health: 1690
 tier: 6
+consumes: {
+  power: 3.1
+  liquids: [
+    nitrogen/0.03333333333333333
+  ]
+}
 blockedItems: [
   beryllium
   graphite
