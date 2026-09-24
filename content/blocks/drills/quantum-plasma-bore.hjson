@@ -3,18 +3,19 @@ category: production
 size: 4
 health: 1690
 tier: 6
+optionalBoostIntensity: 3
 consumes: {
   power: 3.1
   liquids: {
     liquids: [
-      nitrogen/0.03333333333333333
-    ]
-    liquids: [
-      cyanogen/0.04166666666666666
+      cyanogen/0.02083333333333333333333
     ]
     optional: true
     booster: true
   }
+  liquids: [
+    nitrogen/0.05
+  ]
 }
 blockedItems: [
   beryllium
