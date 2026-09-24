@@ -3,6 +3,7 @@ category: production
 size: 4
 health: 1690
 tier: 6
+itemCapacity: 35
 optionalBoostIntensity: 3
 consumes: {
   power: 3.1
