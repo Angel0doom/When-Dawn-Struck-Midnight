@@ -5,9 +5,16 @@ health: 1690
 tier: 6
 consumes: {
   power: 3.1
-  liquids: [
-    nitrogen/0.03333333333333333
-  ]
+  liquids: {
+    liquids: [
+      nitrogen/0.03333333333333333
+    ]
+    liquids: [
+      cyanogen/0.04166666666666666
+    ]
+    optional: true
+    booster: true
+  }
 }
 blockedItems: [
   beryllium
