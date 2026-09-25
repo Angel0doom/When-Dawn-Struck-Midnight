@@ -6,9 +6,8 @@ maxHeatEfficiency: 1
 heatRequirement: 100
 consumes: {
   power: 3.5
-  liquid: [
-    liquid: ozone
-    amount: 0.066666666666666
+  liquids: [
+    ozone/0.06666666666666666666
   ]
   item: silicon/3
 }
