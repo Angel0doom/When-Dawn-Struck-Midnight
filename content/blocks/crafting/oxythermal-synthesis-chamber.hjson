@@ -12,3 +12,9 @@ consumes: {
   ]
   item: silicon/3
 }
+requirements: [
+  carbide/65
+  tungsten/200
+  beryllium/110
+  phase-fabric/30
+]
