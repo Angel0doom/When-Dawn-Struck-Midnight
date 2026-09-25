@@ -9,7 +9,9 @@ consumes: {
   liquids: [
     ozone/0.06666666666666666666
   ]
-  item: silicon/3
+  items: [
+    silicon/3
+  ]
 }
 requirements: [
   carbide/65
