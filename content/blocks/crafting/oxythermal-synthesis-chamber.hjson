@@ -1,5 +1,6 @@
 size: 3
 outputItem: quartz/2
+category: crafting
 craftTime: 120
 type: heatCrafter
 maxEfficiency: 1
