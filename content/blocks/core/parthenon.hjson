@@ -1,0 +1,13 @@
+category: core
+size: 7
+type: coreBlock
+health: 66000
+armor: 20
+requiresCoreZone: true
+unitType: whendawnstruckmidnight-exude
+launchSoundVolume: 1.7
+landSoundVolume: 1.7
+incinerateNonBuildable: true
+itemCapacity: 5000
+buildCostMultiplier: 0.7
+unitCapModifier: 15
