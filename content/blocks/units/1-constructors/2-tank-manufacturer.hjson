@@ -25,10 +25,10 @@ type: UnitAssemblerPlan
 ]
 category: units
 requirements: [
-  beryllium/800
+  quartz/140
   silicon/1200
-  tungsten/500
-  thorium/600
+  oxide/500
+  carbide/400
   phase-fabric/300
 ]
 research: basic-assembler-module
