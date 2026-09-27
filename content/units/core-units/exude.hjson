@@ -1,5 +1,6 @@
 type: flying
-envDisbled: 2
+envDisbled: 0
+isEnemy: false
 health: 900
 armor: 4
 range: 70
