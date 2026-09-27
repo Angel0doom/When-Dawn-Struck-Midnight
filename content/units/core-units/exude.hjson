@@ -4,6 +4,7 @@ armor: 4
 range: 70
 hitSize: 13
 flying: true
+mineTier: 3
 mineWalls: true
 mineFloor: false
 coreUnitDock: true
@@ -21,3 +22,25 @@ itemCapacity: 130
 rotateSpeed: 8
 hittable: false
 fogRadius: 0
+pickupUnits: false
+mineHardnessScaling: false
+weapons: {
+  {
+    rotate: true
+    mirror: true
+    alternate: false
+    x: 4
+    y: 9
+    visible: false
+    continuous: true
+    reload: 15
+    targetBuildings: true
+    targetUnits: false
+    repairSpeed: 1.3
+    autoTarget: false
+    controllable: true
+    bullet: {
+      maxRange: 70
+    }
+  }
+}
