@@ -1,5 +1,14 @@
 type: flying
 flying: true 
+mineTier: 3
+coreUnitDock: true
+payloadCapacity: 3
+targetable: false
+vulnerableWithPayloads: true
+hittable: false
+fogRadius: 0
+pickupUnits: false
+mineHardnessScaling: false
 lowAltitude: false
 mineFloor: false
 mineWalls: true
