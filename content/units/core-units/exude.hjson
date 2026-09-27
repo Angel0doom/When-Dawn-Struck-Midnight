@@ -1,5 +1,5 @@
 type: flying
-envEnabled: -1
+envDisbled: 0
 health: 900
 armor: 4
 range: 70
