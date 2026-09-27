@@ -1,40 +1,27 @@
 type: flying
 flying: true 
-lowAltitude: true
-
-mineFloor: true
-mineWalls: false 
+lowAltitude: false
+mineFloor: false
+mineWalls: true
 mineTier: 3
-
 envDisabled: 0
-
-//Stat
-health: 450
-armor: 3
-hitSize: 7
-
-speed: 6
-rotateSpeed: 15
-accel: 0.03
-drag: 0.05
-buildSpeed: 1
+health: 900
+armor: 4
+hitSize: 13
+speed: 8
+rotateSpeed: 8
+accel: 0.08
+drag: 0.08
+buildSpeed: 1.6
 mineSpeed: 10
-
-range: 50
+range: 70
 faceTarget: true
 targetPriority: -1
-
-itemCapacity: 45
+itemCapacity: 130
 isEnemy: false
-
-//Visual
-lowAltitude: true
 buildBeamOffset: 4
 mineBeamOffset: 4
 engineOffset: 6
-
-outlineColor: 1d1d23
-
 weapons: [
   {
     rotate: true
