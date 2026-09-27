@@ -24,7 +24,7 @@ hittable: false
 fogRadius: 0
 pickupUnits: false
 mineHardnessScaling: false
-weapons: {
+weapons: [
   {
     rotate: true
     mirror: true
@@ -43,4 +43,4 @@ weapons: {
       maxRange: 70
     }
   }
-}
+]
