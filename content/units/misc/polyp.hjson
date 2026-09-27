@@ -28,3 +28,12 @@ hidden: true
 mineWalls: true
 mineFloor: true
 mineTier: 4
+abilities: [
+  {
+    type: repairFieldAbility
+    amount: 0
+    healPercent: 1
+    reload: 10
+    activeEffect: unitAssemble
+  }
+]
