@@ -1,6 +1,7 @@
 type: flying
 flying: true
 hitSize: 6
+envDisabled: 0
 hittable: false
 targetable: false
 speed: 12
