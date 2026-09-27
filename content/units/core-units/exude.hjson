@@ -51,3 +51,12 @@ weapons: [
     }
   }
 ]
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: whendawnstruckmidnight-polyp
+    spawnTime: 0
+    spawnX: 0
+    spawnY: -4
+  }
+]
