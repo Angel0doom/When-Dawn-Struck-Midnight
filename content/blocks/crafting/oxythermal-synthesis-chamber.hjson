@@ -20,3 +20,21 @@ requirements: [
   beryllium/110
   phase-fabric/30
 ]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      Type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      Type: DrawLiquidTile
+      drawLiquid: ozone
+      padding: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
