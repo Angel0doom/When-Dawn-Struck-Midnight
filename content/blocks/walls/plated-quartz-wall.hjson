@@ -1,0 +1,28 @@
+type: Wall
+category: defense
+armor: 29
+health: 4930
+lightningChance: 0.5
+lightningDamage: 45
+lightningLength: 14
+flashHit: true
+conductivePower: true
+baseExplosiveness: 0.4
+destroyBulletSameTeam: true
+destroyBullet: {
+  bulletType: BasicBulletType
+  lifetime: 30
+  speed: 0
+  collides: false
+  intervalBullets 1
+  bulletInterval: 3
+  intervalBullet: {
+    bulletType: lightningBulletType
+    damageLightningGround: 30
+    lightningLength: 5
+    damageLightningAir: 5
+    damageLightning: 10
+    lifetime: 2
+    instantDisappear: true
+  }
+}
