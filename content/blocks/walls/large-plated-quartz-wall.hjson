@@ -27,3 +27,7 @@ destroyBullet: {
     instantDisappear: true
   }
 }
+requirements: [
+  quartz/24
+  surge/32
+]
