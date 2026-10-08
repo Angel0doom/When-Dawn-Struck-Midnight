@@ -1,4 +1,5 @@
 type: Wall
+size: 2
 category: defense
 armor: 29
 health: 4930
