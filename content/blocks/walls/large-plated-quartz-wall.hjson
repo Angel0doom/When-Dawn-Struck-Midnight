@@ -16,7 +16,6 @@ destroyBullet: {
   speed: 0
   collides: false
   intervalBullets 1
-  bulletInterval: 3
   intervalBullet: {
     bulletType: lightningBulletType
     damageLightningGround: 30
