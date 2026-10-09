@@ -1,6 +1,8 @@
 type: Wall
 size: 2
 category: defense
+hasPower: true
+conductivePower: true
 armor: 29
 health: 4930
 lightningChance: 0.5
