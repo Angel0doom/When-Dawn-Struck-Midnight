@@ -30,3 +30,20 @@ requirements: [
   quartz/24
   surge-alloy/32
 ]
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: drawPlasma
+      x: 0
+      y: 0
+      plasma1: f3e979ff
+      plasma2: f3e97922
+      plasmas: 2
+      lightRadius: 6
+    }
+    {
+      type: drawReigon
+    }
+  ]
+}
