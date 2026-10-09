@@ -15,15 +15,15 @@ destroyBullet: {
   lifetime: 30
   speed: 0
   collides: false
+  bulletInterval: 1
   intervalBullets: 1
   intervalBullet: {
-    bulletType: lightningBulletType
-    damageLightningGround: 30
-    lightningLength: 5
-    damageLightningAir: 5
-    damageLightning: 10
+    bulletType: basicBulletType
+    lightning: 1
+    lightningLength: 4
+    lightningLengthRand: 4
+    lightningDamage: 10
     lifetime: 2
-    instantDisappear: true
   }
 }
 requirements: [
