@@ -4,7 +4,7 @@ category: defense
 hasPower: true
 conductivePower: true
 armor: 29
-health: 4930
+health: 4940
 lightningChance: 0.5
 lightningDamage: 45
 lightningLength: 14
