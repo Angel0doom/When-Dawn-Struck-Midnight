@@ -28,5 +28,5 @@ destroyBullet: {
 }
 requirements: [
   quartz/24
-  surge/32
+  surge-alloy/32
 ]
