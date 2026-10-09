@@ -20,7 +20,7 @@ destroyBullet: {
   intervalBullet: {
     bulletType: basicBulletType
     lightning: 1
-    lightningLength: 4
+    lightningLength: 8
     lightningLengthRand: 4
     lightningDamage: 10
     lifetime: 2
