@@ -1,0 +1,34 @@
+type: Wall
+size: 1
+category: defense
+hasPower: true
+conductivePower: true
+armor: 29
+health: 1235
+lightningChance: 0.5
+lightningDamage: 45
+lightningLength: 14
+flashHit: true
+conductivePower: true
+baseExplosiveness: 0.4
+destroyBulletSameTeam: true
+destroyBullet: {
+  bulletType: BasicBulletType
+  lifetime: 30
+  speed: 0
+  collides: false
+  bulletInterval: 1
+  intervalBullets: 1
+  intervalBullet: {
+    bulletType: basicBulletType
+    lightning: 1
+    lightningLength: 8
+    lightningLengthRand: 4
+    lightningDamage: 10
+    lifetime: 2
+  }
+}
+requirements: [
+  quartz/6
+  surge-alloy/8
+]
