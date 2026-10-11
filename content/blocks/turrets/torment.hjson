@@ -34,10 +34,11 @@ ammoTypes: {
     pierceDamageFactor: 0.9
     splashDamage: 140
     splashDamageRadius: 26
-    weaveMag: 3
-    weaveScale: 5
+    weaveMag: 5
+    weaveScale: 3
     homingRange: 43
-    homingPower: 0.19
+    homingDelay: 5
+    homingPower: 0.09
     trailLength: 16
     trailWidth: 4
     trailColor: 8698b5ff
@@ -45,18 +46,19 @@ ammoTypes: {
     statusDuration: 10
     statusChance: 0.85
     fragBullets: 3
-    fragRandomSpread: 18
+    fragRandomSpread: 23
     fragBullet: {
       type: basicBulletType
       damage: 108
       lifetime: 10
       speed: 6
       status: slow
-      duration: 30
+      statusDuration: 30
       height: 6
       width: 3
       trailWidth: 1.5
       trailLength: 4
+      trailColor: 8698b5
     }
   }
 }
