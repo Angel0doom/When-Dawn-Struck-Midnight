@@ -1,0 +1,69 @@
+type: itemTurret 
+reload: 120
+recoil: 5
+range: 392
+maxAmmo: 36
+size: 5
+category: turret
+shootSound: shootArtillerySapBig
+minWarmup: 0.9
+warmupSpeed: 0.03
+warmupMaintainTime: 30
+shake: 2
+chargeSound: loopElectricHum
+predictTarget: false
+ammoPerShot: 12
+inaccuracy: 10
+shootCone: 10
+shoot: {
+  shots: 5
+  firstShotDelay: 5
+  shotDelay: 0.5
+}
+ammoTypes: {
+  carbide: {
+    type: basicBulletType
+    height: 14
+    width: 8
+    pierce: true
+    pierceBuilding: true
+    speed: 13
+    lifetime: 30
+    damage: 1080
+    armorMultiplier: 0.5
+    pierceDamageFactor: 0.9
+    splashDamage: 140
+    splashDamageRadius: 26
+    weaveMag: 3
+    weaveScale: 5
+    homingRange: 43
+    homingPower: 0.19
+    trailLength: 16
+    trailWidth: 4
+    trailColor: 8698b5ff
+    circleShooter: true
+    circleShooterRadius: 28
+    circleShooterRotateSpeed: 0.45
+    status: unmoving
+    statusDuration: 10
+    statusChance: 0.85
+    fragBullets: 3
+    fragRandomSpread: 18
+    fragBullet: {
+      type: basicBulletType
+      damage: 108
+      lifetime: 10
+      speed: 6
+      status: slow
+      duration: 30
+      height: 6
+      width: 3
+      trailWidth: 1.5
+      trailLength: 4
+    }
+  }
+}
+
+requirements: [
+  beryllium/1
+]
