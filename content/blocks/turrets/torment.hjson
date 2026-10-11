@@ -41,9 +41,6 @@ ammoTypes: {
     trailLength: 16
     trailWidth: 4
     trailColor: 8698b5ff
-    circleShooter: true
-    circleShooterRadius: 28
-    circleShooterRotateSpeed: 0.45
     status: unmoving
     statusDuration: 10
     statusChance: 0.85
