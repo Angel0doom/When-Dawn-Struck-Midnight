@@ -8,9 +8,9 @@ category: turret
 shootSound: shootArtillerySapBig
 minWarmup: 0.9
 warmupSpeed: 0.03
-warmupMaintainTime: 30
+warmupMaintainTime: 150
 shake: 2
-chargeSound: loopElectricHum
+loopSound: loopThruster
 predictTarget: false
 ammoPerShot: 12
 inaccuracy: 10
@@ -18,7 +18,7 @@ shootCone: 10
 shoot: {
   shots: 5
   firstShotDelay: 5
-  shotDelay: 0.5
+  shotDelay: 3
 }
 ammoTypes: {
   carbide: {
