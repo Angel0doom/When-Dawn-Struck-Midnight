@@ -78,7 +78,7 @@ drawer: {
       type: DrawTurret
       parts: [
         {
-          suffix: 
+          suffix: -preview
         }
       ]
     }
