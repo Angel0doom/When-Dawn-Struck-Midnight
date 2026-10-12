@@ -62,7 +62,11 @@ ammoTypes: {
     }
   }
 }
-
 requirements: [
   beryllium/1
 ]
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: draw
