@@ -24,7 +24,7 @@ ammoTypes: {
   carbide: {
     type: basicBulletType
     height: 14
-    width: 8
+    width: 12
     pierce: true
     pierceBuilding: true
     speed: 13
@@ -62,11 +62,25 @@ ammoTypes: {
     }
   }
 }
+
 requirements: [
-  beryllium/1
+  silicon/850
+  phase-fabric/250
+  carbide/300
+  beryllium/800
+  surge-alloy/150
 ]
+
 drawer: {
   type: drawMulti
   drawers: [
     {
-      type: draw
+      type: DrawTurret
+      parts: [
+        {
+          suffix: 
+        }
+      ]
+    }
+  ]
+}
