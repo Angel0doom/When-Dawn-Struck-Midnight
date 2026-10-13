@@ -1,8 +1,8 @@
 type: itemTurret 
-reload: 120
+reload: 90
 recoil: 5
 range: 392
-maxAmmo: 36
+maxAmmo: 60
 size: 5
 category: turret
 shootSound: shootArtillerySapBig
@@ -15,6 +15,12 @@ predictTarget: false
 ammoPerShot: 12
 inaccuracy: 10
 shootCone: 10
+coolantMultplier: 2.5
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.25
+}
 shoot: {
   shots: 5
   firstShotDelay: 5
@@ -52,8 +58,8 @@ ammoTypes: {
     fragBullet: {
       type: basicBulletType
       damage: 108
-      lifetime: 10
-      speed: 6
+      lifetime: 5
+      speed: 13
       status: slow
       statusDuration: 30
       height: 6
