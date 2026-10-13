@@ -47,6 +47,8 @@ ammoTypes: {
     statusChance: 0.85
     fragBullets: 3
     fragRandomSpread: 23
+    fragOnHit: true
+    pierceFragCap: 9999
     fragBullet: {
       type: basicBulletType
       damage: 108
