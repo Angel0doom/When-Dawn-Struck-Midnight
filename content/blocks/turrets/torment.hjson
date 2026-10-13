@@ -31,7 +31,7 @@ ammoTypes: {
     type: basicBulletType
     height: 14
     width: 12
-    pierce: true
+    pierceCap: 5
     pierceBuilding: true
     speed: 13
     lifetime: 30
@@ -51,22 +51,61 @@ ammoTypes: {
     status: unmoving
     statusDuration: 10
     statusChance: 0.85
-    fragBullets: 3
+    intervalBullets: 2
+    bulletInterval: 1
+    intervalDelay: 25
+    intervalBullet: {
+      type: basicBulletType
+      width: 6
+      height: 7
+      pierce: true
+      pierceBuilding: true
+      speed: 13
+      lifetime: 10
+      damage: 108
+      pierceDamageFactor: 0.9
+      splashDamage: 14
+      splashDamageRadius: 26
+      weaveMag: 5
+      weaveScale: 3
+      homingRange: 43
+      homingDelay: 5
+      homingPower: 0.04
+      trailLength: 10
+      trailWidth: 2
+      trailColor: 8698b5ff
+      status: unmoving
+      statusDuration: 1
+      statusChance: 0.85
+    }
+    fragBullets: 2
     fragRandomSpread: 23
-    fragOnHit: true
-    pierceFragCap: 9999
+    fragVelocityMin: 0.8
+    pierceFragCap: 10
     fragBullet: {
       type: basicBulletType
-      damage: 108
-      lifetime: 5
+      height: 7
+      width: 6
+      pierce: true
+      pierceBuilding: true
       speed: 13
-      status: slow
-      statusDuration: 30
-      height: 6
-      width: 3
-      trailWidth: 1.5
-      trailLength: 4
-      trailColor: 8698b5
+      lifetime: 10
+      damage: 108
+      armorMultiplier: 0.5
+      pierceDamageFactor: 0.9
+      splashDamage: 14
+      splashDamageRadius: 26
+      weaveMag: 5
+      weaveScale: 3
+      homingRange: 43
+      homingDelay: 5
+      homingPower: 0.04
+      trailLength: 14
+      trailWidth: 4
+      trailColor: 8698b5ff
+      status: unmoving
+      statusDuration: 1
+      statusChance: 0.85
     }
   }
 }
