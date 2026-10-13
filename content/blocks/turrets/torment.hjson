@@ -54,6 +54,7 @@ ammoTypes: {
     intervalBullets: 2
     bulletInterval: 1
     intervalDelay: 25
+    IntervalRandomSpread: 23
     intervalBullet: {
       type: basicBulletType
       width: 6
